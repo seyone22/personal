@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
       <html lang="en" className={cn("dark", "font-sans", figtree.variable)} style={{ colorScheme: 'dark' }}>
       <body className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-background font-sans antialiased`}>
-      {/* You can add a shared Navbar component here later */}
+      {/* You can add a shared Navbar v component here later */}
       {children}
       </body>
       </html>
