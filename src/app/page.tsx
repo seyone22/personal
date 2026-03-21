@@ -1,42 +1,71 @@
-import { Badge } from "@/components/ui/badge"; // Assumes shadcn is installed
+import { ProjectCard } from "@/components/ProjectCard";
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, ExternalLink, ArrowDown } from "lucide-react";
 
 export default function Home() {
   return (
-      <div className="flex flex-col items-center">
-        <main className="flex w-full max-w-4xl flex-col gap-20 px-6 py-24 sm:px-12">
-
-          {/* Hero Section */}
-          <section className="flex flex-col items-start gap-6">
-            <Badge variant="outline" className="border-primary/30 text-primary">
-              Available for new projects
+      <div className="min-h-screen bg-background text-foreground selection:bg-primary/30">
+        {/* 01. HERO SECTION */}
+        <section className="flex min-h-[80vh] flex-col justify-center px-6 py-24 sm:px-12 lg:px-24">
+          <div className="max-w-3xl space-y-8">
+            <Badge variant="outline" className="border-primary/50 text-primary animate-pulse">
+              Available for Android & AI Projects
             </Badge>
-            <div className="space-y-4">
-              <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
-                Building the future of <span className="text-primary">mobile & AI.</span>
-              </h1>
-              <p className="max-w-2xl text-lg text-muted-foreground sm:text-xl">
-                I&apos;m Seyone, an Android developer from Sri Lanka focused on building high-performance
-                apps like Cook and Shot, and intelligent enterprise systems for Providence Auto.
-              </p>
-            </div>
-
-            <div className="flex flex-wrap gap-4">
-              <Button className="bg-primary hover:bg-primary/90">
-                View My Work <ArrowRight className="ml-2 h-4 w-4" />
+            <h1 className="text-5xl font-bold tracking-tight sm:text-7xl">
+              Seyone Gunasingham. <br/>
+              <span className="text-primary">Mobile Architect.</span>
+            </h1>
+            <p className="text-xl text-muted-foreground leading-relaxed">
+              Specializing in high-performance Android ecosystems and intelligent data solutions.
+              Currently building lead tracking systems for Providence Auto and specialized
+              logistics tools for Zebra hardware.
+            </p>
+            <div className="flex gap-4">
+              <Button className="bg-primary hover:bg-accent text-white rounded-full px-8">
+                View My Work
               </Button>
-              <div className="flex items-center gap-2">
-                <Button variant="ghost" size="icon"><Github className="h-5 w-5" /></Button>
-                <Button variant="ghost" size="icon"><Linkedin className="h-5 w-5" /></Button>
-                <Button variant="ghost" size="icon"><Mail className="h-5 w-5" /></Button>
+              <div className="flex items-center gap-2 px-4">
+                <Button variant="ghost" size="icon" className="hover:text-primary"><Github /></Button>
+                <Button variant="ghost" size="icon" className="hover:text-primary"><Linkedin /></Button>
+                <Button variant="ghost" size="icon" className="hover:text-primary"><Mail /></Button>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* Next step: Project Grid Component goes here */}
+        {/* 02. PROJECTS GRID */}
+        <section className="px-6 py-24 sm:px-12 lg:px-24 bg-zinc-950/50">
+          <h2 className="mb-12 text-3xl font-bold tracking-tight">Selected Engineering</h2>
+          <div className="grid gap-6 md:grid-cols-2">
+            {/* We will populate these using your real projects */}
+            <ProjectCard
+                title="Providence Auto CMS"
+                description="A custom lead tracking and CRM solution built for high-volume car dealerships."
+                tags={["Next.js", "Ktor", "Data Analytics"]}
+            />
+            <ProjectCard
+                title="Shot: Archery Tracker"
+                description="Wear OS application for Olympic recurve shooters. Focuses on shot rhythm and scoring."
+                tags={["Kotlin", "Jetpack Compose", "Wear OS"]}
+            />
+            <ProjectCard
+                title="Cook: Recipe Engine"
+                description="A nutrition-focused meal and expense tracker for professional athletes."
+                tags={["Android", "Cloudflare R2", "Gemini AI"]}
+            />
+          </div>
+        </section>
 
-        </main>
+        {/* 03. PERSONAL / ACHIEVEMENTS */}
+        <section className="px-6 py-24 sm:px-12 lg:px-24 border-t border-border">
+          <div className="max-w-2xl space-y-4">
+            <h3 className="text-zinc-500 font-mono text-sm uppercase tracking-widest">Beyond the IDE</h3>
+            <p className="text-lg italic text-zinc-300">
+              "22nd National Archery Championship Competitor. Anime enthusiast. Minecraft server tinkerer."
+            </p>
+          </div>
+        </section>
       </div>
   );
 }

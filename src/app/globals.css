@@ -8,23 +8,19 @@
   :root {
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
-    --primary: 161 94% 13%; /* Pine Green */
-    --primary-foreground: 0 0% 98%;
-    --muted: 240 4.8% 95.9%;
-    --muted-foreground: 240 3.8% 46.1%;
-    --accent: 161 94% 20%;
+    --primary: 161 94% 13%; /* Deep Pine */
+    --accent: 161 94% 30%;   /* Glowing Pine for hover */
+    --card: 0 0% 100%;
     --border: 240 5.9% 90%;
   }
 
   .dark {
-    --background: 240 10% 3.9%;
+    --background: 240 10% 2%;  /* Near Black */
     --foreground: 0 0% 98%;
-    --primary: 161 94% 30%; /* Lighter Pine for visibility */
-    --primary-foreground: 161 94% 5%;
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
-    --accent: 161 94% 25%;
-    --border: 240 3.7% 15.9%;
+    --primary: 161 94% 35%;    /* Vibrant Pine */
+    --accent: 161 94% 45%;
+    --card: 240 10% 4%;        /* Subtle Card lifting */
+    --border: 240 3.7% 12%;
   }
   * {
     @apply border-border outline-ring/50;
