@@ -152,10 +152,15 @@ export default function Home() {
                         Currently engineering serverless cloud infrastructure for Axallant and complex data solutions at
                         Uprise Digital.
                     </p>
-                    <div className="flex gap-4">
-                        <Button className="rounded-full bg-primary px-8 text-white hover:bg-accent">
-                            <a href="#projects">View My Work</a>
-                        </Button>
+                    <div className="flex flex-col sm:flex-row gap-4 items-center">
+                        <div className="flex gap-4 w-full sm:w-auto">
+                            <Button className="flex-1 sm:flex-none rounded-full bg-primary px-8 text-white hover:bg-accent">
+                                <a href="#projects">View My Work</a>
+                            </Button>
+                            <Button variant="outline" className="flex-1 sm:flex-none rounded-full border-primary/20 hover:bg-primary/10 hover:text-primary transition-all">
+                                <a href="/Seyone_Gunasingham.pdf" target="_blank">Download CV</a>
+                            </Button>
+                        </div>
                         <div className="flex items-center gap-2 px-4">
                             <Button variant="ghost" size="icon" className="hover:text-primary" >
                                 <a href="https://github.com/seyone22" target="_blank" rel="noreferrer"><Github/></a>
@@ -240,6 +245,110 @@ export default function Home() {
                                 link={project.link}
                             />
                         ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* 02.75 TECH STACK & TOOLKIT */}
+            <section className="border-t border-border/50 bg-zinc-950/50 px-6 py-24 sm:px-12 lg:px-24">
+                <div className="mx-auto max-w-5xl">
+                    <div className="mb-12 text-center md:text-left">
+                        <h2 className="mb-2 text-3xl font-bold tracking-tight">Technical Arsenal</h2>
+                        <p className="text-muted-foreground">The core frameworks, languages, and infrastructure I use to build scalable systems.</p>
+                    </div>
+
+                    <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+                        {/* Backend & APIs */}
+                        <div className="flex flex-col rounded-xl border border-border/40 bg-zinc-950/40 p-6 backdrop-blur-sm transition-all hover:border-primary/30 hover:bg-zinc-900/40">
+                            <h3 className="mb-6 font-mono text-sm tracking-widest text-primary uppercase">Backend & APIs</h3>
+                            <ul className="space-y-4 text-sm text-zinc-300 font-medium">
+                                <li className="group flex items-center gap-3">
+                                    <img src="https://cdn.simpleicons.org/nodedotjs/white" alt="Node.js" className="h-5 w-5 opacity-70 transition-opacity group-hover:opacity-100" />
+                                    Node.js & Express
+                                </li>
+                                <li className="group flex items-center gap-3">
+                                    <img src="https://cdn.simpleicons.org/fastapi/white" alt="FastAPI" className="h-5 w-5 opacity-70 transition-opacity group-hover:opacity-100" />
+                                    Python (FastAPI)
+                                </li>
+                                <li className="group flex items-center gap-3">
+                                    <img src="https://cdn.simpleicons.org/springboot/white" alt="Spring Boot" className="h-5 w-5 opacity-70 transition-opacity group-hover:opacity-100" />
+                                    Spring Boot (Java)
+                                </li>
+                                <li className="group flex items-center gap-3">
+                                    <img src="https://cdn.simpleicons.org/postgresql/white" alt="PostgreSQL" className="h-5 w-5 opacity-70 transition-opacity group-hover:opacity-100" />
+                                    PostgreSQL & MongoDB
+                                </li>
+                            </ul>
+                        </div>
+
+                        {/* Frontend & Web */}
+                        <div className="flex flex-col rounded-xl border border-border/40 bg-zinc-950/40 p-6 backdrop-blur-sm transition-all hover:border-primary/30 hover:bg-zinc-900/40">
+                            <h3 className="mb-6 font-mono text-sm tracking-widest text-primary uppercase">Frontend & Web</h3>
+                            <ul className="space-y-4 text-sm text-zinc-300 font-medium">
+                                <li className="group flex items-center gap-3">
+                                    <img src="https://cdn.simpleicons.org/nextdotjs/white" alt="Next.js" className="h-5 w-5 opacity-70 transition-opacity group-hover:opacity-100" />
+                                    React & Next.js
+                                </li>
+                                <li className="group flex items-center gap-3">
+                                    <img src="https://cdn.simpleicons.org/typescript/white" alt="TypeScript" className="h-5 w-5 opacity-70 transition-opacity group-hover:opacity-100" />
+                                    TypeScript
+                                </li>
+                                <li className="group flex items-center gap-3">
+                                    <img src="https://cdn.simpleicons.org/tailwindcss/white" alt="Tailwind CSS" className="h-5 w-5 opacity-70 transition-opacity group-hover:opacity-100" />
+                                    Tailwind CSS
+                                </li>
+                                <li className="group flex items-center gap-3">
+                                    <img src="https://cdn.simpleicons.org/astro/white" alt="Astro" className="h-5 w-5 opacity-70 transition-opacity group-hover:opacity-100" />
+                                    Astro
+                                </li>
+                            </ul>
+                        </div>
+
+                        {/* Cloud & DevOps */}
+                        <div className="flex flex-col rounded-xl border border-border/40 bg-zinc-950/40 p-6 backdrop-blur-sm transition-all hover:border-primary/30 hover:bg-zinc-900/40">
+                            <h3 className="mb-6 font-mono text-sm tracking-widest text-primary uppercase">Cloud & Infra</h3>
+                            <ul className="space-y-4 text-sm text-zinc-300 font-medium">
+                                <li className="group flex items-center gap-3">
+                                    <img src="https://cdn.simpleicons.org/amazonaws/white" alt="AWS" className="h-5 w-5 opacity-70 transition-opacity group-hover:opacity-100" />
+                                    AWS Cloud
+                                </li>
+                                <li className="group flex items-center gap-3">
+                                    <img src="https://cdn.simpleicons.org/terraform/white" alt="Terraform" className="h-5 w-5 opacity-70 transition-opacity group-hover:opacity-100" />
+                                    Terraform (IaC)
+                                </li>
+                                <li className="group flex items-center gap-3">
+                                    <img src="https://cdn.simpleicons.org/docker/white" alt="Docker" className="h-5 w-5 opacity-70 transition-opacity group-hover:opacity-100" />
+                                    Docker
+                                </li>
+                                <li className="group flex items-center gap-3">
+                                    <img src="https://cdn.simpleicons.org/githubactions/white" alt="GitHub Actions" className="h-5 w-5 opacity-70 transition-opacity group-hover:opacity-100" />
+                                    GitHub Actions
+                                </li>
+                            </ul>
+                        </div>
+
+                        {/* Mobile & Core */}
+                        <div className="flex flex-col rounded-xl border border-border/40 bg-zinc-950/40 p-6 backdrop-blur-sm transition-all hover:border-primary/30 hover:bg-zinc-900/40">
+                            <h3 className="mb-6 font-mono text-sm tracking-widest text-primary uppercase">Mobile & Native</h3>
+                            <ul className="space-y-4 text-sm text-zinc-300 font-medium">
+                                <li className="group flex items-center gap-3">
+                                    <img src="https://cdn.simpleicons.org/kotlin/white" alt="Kotlin" className="h-5 w-5 opacity-70 transition-opacity group-hover:opacity-100" />
+                                    Kotlin (Android)
+                                </li>
+                                <li className="group flex items-center gap-3">
+                                    <img src="https://cdn.simpleicons.org/jetpackcompose/white" alt="Jetpack Compose" className="h-5 w-5 opacity-70 transition-opacity group-hover:opacity-100" />
+                                    Jetpack Compose
+                                </li>
+                                <li className="group flex items-center gap-3">
+                                    <img src="https://cdn.simpleicons.org/flutter/white" alt="Flutter" className="h-5 w-5 opacity-70 transition-opacity group-hover:opacity-100" />
+                                    Flutter
+                                </li>
+                                <li className="group flex items-center gap-3">
+                                    <img src="https://cdn.simpleicons.org/cplusplus/white" alt="C++" className="h-5 w-5 opacity-70 transition-opacity group-hover:opacity-100" />
+                                    C++
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -435,6 +544,28 @@ export default function Home() {
                                 <span className="text-sm font-medium text-zinc-300">Currently Baking: <span className="text-zinc-400">Mango Tarts</span></span>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* 02.8 CALL TO ACTION */}
+            <section className="border-t border-border/50 bg-primary/5 px-6 py-24 sm:px-12 lg:px-24">
+                <div className="mx-auto flex max-w-4xl flex-col items-center rounded-3xl border border-primary/20 bg-zinc-950/50 p-12 text-center backdrop-blur-md shadow-[0_0_40px_rgba(20,83,45,0.1)]">
+                    <h2 className="mb-4 text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
+                        Ready to build something together?
+                    </h2>
+                    <p className="mb-8 max-w-xl text-lg text-zinc-400 leading-relaxed">
+                        I am currently available for new opportunities. Whether you need a full-stack architect, a specialized data engineer, or a technical lead for your next project, let’s talk.
+                    </p>
+                    <div className="flex flex-col sm:flex-row gap-4 w-full justify-center">
+                        <Button className="rounded-full bg-primary px-10 py-6 text-base font-bold text-white hover:bg-primary/90 transition-transform hover:scale-105">
+                            <a href="mailto:s.g.seyone@proton.me">Get In Touch</a>
+                        </Button>
+                        <Button variant="outline" className="rounded-full border-zinc-700 bg-transparent px-10 py-6 text-base font-medium text-zinc-300 hover:bg-zinc-800 hover:text-white transition-all">
+                            <a href="https://linkedin.com/in/sgseyone" target="_blank" rel="noopener noreferrer">
+                                LinkedIn Profile
+                            </a>
+                        </Button>
                     </div>
                 </div>
             </section>
