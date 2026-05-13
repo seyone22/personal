@@ -4,6 +4,7 @@ import { ProjectCard } from "@/components/ProjectCard";
 import { Button } from "@/components/ui/button";
 import {ChefHat, Github, Linkedin, Mail, Palette, Target} from "lucide-react";
 import { useState } from "react";
+import {Badge} from "@/components/ui/badge";
 
 const ALL_PROJECTS = [
     // ENTERPRISE & WEB
@@ -30,12 +31,14 @@ const ALL_PROJECTS = [
         category: "Web & Enterprise",
         description: "Comprehensive event management and artist partner portal supporting internal review workflows and attendee routing.",
         tags: ["Next.js", "MongoDB", "Fullstack"],
+        link: "https://dev.anime.lk/"
     },
     {
         title: "Anime.lk Partner Static",
         category: "Web & Enterprise",
         description: "High-performance, statically generated landing page for the Anime.lk Artist Partner Program.",
         tags: ["Astro", "Tailwind", "Static"],
+        link: "https://partnerprogram.anime.lk/"
     },
 
     // MOBILE & WEARABLE
@@ -121,6 +124,7 @@ const ALL_PROJECTS = [
         category: "Tools & Misc",
         description: "A lightweight, hyper-minimalist custom new tab override for Firefox.",
         tags: ["HTML", "CSS", "Vanilla JS"],
+        github: "https://github.com/seyone22/FirefoxNewTab"
     }
 ];
 
@@ -240,6 +244,129 @@ export default function Home() {
                 </div>
             </section>
 
+            {/* 02.5 WORK EXPERIENCE & CONTRACTS */}
+            <section className="border-t border-border/50 bg-background px-6 py-24 sm:px-12 lg:px-24">
+                <div className="mx-auto max-w-5xl">
+
+                    {/* --- PART 1: DAY JOBS TIMELINE --- */}
+                    <div className="mb-16">
+                        <div className="mb-12">
+                            <h2 className="mb-2 text-3xl font-bold tracking-tight">Experience</h2>
+                            <p className="text-muted-foreground">Professional roles and core technical trajectory.</p>
+                        </div>
+
+                        <div className="relative ml-3 space-y-12 border-l border-border/40 pl-8 md:max-w-3xl">
+                            {/* Uprise Digital */}
+                            <div className="relative">
+                                <div className="absolute -left-[41px] top-1.5 h-5 w-5 rounded-full border-4 border-background bg-primary" />
+                                <div className="mb-2 flex flex-col justify-between gap-2 sm:flex-row sm:items-baseline">
+                                    <h3 className="text-xl font-bold text-zinc-100">Full-Stack Data Engineer</h3>
+                                    <span className="font-mono text-sm text-zinc-500">Sep 2025 – Present</span>
+                                </div>
+                                <h4 className="mb-4 font-medium text-primary">Uprise Digital (Remote, AUS)</h4>
+                                <p className="mb-4 text-sm leading-relaxed text-zinc-400">
+                                    Designed Propia, a real estate investment platform utilizing Next.js, FastAPI, and PostgreSQL. Engineered resilient data extraction pipelines to aggregate and normalize large volumes of property data, alongside implementing secure multi-tenant authentication.
+                                </p>
+                                <div className="mt-3 flex flex-wrap gap-2">
+                                    <Badge variant="outline" className="border-zinc-800 text-zinc-400">Python</Badge>
+                                    <Badge variant="outline" className="border-zinc-800 text-zinc-400">FastAPI</Badge>
+                                    <Badge variant="outline" className="border-zinc-800 text-zinc-400">PostgreSQL</Badge>
+                                </div>
+                            </div>
+
+                            {/* Axallant */}
+                            <div className="relative">
+                                <div className="absolute -left-[41px] top-1.5 h-5 w-5 rounded-full border-4 border-background bg-zinc-700" />
+                                <div className="mb-2 flex flex-col justify-between gap-2 sm:flex-row sm:items-baseline">
+                                    <h3 className="text-xl font-bold text-zinc-100">Full-Stack Software Engineer</h3>
+                                    <span className="font-mono text-sm text-zinc-500">Feb 2025 – Aug 2025</span>
+                                </div>
+                                <h4 className="mb-4 font-medium text-zinc-300">Axallant Pvt.Ltd (Remote, USA)</h4>
+                                <p className="mb-2 text-xs font-mono text-zinc-500 uppercase tracking-wider">Intern: Nov 2024 – Jan 2025</p>
+                                <p className="mb-4 text-sm leading-relaxed text-zinc-400">
+                                    Architected and deployed serverless cloud infrastructure utilizing AWS Lambda, Cognito, and CloudFront via Terraform. Developed robust Node.js and Spring Boot backend services integrated with performant React interfaces, while managing secure Stripe payment workflows.
+                                </p>
+                                <div className="mt-3 flex flex-wrap gap-2">
+                                    <Badge variant="outline" className="border-zinc-800 text-zinc-400">Node.js</Badge>
+                                    <Badge variant="outline" className="border-zinc-800 text-zinc-400">React</Badge>
+                                    <Badge variant="outline" className="border-zinc-800 text-zinc-400">AWS</Badge>
+                                    <Badge variant="outline" className="border-zinc-800 text-zinc-400">Terraform</Badge>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* --- PART 2: CONTRACT & FREELANCE CARDS --- */}
+                    <div className="pt-12 border-t border-border/30">
+                        <div className="mb-8 flex items-center justify-between">
+                            <div>
+                                <h3 className="text-2xl font-bold tracking-tight mb-1">Contract & Freelance</h3>
+                                <p className="text-sm text-muted-foreground">Independent engineering and technical consulting.</p>
+                            </div>
+                        </div>
+
+                        <div className="grid gap-6 md:grid-cols-3">
+
+                            {/* Providence Auto */}
+                            <div className="group relative flex flex-col rounded-xl border border-border/40 bg-zinc-950/40 p-6 backdrop-blur-sm transition-all hover:-translate-y-1 hover:border-primary/40 hover:bg-zinc-900/60">
+                                <div className="mb-4 flex items-start justify-between">
+                                    <div>
+                                        <h4 className="font-bold text-zinc-100 group-hover:text-primary transition-colors">Providence Auto</h4>
+                                        <p className="text-xs font-mono text-zinc-500 mt-1">Jan 2026 – Present</p>
+                                    </div>
+                                    <Badge variant="secondary" className="bg-primary/10 text-primary border border-primary/20 text-[10px] uppercase tracking-wider">Active</Badge>
+                                </div>
+                                <p className="mb-6 text-sm text-zinc-400 leading-relaxed flex-grow">
+                                    Engineered a highly performant Next.js and TypeScript web platform for international vehicle sourcing and importation, managing end-to-end delivery and secure lead-tracking.
+                                </p>
+                                <div className="flex flex-wrap gap-2 mt-auto">
+                                    <span className="text-[10px] font-medium uppercase tracking-wider text-zinc-500 border border-zinc-800 rounded px-2 py-1">Next.js</span>
+                                    <span className="text-[10px] font-medium uppercase tracking-wider text-zinc-500 border border-zinc-800 rounded px-2 py-1">TypeScript</span>
+                                </div>
+                            </div>
+
+                            {/* Anime.lk */}
+                            <div className="group relative flex flex-col rounded-xl border border-border/40 bg-zinc-950/40 p-6 backdrop-blur-sm transition-all hover:-translate-y-1 hover:border-primary/40 hover:bg-zinc-900/60">
+                                <div className="mb-4 flex items-start justify-between">
+                                    <div>
+                                        <h4 className="font-bold text-zinc-100 group-hover:text-primary transition-colors">Anime.lk</h4>
+                                        <p className="text-xs font-mono text-zinc-500 mt-1">2022 – Present</p>
+                                    </div>
+                                    <Badge variant="secondary" className="bg-primary/10 text-primary border border-primary/20 text-[10px] uppercase tracking-wider">Active</Badge>
+                                </div>
+                                <p className="mb-6 text-sm text-zinc-400 leading-relaxed flex-grow">
+                                    Spearheaded comprehensive platform redesign. Integrated Google Wallet API for high-volume digital ticketing and established CI/CD pipelines for zero-downtime deployments.
+                                </p>
+                                <div className="flex flex-wrap gap-2 mt-auto">
+                                    <span className="text-[10px] font-medium uppercase tracking-wider text-zinc-500 border border-zinc-800 rounded px-2 py-1">Next.js</span>
+                                    <span className="text-[10px] font-medium uppercase tracking-wider text-zinc-500 border border-zinc-800 rounded px-2 py-1">Google Wallet</span>
+                                </div>
+                            </div>
+
+                            {/* English Tea Co */}
+                            <div className="group relative flex flex-col rounded-xl border border-border/40 bg-zinc-950/40 p-6 backdrop-blur-sm transition-all hover:-translate-y-1 hover:border-primary/40 hover:bg-zinc-900/60">
+                                <div className="mb-4 flex items-start justify-between">
+                                    <div>
+                                        <h4 className="font-bold text-zinc-100 group-hover:text-primary transition-colors">English Tea Co.</h4>
+                                        <p className="text-xs font-mono text-zinc-500 mt-1">2023</p>
+                                    </div>
+                                    <Badge variant="secondary" className="bg-zinc-800 text-zinc-400 border border-zinc-700 text-[10px] uppercase tracking-wider">Completed</Badge>
+                                </div>
+                                <p className="mb-6 text-sm text-zinc-400 leading-relaxed flex-grow">
+                                    Developed a specialized inventory and stock management application interfacing directly with proprietary Zebra QR Scanner hardware devices.
+                                </p>
+                                <div className="flex flex-wrap gap-2 mt-auto">
+                                    <span className="text-[10px] font-medium uppercase tracking-wider text-zinc-500 border border-zinc-800 rounded px-2 py-1">Hardware</span>
+                                    <span className="text-[10px] font-medium uppercase tracking-wider text-zinc-500 border border-zinc-800 rounded px-2 py-1">Zebra API</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
             {/* 03. PERSONAL / ACHIEVEMENTS */}
             <section className="border-t border-border px-6 py-24 sm:px-12 lg:px-24 bg-zinc-950/20">
                 <div className="mb-16">
@@ -311,6 +438,52 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+
+            {/* 04. FOOTER */}
+            <footer className="border-t border-border/40 bg-zinc-950 px-6 py-12 sm:px-12 lg:px-24">
+                <div className="mx-auto flex max-w-5xl flex-col items-center justify-between gap-8 md:flex-row">
+
+                    {/* Branding & Copyright */}
+                    <div className="flex flex-col items-center gap-2 md:items-start">
+                        <span className="text-lg font-bold tracking-tight text-zinc-100">Seyone Gunasingham</span>
+                        <p className="text-sm text-zinc-500 text-center md:text-left">
+                            &copy; {new Date().getFullYear()} All rights reserved.
+                            <span className="hidden md:inline"> &nbsp;|&nbsp; </span>
+                            <br className="md:hidden" />
+                            Negombo, Sri Lanka.
+                        </p>
+                    </div>
+
+                    {/* Social Links */}
+                    <div className="flex items-center gap-2">
+                        <Button variant="ghost" size="icon" className="h-10 w-10 text-zinc-400 hover:bg-primary/10 hover:text-primary transition-colors" >
+                            <a href="https://github.com/seyone22" target="_blank" rel="noreferrer">
+                                <Github className="h-5 w-5" />
+                                <span className="sr-only">GitHub</span>
+                            </a>
+                        </Button>
+                        <Button variant="ghost" size="icon" className="h-10 w-10 text-zinc-400 hover:bg-primary/10 hover:text-primary transition-colors" >
+                            <a href="https://linkedin.com/in/sgseyone" target="_blank" rel="noreferrer">
+                                <Linkedin className="h-5 w-5" />
+                                <span className="sr-only">LinkedIn</span>
+                            </a>
+                        </Button>
+                        <Button variant="ghost" size="icon" className="h-10 w-10 text-zinc-400 hover:bg-primary/10 hover:text-primary transition-colors" >
+                            <a href="mailto:s.g.seyone@proton.me">
+                                <Mail className="h-5 w-5" />
+                                <span className="sr-only">Email</span>
+                            </a>
+                        </Button>
+                    </div>
+                </div>
+
+                {/* Tech Stack Subtle Nod */}
+                <div className="mx-auto mt-12 max-w-5xl text-center md:text-left">
+                    <p className="text-xs font-mono text-zinc-700 uppercase tracking-widest">
+                        Built with Next.js, Tailwind CSS & TypeScript.
+                    </p>
+                </div>
+            </footer>
         </div>
     );
 }
