@@ -9,17 +9,17 @@
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
     --primary: 161 94% 13%; /* Deep Pine */
-    --accent: 161 94% 30%;   /* Glowing Pine for hover */
+    --accent: 161 94% 30%; /* Glowing Pine for hover */
     --card: 0 0% 100%;
     --border: 240 5.9% 90%;
   }
 
   .dark {
-    --background: 240 10% 2%;  /* Near Black */
+    --background: 240 10% 2%; /* Near Black */
     --foreground: 0 0% 98%;
-    --primary: 161 94% 35%;    /* Vibrant Pine */
+    --primary: 161 94% 35%; /* Vibrant Pine */
     --accent: 161 94% 45%;
-    --card: 240 10% 4%;        /* Subtle Card lifting */
+    --card: 240 10% 4%; /* Subtle Card lifting */
     --border: 240 3.7% 12%;
   }
   * {
