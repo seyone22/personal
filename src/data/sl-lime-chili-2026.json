@@ -1,0 +1,7262 @@
+{
+  "generatedAt": "2026-11-18",
+  "limes": [
+    {
+      "id": "fd37f2c4-9b2b-406d-af9a-200a073943aa",
+      "store": "Cargills",
+      "name": "Lime",
+      "pack": "250g",
+      "mult": 4,
+      "points": [
+        {
+          "date": "2026-09-16",
+          "price": 1152,
+          "rawPrice": 288
+        },
+        {
+          "date": "2026-09-17",
+          "price": 1152,
+          "rawPrice": 288
+        },
+        {
+          "date": "2026-09-18",
+          "price": 1200,
+          "rawPrice": 300
+        },
+        {
+          "date": "2026-09-20",
+          "price": 1300,
+          "rawPrice": 325
+        },
+        {
+          "date": "2026-09-21",
+          "price": 1300,
+          "rawPrice": 325
+        },
+        {
+          "date": "2026-09-22",
+          "price": 1400,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-09-23",
+          "price": 1400,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-09-24",
+          "price": 1400,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-09-25",
+          "price": 1400,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-09-26",
+          "price": 1400,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-09-27",
+          "price": 1400,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-09-28",
+          "price": 1400,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-09-29",
+          "price": 1400,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-09-30",
+          "price": 1400,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-10-01",
+          "price": 1400,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-10-02",
+          "price": 1400,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-10-03",
+          "price": 1400,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-10-04",
+          "price": 1400,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-10-05",
+          "price": 1400,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-10-06",
+          "price": 1400,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-10-07",
+          "price": 1400,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-10-08",
+          "price": 1500,
+          "rawPrice": 375
+        },
+        {
+          "date": "2026-10-09",
+          "price": 1500,
+          "rawPrice": 375
+        },
+        {
+          "date": "2026-10-10",
+          "price": 1600,
+          "rawPrice": 400
+        },
+        {
+          "date": "2026-10-11",
+          "price": 1600,
+          "rawPrice": 400
+        },
+        {
+          "date": "2026-10-12",
+          "price": 1600,
+          "rawPrice": 400
+        },
+        {
+          "date": "2026-10-13",
+          "price": 1652,
+          "rawPrice": 413
+        },
+        {
+          "date": "2026-10-14",
+          "price": 1800,
+          "rawPrice": 450
+        },
+        {
+          "date": "2026-10-15",
+          "price": 1800,
+          "rawPrice": 450
+        },
+        {
+          "date": "2026-10-16",
+          "price": 1800,
+          "rawPrice": 450
+        },
+        {
+          "date": "2026-10-17",
+          "price": 1860,
+          "rawPrice": 465
+        },
+        {
+          "date": "2026-10-18",
+          "price": 1860,
+          "rawPrice": 465
+        },
+        {
+          "date": "2026-10-19",
+          "price": 1800,
+          "rawPrice": 450
+        },
+        {
+          "date": "2026-10-20",
+          "price": 1800,
+          "rawPrice": 450
+        },
+        {
+          "date": "2026-10-21",
+          "price": 1860,
+          "rawPrice": 465
+        },
+        {
+          "date": "2026-10-22",
+          "price": 1860,
+          "rawPrice": 465
+        },
+        {
+          "date": "2026-10-23",
+          "price": 1860,
+          "rawPrice": 465
+        },
+        {
+          "date": "2026-10-24",
+          "price": 1940,
+          "rawPrice": 485
+        },
+        {
+          "date": "2026-10-25",
+          "price": 1940,
+          "rawPrice": 485
+        },
+        {
+          "date": "2026-10-26",
+          "price": 1800,
+          "rawPrice": 450
+        },
+        {
+          "date": "2026-10-27",
+          "price": 1780,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-10-28",
+          "price": 1860,
+          "rawPrice": 465
+        },
+        {
+          "date": "2026-10-29",
+          "price": 1920,
+          "rawPrice": 480
+        },
+        {
+          "date": "2026-10-30",
+          "price": 1980,
+          "rawPrice": 495
+        },
+        {
+          "date": "2026-10-31",
+          "price": 1980,
+          "rawPrice": 495
+        },
+        {
+          "date": "2026-11-01",
+          "price": 1980,
+          "rawPrice": 495
+        },
+        {
+          "date": "2026-11-02",
+          "price": 1980,
+          "rawPrice": 495
+        },
+        {
+          "date": "2026-11-03",
+          "price": 1980,
+          "rawPrice": 495
+        },
+        {
+          "date": "2026-11-04",
+          "price": 1980,
+          "rawPrice": 495
+        },
+        {
+          "date": "2026-11-05",
+          "price": 1980,
+          "rawPrice": 495
+        },
+        {
+          "date": "2026-11-06",
+          "price": 1980,
+          "rawPrice": 495
+        },
+        {
+          "date": "2026-11-07",
+          "price": 1960,
+          "rawPrice": 490
+        },
+        {
+          "date": "2026-11-08",
+          "price": 1980,
+          "rawPrice": 495
+        },
+        {
+          "date": "2026-11-09",
+          "price": 1980,
+          "rawPrice": 495
+        },
+        {
+          "date": "2026-11-10",
+          "price": 1920,
+          "rawPrice": 480
+        },
+        {
+          "date": "2026-11-11",
+          "price": 1892,
+          "rawPrice": 473
+        },
+        {
+          "date": "2026-11-12",
+          "price": 1860,
+          "rawPrice": 465
+        },
+        {
+          "date": "2026-11-13",
+          "price": 1840,
+          "rawPrice": 460
+        },
+        {
+          "date": "2026-11-14",
+          "price": 1840,
+          "rawPrice": 460
+        },
+        {
+          "date": "2026-11-15",
+          "price": 2052,
+          "rawPrice": 513
+        },
+        {
+          "date": "2026-11-16",
+          "price": 2294,
+          "rawPrice": 573.5
+        },
+        {
+          "date": "2026-11-17",
+          "price": 1820,
+          "rawPrice": 455
+        },
+        {
+          "date": "2026-11-18",
+          "price": 1780,
+          "rawPrice": 445
+        }
+      ]
+    },
+    {
+      "id": "8f9268d5-21d9-fdb2-0670-3557bee78ccc",
+      "store": "SPAR",
+      "name": "LIMES",
+      "pack": "1kg",
+      "mult": 1,
+      "points": [
+        {
+          "date": "2026-06-18",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-06-19",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-06-20",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-06-21",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-06-22",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-06-23",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-06-24",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-06-25",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-06-26",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-06-27",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-06-28",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-06-29",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-06-30",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-07-01",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-07-02",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-07-03",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-07-04",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-07-05",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-07-06",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-07-07",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-07-08",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-07-09",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-07-11",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-07-12",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-07-13",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-07-14",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-07-15",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-07-16",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-07-17",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-07-21",
+          "price": 550,
+          "rawPrice": 550
+        },
+        {
+          "date": "2026-07-22",
+          "price": 490,
+          "rawPrice": 490
+        },
+        {
+          "date": "2026-07-23",
+          "price": 490,
+          "rawPrice": 490
+        },
+        {
+          "date": "2026-07-24",
+          "price": 490,
+          "rawPrice": 490
+        },
+        {
+          "date": "2026-07-25",
+          "price": 550,
+          "rawPrice": 550
+        },
+        {
+          "date": "2026-07-26",
+          "price": 550,
+          "rawPrice": 550
+        },
+        {
+          "date": "2026-07-27",
+          "price": 550,
+          "rawPrice": 550
+        },
+        {
+          "date": "2026-07-29",
+          "price": 490,
+          "rawPrice": 490
+        },
+        {
+          "date": "2026-07-30",
+          "price": 490,
+          "rawPrice": 490
+        },
+        {
+          "date": "2026-07-31",
+          "price": 490,
+          "rawPrice": 490
+        },
+        {
+          "date": "2026-08-01",
+          "price": 490,
+          "rawPrice": 490
+        },
+        {
+          "date": "2026-08-02",
+          "price": 490,
+          "rawPrice": 490
+        },
+        {
+          "date": "2026-08-03",
+          "price": 490,
+          "rawPrice": 490
+        },
+        {
+          "date": "2026-08-04",
+          "price": 550,
+          "rawPrice": 550
+        },
+        {
+          "date": "2026-08-05",
+          "price": 550,
+          "rawPrice": 550
+        },
+        {
+          "date": "2026-08-06",
+          "price": 530,
+          "rawPrice": 530
+        },
+        {
+          "date": "2026-08-07",
+          "price": 530,
+          "rawPrice": 530
+        },
+        {
+          "date": "2026-08-08",
+          "price": 530,
+          "rawPrice": 530
+        },
+        {
+          "date": "2026-08-09",
+          "price": 530,
+          "rawPrice": 530
+        },
+        {
+          "date": "2026-08-11",
+          "price": 530,
+          "rawPrice": 530
+        },
+        {
+          "date": "2026-08-12",
+          "price": 530,
+          "rawPrice": 530
+        },
+        {
+          "date": "2026-08-13",
+          "price": 350,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-08-15",
+          "price": 520,
+          "rawPrice": 520
+        },
+        {
+          "date": "2026-08-16",
+          "price": 520,
+          "rawPrice": 520
+        },
+        {
+          "date": "2026-08-17",
+          "price": 520,
+          "rawPrice": 520
+        },
+        {
+          "date": "2026-08-18",
+          "price": 520,
+          "rawPrice": 520
+        },
+        {
+          "date": "2026-08-18",
+          "price": 520,
+          "rawPrice": 520
+        },
+        {
+          "date": "2026-08-18",
+          "price": 520,
+          "rawPrice": 520
+        },
+        {
+          "date": "2026-08-18",
+          "price": 520,
+          "rawPrice": 520
+        },
+        {
+          "date": "2026-08-18",
+          "price": 520,
+          "rawPrice": 520
+        },
+        {
+          "date": "2026-08-18",
+          "price": 520,
+          "rawPrice": 520
+        },
+        {
+          "date": "2026-08-19",
+          "price": 520,
+          "rawPrice": 520
+        },
+        {
+          "date": "2026-08-20",
+          "price": 570,
+          "rawPrice": 570
+        },
+        {
+          "date": "2026-08-21",
+          "price": 570,
+          "rawPrice": 570
+        },
+        {
+          "date": "2026-08-22",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-08-23",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-08-24",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-08-25",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-08-26",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-08-27",
+          "price": 610,
+          "rawPrice": 610
+        },
+        {
+          "date": "2026-08-28",
+          "price": 610,
+          "rawPrice": 610
+        },
+        {
+          "date": "2026-08-29",
+          "price": 700,
+          "rawPrice": 700
+        },
+        {
+          "date": "2026-08-30",
+          "price": 700,
+          "rawPrice": 700
+        },
+        {
+          "date": "2026-08-31",
+          "price": 700,
+          "rawPrice": 700
+        },
+        {
+          "date": "2026-09-01",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-09-02",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-09-03",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-09-04",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-09-05",
+          "price": 900,
+          "rawPrice": 900
+        },
+        {
+          "date": "2026-09-06",
+          "price": 900,
+          "rawPrice": 900
+        },
+        {
+          "date": "2026-09-07",
+          "price": 900,
+          "rawPrice": 900
+        },
+        {
+          "date": "2026-09-08",
+          "price": 950,
+          "rawPrice": 950
+        },
+        {
+          "date": "2026-09-09",
+          "price": 950,
+          "rawPrice": 950
+        },
+        {
+          "date": "2026-09-10",
+          "price": 990,
+          "rawPrice": 990
+        },
+        {
+          "date": "2026-09-11",
+          "price": 990,
+          "rawPrice": 990
+        },
+        {
+          "date": "2026-09-12",
+          "price": 610,
+          "rawPrice": 610
+        },
+        {
+          "date": "2026-09-13",
+          "price": 1220,
+          "rawPrice": 1220
+        },
+        {
+          "date": "2026-09-14",
+          "price": 1220,
+          "rawPrice": 1220
+        },
+        {
+          "date": "2026-09-15",
+          "price": 1220,
+          "rawPrice": 1220
+        },
+        {
+          "date": "2026-09-16",
+          "price": 1220,
+          "rawPrice": 1220
+        },
+        {
+          "date": "2026-09-17",
+          "price": 1390,
+          "rawPrice": 1390
+        },
+        {
+          "date": "2026-09-18",
+          "price": 1390,
+          "rawPrice": 1390
+        },
+        {
+          "date": "2026-09-20",
+          "price": 1430,
+          "rawPrice": 1430
+        },
+        {
+          "date": "2026-09-21",
+          "price": 1430,
+          "rawPrice": 1430
+        },
+        {
+          "date": "2026-09-22",
+          "price": 1690,
+          "rawPrice": 1690
+        },
+        {
+          "date": "2026-09-23",
+          "price": 1690,
+          "rawPrice": 1690
+        },
+        {
+          "date": "2026-09-24",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-09-25",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-09-26",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-09-27",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-09-28",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-09-29",
+          "price": 1390,
+          "rawPrice": 1390
+        },
+        {
+          "date": "2026-09-30",
+          "price": 1390,
+          "rawPrice": 1390
+        },
+        {
+          "date": "2026-10-01",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-10-02",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-10-03",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-10-04",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-10-05",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-10-06",
+          "price": 1650,
+          "rawPrice": 1650
+        },
+        {
+          "date": "2026-10-07",
+          "price": 1650,
+          "rawPrice": 1650
+        },
+        {
+          "date": "2026-10-08",
+          "price": 1860,
+          "rawPrice": 1860
+        },
+        {
+          "date": "2026-10-09",
+          "price": 1860,
+          "rawPrice": 1860
+        },
+        {
+          "date": "2026-10-10",
+          "price": 1860,
+          "rawPrice": 1860
+        },
+        {
+          "date": "2026-10-11",
+          "price": 1860,
+          "rawPrice": 1860
+        },
+        {
+          "date": "2026-10-12",
+          "price": 1860,
+          "rawPrice": 1860
+        },
+        {
+          "date": "2026-10-13",
+          "price": 1860,
+          "rawPrice": 1860
+        },
+        {
+          "date": "2026-10-14",
+          "price": 1860,
+          "rawPrice": 1860
+        },
+        {
+          "date": "2026-10-15",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-10-16",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-10-17",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-10-18",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-10-19",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-10-20",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-10-21",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-10-22",
+          "price": 2050,
+          "rawPrice": 2050
+        },
+        {
+          "date": "2026-10-23",
+          "price": 2050,
+          "rawPrice": 2050
+        },
+        {
+          "date": "2026-10-24",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-10-25",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-10-26",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-10-27",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-10-28",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-10-29",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-10-30",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-10-31",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-11-01",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-11-02",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-11-03",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-11-04",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-11-05",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-11-06",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-11-07",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-11-08",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-11-09",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-11-10",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-11-11",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-11-12",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-11-13",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-11-15",
+          "price": 1890,
+          "rawPrice": 1890
+        },
+        {
+          "date": "2026-11-16",
+          "price": 1890,
+          "rawPrice": 1890
+        },
+        {
+          "date": "2026-11-17",
+          "price": 1890,
+          "rawPrice": 1890
+        },
+        {
+          "date": "2026-11-18",
+          "price": 1890,
+          "rawPrice": 1890
+        }
+      ]
+    },
+    {
+      "id": "41bf53b3-59ba-446a-2c60-f2cc3349b8dd",
+      "store": "Keells",
+      "name": "Lime",
+      "pack": "1kg",
+      "mult": 1,
+      "points": [
+        {
+          "date": "2026-03-24",
+          "price": 150,
+          "rawPrice": 150
+        },
+        {
+          "date": "2026-03-24",
+          "price": 150,
+          "rawPrice": 150
+        },
+        {
+          "date": "2026-03-25",
+          "price": 150,
+          "rawPrice": 150
+        },
+        {
+          "date": "2026-03-26",
+          "price": 150,
+          "rawPrice": 150
+        },
+        {
+          "date": "2026-03-27",
+          "price": 150,
+          "rawPrice": 150
+        },
+        {
+          "date": "2026-03-28",
+          "price": 210,
+          "rawPrice": 210
+        },
+        {
+          "date": "2026-03-29",
+          "price": 290,
+          "rawPrice": 290
+        },
+        {
+          "date": "2026-03-30",
+          "price": 290,
+          "rawPrice": 290
+        },
+        {
+          "date": "2026-03-31",
+          "price": 290,
+          "rawPrice": 290
+        },
+        {
+          "date": "2026-03-31",
+          "price": 290,
+          "rawPrice": 290
+        },
+        {
+          "date": "2026-03-31",
+          "price": 290,
+          "rawPrice": 290
+        },
+        {
+          "date": "2026-04-01",
+          "price": 270,
+          "rawPrice": 270
+        },
+        {
+          "date": "2026-04-02",
+          "price": 270,
+          "rawPrice": 270
+        },
+        {
+          "date": "2026-04-03",
+          "price": 270,
+          "rawPrice": 270
+        },
+        {
+          "date": "2026-04-04",
+          "price": 270,
+          "rawPrice": 270
+        },
+        {
+          "date": "2026-04-05",
+          "price": 340,
+          "rawPrice": 340
+        },
+        {
+          "date": "2026-04-06",
+          "price": 340,
+          "rawPrice": 340
+        },
+        {
+          "date": "2026-04-07",
+          "price": 320,
+          "rawPrice": 320
+        },
+        {
+          "date": "2026-04-08",
+          "price": 290,
+          "rawPrice": 290
+        },
+        {
+          "date": "2026-04-09",
+          "price": 290,
+          "rawPrice": 290
+        },
+        {
+          "date": "2026-04-10",
+          "price": 280,
+          "rawPrice": 280
+        },
+        {
+          "date": "2026-04-11",
+          "price": 270,
+          "rawPrice": 270
+        },
+        {
+          "date": "2026-04-12",
+          "price": 320,
+          "rawPrice": 320
+        },
+        {
+          "date": "2026-04-13",
+          "price": 320,
+          "rawPrice": 320
+        },
+        {
+          "date": "2026-04-14",
+          "price": 440,
+          "rawPrice": 440
+        },
+        {
+          "date": "2026-04-16",
+          "price": 600,
+          "rawPrice": 600
+        },
+        {
+          "date": "2026-04-17",
+          "price": 620,
+          "rawPrice": 620
+        },
+        {
+          "date": "2026-04-18",
+          "price": 560,
+          "rawPrice": 560
+        },
+        {
+          "date": "2026-04-19",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-04-20",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-04-21",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-04-22",
+          "price": 520,
+          "rawPrice": 520
+        },
+        {
+          "date": "2026-04-23",
+          "price": 520,
+          "rawPrice": 520
+        },
+        {
+          "date": "2026-04-24",
+          "price": 520,
+          "rawPrice": 520
+        },
+        {
+          "date": "2026-04-25",
+          "price": 420,
+          "rawPrice": 420
+        },
+        {
+          "date": "2026-04-26",
+          "price": 420,
+          "rawPrice": 420
+        },
+        {
+          "date": "2026-04-27",
+          "price": 420,
+          "rawPrice": 420
+        },
+        {
+          "date": "2026-04-28",
+          "price": 420,
+          "rawPrice": 420
+        },
+        {
+          "date": "2026-04-29",
+          "price": 420,
+          "rawPrice": 420
+        },
+        {
+          "date": "2026-04-30",
+          "price": 410,
+          "rawPrice": 410
+        },
+        {
+          "date": "2026-05-01",
+          "price": 410,
+          "rawPrice": 410
+        },
+        {
+          "date": "2026-05-02",
+          "price": 520,
+          "rawPrice": 520
+        },
+        {
+          "date": "2026-05-03",
+          "price": 550,
+          "rawPrice": 550
+        },
+        {
+          "date": "2026-05-04",
+          "price": 550,
+          "rawPrice": 550
+        },
+        {
+          "date": "2026-05-05",
+          "price": 550,
+          "rawPrice": 550
+        },
+        {
+          "date": "2026-05-06",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-05-07",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-05-08",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-05-09",
+          "price": 540,
+          "rawPrice": 540
+        },
+        {
+          "date": "2026-05-10",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-05-11",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-05-12",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-05-13",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-05-14",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-05-15",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-05-16",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-05-17",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-05-18",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-05-19",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-05-20",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-05-21",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-05-22",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-05-23",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-05-24",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-05-25",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-05-27",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-05-28",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-05-29",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-05-30",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-05-31",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-06-01",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-06-02",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-06-03",
+          "price": 740,
+          "rawPrice": 740
+        },
+        {
+          "date": "2026-06-04",
+          "price": 740,
+          "rawPrice": 740
+        },
+        {
+          "date": "2026-06-18",
+          "price": 740,
+          "rawPrice": 740
+        },
+        {
+          "date": "2026-06-19",
+          "price": 740,
+          "rawPrice": 740
+        },
+        {
+          "date": "2026-06-20",
+          "price": 700,
+          "rawPrice": 700
+        },
+        {
+          "date": "2026-06-21",
+          "price": 700,
+          "rawPrice": 700
+        },
+        {
+          "date": "2026-06-22",
+          "price": 700,
+          "rawPrice": 700
+        },
+        {
+          "date": "2026-06-23",
+          "price": 700,
+          "rawPrice": 700
+        },
+        {
+          "date": "2026-06-24",
+          "price": 650,
+          "rawPrice": 650
+        },
+        {
+          "date": "2026-06-25",
+          "price": 650,
+          "rawPrice": 650
+        },
+        {
+          "date": "2026-06-26",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-06-27",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-06-28",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-06-29",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-06-30",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-07-01",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-07-02",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-07-03",
+          "price": 640,
+          "rawPrice": 640
+        },
+        {
+          "date": "2026-07-04",
+          "price": 640,
+          "rawPrice": 640
+        },
+        {
+          "date": "2026-07-05",
+          "price": 640,
+          "rawPrice": 640
+        },
+        {
+          "date": "2026-07-06",
+          "price": 640,
+          "rawPrice": 640
+        },
+        {
+          "date": "2026-07-07",
+          "price": 640,
+          "rawPrice": 640
+        },
+        {
+          "date": "2026-07-08",
+          "price": 640,
+          "rawPrice": 640
+        },
+        {
+          "date": "2026-07-09",
+          "price": 640,
+          "rawPrice": 640
+        },
+        {
+          "date": "2026-07-11",
+          "price": 560,
+          "rawPrice": 560
+        },
+        {
+          "date": "2026-07-13",
+          "price": 560,
+          "rawPrice": 560
+        },
+        {
+          "date": "2026-07-14",
+          "price": 540,
+          "rawPrice": 540
+        },
+        {
+          "date": "2026-07-15",
+          "price": 540,
+          "rawPrice": 540
+        },
+        {
+          "date": "2026-07-16",
+          "price": 560,
+          "rawPrice": 560
+        },
+        {
+          "date": "2026-07-17",
+          "price": 560,
+          "rawPrice": 560
+        },
+        {
+          "date": "2026-07-18",
+          "price": 480,
+          "rawPrice": 480
+        },
+        {
+          "date": "2026-07-20",
+          "price": 480,
+          "rawPrice": 480
+        },
+        {
+          "date": "2026-07-21",
+          "price": 480,
+          "rawPrice": 480
+        },
+        {
+          "date": "2026-07-22",
+          "price": 480,
+          "rawPrice": 480
+        },
+        {
+          "date": "2026-07-23",
+          "price": 560,
+          "rawPrice": 560
+        },
+        {
+          "date": "2026-07-24",
+          "price": 560,
+          "rawPrice": 560
+        },
+        {
+          "date": "2026-07-25",
+          "price": 460,
+          "rawPrice": 460
+        },
+        {
+          "date": "2026-07-26",
+          "price": 480,
+          "rawPrice": 480
+        },
+        {
+          "date": "2026-07-27",
+          "price": 480,
+          "rawPrice": 480
+        },
+        {
+          "date": "2026-07-28",
+          "price": 480,
+          "rawPrice": 480
+        },
+        {
+          "date": "2026-07-29",
+          "price": 480,
+          "rawPrice": 480
+        },
+        {
+          "date": "2026-07-30",
+          "price": 480,
+          "rawPrice": 480
+        },
+        {
+          "date": "2026-07-31",
+          "price": 480,
+          "rawPrice": 480
+        },
+        {
+          "date": "2026-08-01",
+          "price": 540,
+          "rawPrice": 540
+        },
+        {
+          "date": "2026-08-02",
+          "price": 540,
+          "rawPrice": 540
+        },
+        {
+          "date": "2026-08-03",
+          "price": 540,
+          "rawPrice": 540
+        },
+        {
+          "date": "2026-08-04",
+          "price": 540,
+          "rawPrice": 540
+        },
+        {
+          "date": "2026-08-05",
+          "price": 530,
+          "rawPrice": 530
+        },
+        {
+          "date": "2026-08-06",
+          "price": 530,
+          "rawPrice": 530
+        },
+        {
+          "date": "2026-08-07",
+          "price": 530,
+          "rawPrice": 530
+        },
+        {
+          "date": "2026-08-08",
+          "price": 520,
+          "rawPrice": 520
+        },
+        {
+          "date": "2026-08-09",
+          "price": 520,
+          "rawPrice": 520
+        },
+        {
+          "date": "2026-08-11",
+          "price": 520,
+          "rawPrice": 520
+        },
+        {
+          "date": "2026-08-12",
+          "price": 510,
+          "rawPrice": 510
+        },
+        {
+          "date": "2026-08-13",
+          "price": 510,
+          "rawPrice": 510
+        },
+        {
+          "date": "2026-08-14",
+          "price": 510,
+          "rawPrice": 510
+        },
+        {
+          "date": "2026-08-15",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-08-16",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-08-17",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-08-18",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-08-18",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-08-19",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-08-20",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-08-21",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-08-22",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-08-23",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-08-24",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-08-25",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-08-26",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-08-27",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-08-28",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-08-29",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-08-30",
+          "price": 750,
+          "rawPrice": 750
+        },
+        {
+          "date": "2026-08-31",
+          "price": 750,
+          "rawPrice": 750
+        },
+        {
+          "date": "2026-09-01",
+          "price": 830,
+          "rawPrice": 830
+        },
+        {
+          "date": "2026-09-02",
+          "price": 830,
+          "rawPrice": 830
+        },
+        {
+          "date": "2026-09-03",
+          "price": 830,
+          "rawPrice": 830
+        },
+        {
+          "date": "2026-09-04",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-09-05",
+          "price": 960,
+          "rawPrice": 960
+        },
+        {
+          "date": "2026-09-06",
+          "price": 980,
+          "rawPrice": 980
+        },
+        {
+          "date": "2026-09-07",
+          "price": 980,
+          "rawPrice": 980
+        },
+        {
+          "date": "2026-09-08",
+          "price": 980,
+          "rawPrice": 980
+        },
+        {
+          "date": "2026-09-09",
+          "price": 990,
+          "rawPrice": 990
+        },
+        {
+          "date": "2026-09-10",
+          "price": 990,
+          "rawPrice": 990
+        },
+        {
+          "date": "2026-09-12",
+          "price": 1100,
+          "rawPrice": 1100
+        },
+        {
+          "date": "2026-09-13",
+          "price": 1190,
+          "rawPrice": 1190
+        },
+        {
+          "date": "2026-09-14",
+          "price": 1190,
+          "rawPrice": 1190
+        },
+        {
+          "date": "2026-09-15",
+          "price": 1190,
+          "rawPrice": 1190
+        },
+        {
+          "date": "2026-09-16",
+          "price": 1190,
+          "rawPrice": 1190
+        },
+        {
+          "date": "2026-09-17",
+          "price": 1300,
+          "rawPrice": 1300
+        },
+        {
+          "date": "2026-09-18",
+          "price": 1300,
+          "rawPrice": 1300
+        },
+        {
+          "date": "2026-09-20",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-09-21",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-09-22",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-09-23",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-09-24",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-09-25",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-09-26",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-09-27",
+          "price": 1400,
+          "rawPrice": 1400
+        },
+        {
+          "date": "2026-09-28",
+          "price": 1400,
+          "rawPrice": 1400
+        },
+        {
+          "date": "2026-09-29",
+          "price": 1400,
+          "rawPrice": 1400
+        },
+        {
+          "date": "2026-09-30",
+          "price": 1400,
+          "rawPrice": 1400
+        },
+        {
+          "date": "2026-10-01",
+          "price": 1500,
+          "rawPrice": 1500
+        },
+        {
+          "date": "2026-10-02",
+          "price": 1500,
+          "rawPrice": 1500
+        },
+        {
+          "date": "2026-10-03",
+          "price": 1500,
+          "rawPrice": 1500
+        },
+        {
+          "date": "2026-10-04",
+          "price": 1650,
+          "rawPrice": 1650
+        },
+        {
+          "date": "2026-10-05",
+          "price": 1650,
+          "rawPrice": 1650
+        },
+        {
+          "date": "2026-10-06",
+          "price": 1650,
+          "rawPrice": 1650
+        },
+        {
+          "date": "2026-10-07",
+          "price": 1850,
+          "rawPrice": 1850
+        },
+        {
+          "date": "2026-10-08",
+          "price": 1980,
+          "rawPrice": 1980
+        },
+        {
+          "date": "2026-10-09",
+          "price": 1980,
+          "rawPrice": 1980
+        },
+        {
+          "date": "2026-10-10",
+          "price": 1790,
+          "rawPrice": 1790
+        },
+        {
+          "date": "2026-10-11",
+          "price": 1890,
+          "rawPrice": 1890
+        },
+        {
+          "date": "2026-10-12",
+          "price": 1890,
+          "rawPrice": 1890
+        },
+        {
+          "date": "2026-10-13",
+          "price": 1890,
+          "rawPrice": 1890
+        },
+        {
+          "date": "2026-10-14",
+          "price": 1980,
+          "rawPrice": 1980
+        },
+        {
+          "date": "2026-10-15",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-10-16",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-10-17",
+          "price": 1800,
+          "rawPrice": 1800
+        },
+        {
+          "date": "2026-10-18",
+          "price": 1800,
+          "rawPrice": 1800
+        },
+        {
+          "date": "2026-10-19",
+          "price": 1800,
+          "rawPrice": 1800
+        },
+        {
+          "date": "2026-10-20",
+          "price": 1900,
+          "rawPrice": 1900
+        },
+        {
+          "date": "2026-10-21",
+          "price": 1900,
+          "rawPrice": 1900
+        },
+        {
+          "date": "2026-10-22",
+          "price": 1980,
+          "rawPrice": 1980
+        },
+        {
+          "date": "2026-10-23",
+          "price": 1950,
+          "rawPrice": 1950
+        },
+        {
+          "date": "2026-10-24",
+          "price": 1800,
+          "rawPrice": 1800
+        },
+        {
+          "date": "2026-10-25",
+          "price": 1800,
+          "rawPrice": 1800
+        },
+        {
+          "date": "2026-10-26",
+          "price": 1800,
+          "rawPrice": 1800
+        },
+        {
+          "date": "2026-10-27",
+          "price": 1800,
+          "rawPrice": 1800
+        },
+        {
+          "date": "2026-10-28",
+          "price": 1780,
+          "rawPrice": 1780
+        },
+        {
+          "date": "2026-10-29",
+          "price": 1980,
+          "rawPrice": 1980
+        },
+        {
+          "date": "2026-10-31",
+          "price": 1980,
+          "rawPrice": 1980
+        },
+        {
+          "date": "2026-11-01",
+          "price": 1980,
+          "rawPrice": 1980
+        },
+        {
+          "date": "2026-11-02",
+          "price": 1980,
+          "rawPrice": 1980
+        },
+        {
+          "date": "2026-11-03",
+          "price": 1970,
+          "rawPrice": 1970
+        },
+        {
+          "date": "2026-11-04",
+          "price": 1980,
+          "rawPrice": 1980
+        },
+        {
+          "date": "2026-11-05",
+          "price": 1980,
+          "rawPrice": 1980
+        },
+        {
+          "date": "2026-11-06",
+          "price": 1970,
+          "rawPrice": 1970
+        },
+        {
+          "date": "2026-11-07",
+          "price": 1980,
+          "rawPrice": 1980
+        },
+        {
+          "date": "2026-11-08",
+          "price": 1980,
+          "rawPrice": 1980
+        },
+        {
+          "date": "2026-11-09",
+          "price": 1980,
+          "rawPrice": 1980
+        },
+        {
+          "date": "2026-11-10",
+          "price": 1970,
+          "rawPrice": 1970
+        },
+        {
+          "date": "2026-11-11",
+          "price": 1910,
+          "rawPrice": 1910
+        },
+        {
+          "date": "2026-11-12",
+          "price": 1880,
+          "rawPrice": 1880
+        },
+        {
+          "date": "2026-11-13",
+          "price": 1850,
+          "rawPrice": 1850
+        },
+        {
+          "date": "2026-11-14",
+          "price": 1830,
+          "rawPrice": 1830
+        },
+        {
+          "date": "2026-11-15",
+          "price": 1830,
+          "rawPrice": 1830
+        },
+        {
+          "date": "2026-11-16",
+          "price": 1830,
+          "rawPrice": 1830
+        },
+        {
+          "date": "2026-11-17",
+          "price": 1840,
+          "rawPrice": 1840
+        },
+        {
+          "date": "2026-11-18",
+          "price": 1810,
+          "rawPrice": 1810
+        }
+      ]
+    },
+    {
+      "id": "9d952a80-93ea-4a3c-a3e8-b3c18d72f15a",
+      "store": "Arpico",
+      "name": "Lime 1Kg",
+      "pack": "1000g",
+      "mult": 1,
+      "points": [
+        {
+          "date": "2026-08-19",
+          "price": 688,
+          "rawPrice": 688
+        },
+        {
+          "date": "2026-08-20",
+          "price": 688,
+          "rawPrice": 688
+        },
+        {
+          "date": "2026-08-21",
+          "price": 688,
+          "rawPrice": 688
+        },
+        {
+          "date": "2026-08-22",
+          "price": 688,
+          "rawPrice": 688
+        },
+        {
+          "date": "2026-08-23",
+          "price": 688,
+          "rawPrice": 688
+        },
+        {
+          "date": "2026-08-24",
+          "price": 699,
+          "rawPrice": 699
+        },
+        {
+          "date": "2026-08-25",
+          "price": 699,
+          "rawPrice": 699
+        },
+        {
+          "date": "2026-08-26",
+          "price": 699,
+          "rawPrice": 699
+        },
+        {
+          "date": "2026-08-27",
+          "price": 699,
+          "rawPrice": 699
+        },
+        {
+          "date": "2026-08-28",
+          "price": 725,
+          "rawPrice": 725
+        },
+        {
+          "date": "2026-08-29",
+          "price": 840,
+          "rawPrice": 840
+        },
+        {
+          "date": "2026-08-30",
+          "price": 865,
+          "rawPrice": 865
+        },
+        {
+          "date": "2026-08-31",
+          "price": 865,
+          "rawPrice": 865
+        },
+        {
+          "date": "2026-09-01",
+          "price": 865,
+          "rawPrice": 865
+        },
+        {
+          "date": "2026-09-02",
+          "price": 965,
+          "rawPrice": 965
+        },
+        {
+          "date": "2026-09-03",
+          "price": 965,
+          "rawPrice": 965
+        },
+        {
+          "date": "2026-09-04",
+          "price": 965,
+          "rawPrice": 965
+        },
+        {
+          "date": "2026-09-05",
+          "price": 965,
+          "rawPrice": 965
+        },
+        {
+          "date": "2026-09-06",
+          "price": 1040,
+          "rawPrice": 1040
+        },
+        {
+          "date": "2026-09-07",
+          "price": 1040,
+          "rawPrice": 1040
+        },
+        {
+          "date": "2026-09-08",
+          "price": 1078,
+          "rawPrice": 1078
+        },
+        {
+          "date": "2026-09-09",
+          "price": 1060,
+          "rawPrice": 1060
+        },
+        {
+          "date": "2026-09-10",
+          "price": 1060,
+          "rawPrice": 1060
+        },
+        {
+          "date": "2026-09-11",
+          "price": 1060,
+          "rawPrice": 1060
+        },
+        {
+          "date": "2026-09-12",
+          "price": 1085,
+          "rawPrice": 1085
+        },
+        {
+          "date": "2026-09-13",
+          "price": 1085,
+          "rawPrice": 1085
+        },
+        {
+          "date": "2026-09-14",
+          "price": 1085,
+          "rawPrice": 1085
+        },
+        {
+          "date": "2026-09-15",
+          "price": 1175,
+          "rawPrice": 1175
+        },
+        {
+          "date": "2026-09-16",
+          "price": 1188,
+          "rawPrice": 1188
+        },
+        {
+          "date": "2026-09-17",
+          "price": 1290,
+          "rawPrice": 1290
+        },
+        {
+          "date": "2026-09-18",
+          "price": 1500,
+          "rawPrice": 1500
+        },
+        {
+          "date": "2026-09-20",
+          "price": 1500,
+          "rawPrice": 1500
+        },
+        {
+          "date": "2026-09-21",
+          "price": 1500,
+          "rawPrice": 1500
+        },
+        {
+          "date": "2026-09-22",
+          "price": 1500,
+          "rawPrice": 1500
+        },
+        {
+          "date": "2026-09-23",
+          "price": 1500,
+          "rawPrice": 1500
+        },
+        {
+          "date": "2026-09-24",
+          "price": 1500,
+          "rawPrice": 1500
+        },
+        {
+          "date": "2026-09-25",
+          "price": 1625,
+          "rawPrice": 1625
+        },
+        {
+          "date": "2026-09-26",
+          "price": 1625,
+          "rawPrice": 1625
+        },
+        {
+          "date": "2026-09-27",
+          "price": 1625,
+          "rawPrice": 1625
+        },
+        {
+          "date": "2026-09-28",
+          "price": 1625,
+          "rawPrice": 1625
+        },
+        {
+          "date": "2026-09-29",
+          "price": 1625,
+          "rawPrice": 1625
+        },
+        {
+          "date": "2026-09-30",
+          "price": 1575,
+          "rawPrice": 1575
+        },
+        {
+          "date": "2026-10-01",
+          "price": 1500,
+          "rawPrice": 1500
+        },
+        {
+          "date": "2026-10-02",
+          "price": 1575,
+          "rawPrice": 1575
+        },
+        {
+          "date": "2026-10-03",
+          "price": 1688,
+          "rawPrice": 1688
+        },
+        {
+          "date": "2026-10-04",
+          "price": 1688,
+          "rawPrice": 1688
+        },
+        {
+          "date": "2026-10-05",
+          "price": 1688,
+          "rawPrice": 1688
+        },
+        {
+          "date": "2026-10-06",
+          "price": 1688,
+          "rawPrice": 1688
+        },
+        {
+          "date": "2026-10-07",
+          "price": 1755,
+          "rawPrice": 1755
+        },
+        {
+          "date": "2026-10-08",
+          "price": 1890,
+          "rawPrice": 1890
+        },
+        {
+          "date": "2026-10-09",
+          "price": 1960,
+          "rawPrice": 1960
+        },
+        {
+          "date": "2026-10-10",
+          "price": 1790,
+          "rawPrice": 1790
+        },
+        {
+          "date": "2026-10-11",
+          "price": 1875,
+          "rawPrice": 1875
+        },
+        {
+          "date": "2026-10-12",
+          "price": 1875,
+          "rawPrice": 1875
+        },
+        {
+          "date": "2026-10-13",
+          "price": 1875,
+          "rawPrice": 1875
+        },
+        {
+          "date": "2026-10-14",
+          "price": 1950,
+          "rawPrice": 1950
+        },
+        {
+          "date": "2026-10-15",
+          "price": 1950,
+          "rawPrice": 1950
+        },
+        {
+          "date": "2026-10-16",
+          "price": 1950,
+          "rawPrice": 1950
+        },
+        {
+          "date": "2026-10-17",
+          "price": 1875,
+          "rawPrice": 1875
+        },
+        {
+          "date": "2026-10-18",
+          "price": 1875,
+          "rawPrice": 1875
+        },
+        {
+          "date": "2026-10-19",
+          "price": 1875,
+          "rawPrice": 1875
+        },
+        {
+          "date": "2026-10-20",
+          "price": 1898,
+          "rawPrice": 1898
+        },
+        {
+          "date": "2026-10-21",
+          "price": 1898,
+          "rawPrice": 1898
+        },
+        {
+          "date": "2026-10-22",
+          "price": 1975,
+          "rawPrice": 1975
+        },
+        {
+          "date": "2026-10-23",
+          "price": 1945,
+          "rawPrice": 1945
+        },
+        {
+          "date": "2026-10-24",
+          "price": 1875,
+          "rawPrice": 1875
+        },
+        {
+          "date": "2026-10-25",
+          "price": 1875,
+          "rawPrice": 1875
+        },
+        {
+          "date": "2026-10-26",
+          "price": 1875,
+          "rawPrice": 1875
+        },
+        {
+          "date": "2026-10-27",
+          "price": 1875,
+          "rawPrice": 1875
+        },
+        {
+          "date": "2026-10-28",
+          "price": 1988,
+          "rawPrice": 1988
+        },
+        {
+          "date": "2026-10-29",
+          "price": 1988,
+          "rawPrice": 1988
+        },
+        {
+          "date": "2026-10-30",
+          "price": 1988,
+          "rawPrice": 1988
+        },
+        {
+          "date": "2026-10-31",
+          "price": 1988,
+          "rawPrice": 1988
+        },
+        {
+          "date": "2026-11-01",
+          "price": 1988,
+          "rawPrice": 1988
+        },
+        {
+          "date": "2026-11-02",
+          "price": 1988,
+          "rawPrice": 1988
+        },
+        {
+          "date": "2026-11-03",
+          "price": 1988,
+          "rawPrice": 1988
+        },
+        {
+          "date": "2026-11-04",
+          "price": 1988,
+          "rawPrice": 1988
+        },
+        {
+          "date": "2026-11-05",
+          "price": 1988,
+          "rawPrice": 1988
+        },
+        {
+          "date": "2026-11-06",
+          "price": 1988,
+          "rawPrice": 1988
+        },
+        {
+          "date": "2026-11-07",
+          "price": 1988,
+          "rawPrice": 1988
+        },
+        {
+          "date": "2026-11-08",
+          "price": 1988,
+          "rawPrice": 1988
+        },
+        {
+          "date": "2026-11-09",
+          "price": 1988,
+          "rawPrice": 1988
+        },
+        {
+          "date": "2026-11-10",
+          "price": 1988,
+          "rawPrice": 1988
+        },
+        {
+          "date": "2026-11-11",
+          "price": 1988,
+          "rawPrice": 1988
+        },
+        {
+          "date": "2026-11-12",
+          "price": 1988,
+          "rawPrice": 1988
+        },
+        {
+          "date": "2026-11-13",
+          "price": 1938,
+          "rawPrice": 1938
+        },
+        {
+          "date": "2026-11-15",
+          "price": 1938,
+          "rawPrice": 1938
+        },
+        {
+          "date": "2026-11-16",
+          "price": 1938,
+          "rawPrice": 1938
+        },
+        {
+          "date": "2026-11-17",
+          "price": 1875,
+          "rawPrice": 1875
+        },
+        {
+          "date": "2026-11-18",
+          "price": 1875,
+          "rawPrice": 1875
+        }
+      ]
+    },
+    {
+      "id": "1551666b-cab4-6855-362d-625a058f7e35",
+      "store": "Keells",
+      "name": "Perfectly Imperfect Lime",
+      "pack": "1kg",
+      "mult": 1,
+      "points": [
+        {
+          "date": "2026-03-24",
+          "price": 110,
+          "rawPrice": 110
+        },
+        {
+          "date": "2026-03-24",
+          "price": 110,
+          "rawPrice": 110
+        },
+        {
+          "date": "2026-03-25",
+          "price": 110,
+          "rawPrice": 110
+        },
+        {
+          "date": "2026-03-26",
+          "price": 110,
+          "rawPrice": 110
+        },
+        {
+          "date": "2026-03-27",
+          "price": 110,
+          "rawPrice": 110
+        },
+        {
+          "date": "2026-03-28",
+          "price": 150,
+          "rawPrice": 150
+        },
+        {
+          "date": "2026-03-29",
+          "price": 210,
+          "rawPrice": 210
+        },
+        {
+          "date": "2026-03-30",
+          "price": 210,
+          "rawPrice": 210
+        },
+        {
+          "date": "2026-03-31",
+          "price": 210,
+          "rawPrice": 210
+        },
+        {
+          "date": "2026-03-31",
+          "price": 210,
+          "rawPrice": 210
+        },
+        {
+          "date": "2026-03-31",
+          "price": 210,
+          "rawPrice": 210
+        },
+        {
+          "date": "2026-04-01",
+          "price": 200,
+          "rawPrice": 200
+        },
+        {
+          "date": "2026-04-02",
+          "price": 200,
+          "rawPrice": 200
+        },
+        {
+          "date": "2026-04-03",
+          "price": 200,
+          "rawPrice": 200
+        },
+        {
+          "date": "2026-04-04",
+          "price": 200,
+          "rawPrice": 200
+        },
+        {
+          "date": "2026-04-05",
+          "price": 250,
+          "rawPrice": 250
+        },
+        {
+          "date": "2026-04-06",
+          "price": 250,
+          "rawPrice": 250
+        },
+        {
+          "date": "2026-04-07",
+          "price": 230,
+          "rawPrice": 230
+        },
+        {
+          "date": "2026-04-08",
+          "price": 210,
+          "rawPrice": 210
+        },
+        {
+          "date": "2026-04-09",
+          "price": 210,
+          "rawPrice": 210
+        },
+        {
+          "date": "2026-04-10",
+          "price": 200,
+          "rawPrice": 200
+        },
+        {
+          "date": "2026-04-11",
+          "price": 200,
+          "rawPrice": 200
+        },
+        {
+          "date": "2026-04-12",
+          "price": 230,
+          "rawPrice": 230
+        },
+        {
+          "date": "2026-04-13",
+          "price": 230,
+          "rawPrice": 230
+        },
+        {
+          "date": "2026-04-14",
+          "price": 320,
+          "rawPrice": 320
+        },
+        {
+          "date": "2026-04-16",
+          "price": 440,
+          "rawPrice": 440
+        },
+        {
+          "date": "2026-04-17",
+          "price": 450,
+          "rawPrice": 450
+        },
+        {
+          "date": "2026-04-18",
+          "price": 410,
+          "rawPrice": 410
+        },
+        {
+          "date": "2026-04-19",
+          "price": 430,
+          "rawPrice": 430
+        },
+        {
+          "date": "2026-04-20",
+          "price": 430,
+          "rawPrice": 430
+        },
+        {
+          "date": "2026-04-21",
+          "price": 430,
+          "rawPrice": 430
+        },
+        {
+          "date": "2026-04-22",
+          "price": 380,
+          "rawPrice": 380
+        },
+        {
+          "date": "2026-04-23",
+          "price": 380,
+          "rawPrice": 380
+        },
+        {
+          "date": "2026-04-24",
+          "price": 380,
+          "rawPrice": 380
+        },
+        {
+          "date": "2026-04-25",
+          "price": 310,
+          "rawPrice": 310
+        },
+        {
+          "date": "2026-04-26",
+          "price": 310,
+          "rawPrice": 310
+        },
+        {
+          "date": "2026-04-27",
+          "price": 310,
+          "rawPrice": 310
+        },
+        {
+          "date": "2026-04-28",
+          "price": 310,
+          "rawPrice": 310
+        },
+        {
+          "date": "2026-04-29",
+          "price": 310,
+          "rawPrice": 310
+        },
+        {
+          "date": "2026-04-30",
+          "price": 300,
+          "rawPrice": 300
+        },
+        {
+          "date": "2026-05-01",
+          "price": 300,
+          "rawPrice": 300
+        },
+        {
+          "date": "2026-05-02",
+          "price": 380,
+          "rawPrice": 380
+        },
+        {
+          "date": "2026-05-03",
+          "price": 400,
+          "rawPrice": 400
+        },
+        {
+          "date": "2026-05-04",
+          "price": 400,
+          "rawPrice": 400
+        },
+        {
+          "date": "2026-05-05",
+          "price": 400,
+          "rawPrice": 400
+        },
+        {
+          "date": "2026-05-06",
+          "price": 430,
+          "rawPrice": 430
+        },
+        {
+          "date": "2026-05-07",
+          "price": 430,
+          "rawPrice": 430
+        },
+        {
+          "date": "2026-05-08",
+          "price": 430,
+          "rawPrice": 430
+        },
+        {
+          "date": "2026-05-09",
+          "price": 390,
+          "rawPrice": 390
+        },
+        {
+          "date": "2026-05-10",
+          "price": 430,
+          "rawPrice": 430
+        },
+        {
+          "date": "2026-05-11",
+          "price": 430,
+          "rawPrice": 430
+        },
+        {
+          "date": "2026-05-12",
+          "price": 430,
+          "rawPrice": 430
+        },
+        {
+          "date": "2026-05-13",
+          "price": 430,
+          "rawPrice": 430
+        },
+        {
+          "date": "2026-05-14",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-05-15",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-05-16",
+          "price": 430,
+          "rawPrice": 430
+        },
+        {
+          "date": "2026-05-17",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-05-18",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-05-19",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-05-20",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-05-21",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-05-22",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-05-23",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-05-24",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-05-25",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-05-27",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-05-28",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-05-29",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-05-30",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-05-31",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-06-01",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-06-02",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-06-03",
+          "price": 540,
+          "rawPrice": 540
+        },
+        {
+          "date": "2026-06-04",
+          "price": 540,
+          "rawPrice": 540
+        },
+        {
+          "date": "2026-06-18",
+          "price": 540,
+          "rawPrice": 540
+        },
+        {
+          "date": "2026-06-19",
+          "price": 540,
+          "rawPrice": 540
+        },
+        {
+          "date": "2026-06-20",
+          "price": 510,
+          "rawPrice": 510
+        },
+        {
+          "date": "2026-06-21",
+          "price": 510,
+          "rawPrice": 510
+        },
+        {
+          "date": "2026-06-22",
+          "price": 510,
+          "rawPrice": 510
+        },
+        {
+          "date": "2026-06-23",
+          "price": 510,
+          "rawPrice": 510
+        },
+        {
+          "date": "2026-06-24",
+          "price": 470,
+          "rawPrice": 470
+        },
+        {
+          "date": "2026-06-25",
+          "price": 470,
+          "rawPrice": 470
+        },
+        {
+          "date": "2026-06-26",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-06-27",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-06-28",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-06-29",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-06-30",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-07-01",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-07-02",
+          "price": 500,
+          "rawPrice": 500
+        },
+        {
+          "date": "2026-07-03",
+          "price": 470,
+          "rawPrice": 470
+        },
+        {
+          "date": "2026-07-04",
+          "price": 470,
+          "rawPrice": 470
+        },
+        {
+          "date": "2026-07-05",
+          "price": 470,
+          "rawPrice": 470
+        },
+        {
+          "date": "2026-07-06",
+          "price": 470,
+          "rawPrice": 470
+        },
+        {
+          "date": "2026-07-07",
+          "price": 470,
+          "rawPrice": 470
+        },
+        {
+          "date": "2026-07-08",
+          "price": 470,
+          "rawPrice": 470
+        },
+        {
+          "date": "2026-07-09",
+          "price": 470,
+          "rawPrice": 470
+        },
+        {
+          "date": "2026-09-12",
+          "price": 800,
+          "rawPrice": 800
+        },
+        {
+          "date": "2026-09-13",
+          "price": 870,
+          "rawPrice": 870
+        },
+        {
+          "date": "2026-09-14",
+          "price": 870,
+          "rawPrice": 870
+        },
+        {
+          "date": "2026-09-15",
+          "price": 870,
+          "rawPrice": 870
+        },
+        {
+          "date": "2026-09-16",
+          "price": 870,
+          "rawPrice": 870
+        },
+        {
+          "date": "2026-09-17",
+          "price": 950,
+          "rawPrice": 950
+        },
+        {
+          "date": "2026-09-18",
+          "price": 950,
+          "rawPrice": 950
+        },
+        {
+          "date": "2026-09-20",
+          "price": 1090,
+          "rawPrice": 1090
+        },
+        {
+          "date": "2026-09-21",
+          "price": 1090,
+          "rawPrice": 1090
+        },
+        {
+          "date": "2026-09-22",
+          "price": 1090,
+          "rawPrice": 1090
+        },
+        {
+          "date": "2026-09-23",
+          "price": 1090,
+          "rawPrice": 1090
+        },
+        {
+          "date": "2026-09-24",
+          "price": 1090,
+          "rawPrice": 1090
+        },
+        {
+          "date": "2026-09-25",
+          "price": 1090,
+          "rawPrice": 1090
+        },
+        {
+          "date": "2026-09-26",
+          "price": 1090,
+          "rawPrice": 1090
+        },
+        {
+          "date": "2026-09-27",
+          "price": 1020,
+          "rawPrice": 1020
+        },
+        {
+          "date": "2026-09-28",
+          "price": 1020,
+          "rawPrice": 1020
+        },
+        {
+          "date": "2026-09-29",
+          "price": 1020,
+          "rawPrice": 1020
+        },
+        {
+          "date": "2026-09-30",
+          "price": 1020,
+          "rawPrice": 1020
+        },
+        {
+          "date": "2026-10-01",
+          "price": 1100,
+          "rawPrice": 1100
+        },
+        {
+          "date": "2026-10-02",
+          "price": 1100,
+          "rawPrice": 1100
+        },
+        {
+          "date": "2026-10-03",
+          "price": 1100,
+          "rawPrice": 1100
+        },
+        {
+          "date": "2026-10-04",
+          "price": 1200,
+          "rawPrice": 1200
+        },
+        {
+          "date": "2026-10-05",
+          "price": 1200,
+          "rawPrice": 1200
+        },
+        {
+          "date": "2026-10-06",
+          "price": 1200,
+          "rawPrice": 1200
+        },
+        {
+          "date": "2026-10-07",
+          "price": 1350,
+          "rawPrice": 1350
+        },
+        {
+          "date": "2026-10-08",
+          "price": 1380,
+          "rawPrice": 1380
+        },
+        {
+          "date": "2026-10-09",
+          "price": 1380,
+          "rawPrice": 1380
+        },
+        {
+          "date": "2026-10-10",
+          "price": 1310,
+          "rawPrice": 1310
+        },
+        {
+          "date": "2026-10-11",
+          "price": 1380,
+          "rawPrice": 1380
+        },
+        {
+          "date": "2026-10-12",
+          "price": 1380,
+          "rawPrice": 1380
+        },
+        {
+          "date": "2026-10-13",
+          "price": 1380,
+          "rawPrice": 1380
+        },
+        {
+          "date": "2026-10-14",
+          "price": 1450,
+          "rawPrice": 1450
+        },
+        {
+          "date": "2026-10-15",
+          "price": 1450,
+          "rawPrice": 1450
+        },
+        {
+          "date": "2026-10-16",
+          "price": 1450,
+          "rawPrice": 1450
+        },
+        {
+          "date": "2026-10-17",
+          "price": 1310,
+          "rawPrice": 1310
+        },
+        {
+          "date": "2026-10-18",
+          "price": 1310,
+          "rawPrice": 1310
+        },
+        {
+          "date": "2026-10-19",
+          "price": 1310,
+          "rawPrice": 1310
+        },
+        {
+          "date": "2026-10-20",
+          "price": 1390,
+          "rawPrice": 1390
+        },
+        {
+          "date": "2026-10-21",
+          "price": 1390,
+          "rawPrice": 1390
+        },
+        {
+          "date": "2026-10-22",
+          "price": 1450,
+          "rawPrice": 1450
+        },
+        {
+          "date": "2026-10-23",
+          "price": 1420,
+          "rawPrice": 1420
+        },
+        {
+          "date": "2026-10-24",
+          "price": 1310,
+          "rawPrice": 1310
+        },
+        {
+          "date": "2026-10-25",
+          "price": 1310,
+          "rawPrice": 1310
+        },
+        {
+          "date": "2026-10-26",
+          "price": 1310,
+          "rawPrice": 1310
+        },
+        {
+          "date": "2026-10-27",
+          "price": 1310,
+          "rawPrice": 1310
+        },
+        {
+          "date": "2026-10-28",
+          "price": 1300,
+          "rawPrice": 1300
+        },
+        {
+          "date": "2026-10-29",
+          "price": 1450,
+          "rawPrice": 1450
+        },
+        {
+          "date": "2026-10-31",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-11-01",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-11-02",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-11-03",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-11-04",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-11-05",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-11-06",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-11-07",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-11-08",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-11-09",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-11-10",
+          "price": 1480,
+          "rawPrice": 1480
+        },
+        {
+          "date": "2026-11-11",
+          "price": 1430,
+          "rawPrice": 1430
+        },
+        {
+          "date": "2026-11-12",
+          "price": 1410,
+          "rawPrice": 1410
+        },
+        {
+          "date": "2026-11-13",
+          "price": 1390,
+          "rawPrice": 1390
+        },
+        {
+          "date": "2026-11-14",
+          "price": 1370,
+          "rawPrice": 1370
+        },
+        {
+          "date": "2026-11-15",
+          "price": 1370,
+          "rawPrice": 1370
+        },
+        {
+          "date": "2026-11-16",
+          "price": 1370,
+          "rawPrice": 1370
+        },
+        {
+          "date": "2026-11-17",
+          "price": 1370,
+          "rawPrice": 1370
+        },
+        {
+          "date": "2026-11-18",
+          "price": 1360,
+          "rawPrice": 1360
+        }
+      ]
+    }
+  ],
+  "chilis": [
+    {
+      "id": "dec81386-8295-4b63-9837-bd8a3bfb84d5",
+      "store": "Arpico",
+      "name": "Green Chillies 1Kg",
+      "pack": "1000g",
+      "mult": 1,
+      "points": [
+        {
+          "date": "2026-08-19",
+          "price": 1395,
+          "rawPrice": 1395
+        },
+        {
+          "date": "2026-08-20",
+          "price": 1375,
+          "rawPrice": 1375
+        },
+        {
+          "date": "2026-08-21",
+          "price": 1365,
+          "rawPrice": 1365
+        },
+        {
+          "date": "2026-08-22",
+          "price": 1365,
+          "rawPrice": 1365
+        },
+        {
+          "date": "2026-08-23",
+          "price": 1365,
+          "rawPrice": 1365
+        },
+        {
+          "date": "2026-08-24",
+          "price": 1255,
+          "rawPrice": 1255
+        },
+        {
+          "date": "2026-08-25",
+          "price": 1255,
+          "rawPrice": 1255
+        },
+        {
+          "date": "2026-08-26",
+          "price": 1225,
+          "rawPrice": 1225
+        },
+        {
+          "date": "2026-08-27",
+          "price": 1225,
+          "rawPrice": 1225
+        },
+        {
+          "date": "2026-08-28",
+          "price": 1225,
+          "rawPrice": 1225
+        },
+        {
+          "date": "2026-08-29",
+          "price": 1225,
+          "rawPrice": 1225
+        },
+        {
+          "date": "2026-08-30",
+          "price": 1188,
+          "rawPrice": 1188
+        },
+        {
+          "date": "2026-08-31",
+          "price": 1188,
+          "rawPrice": 1188
+        },
+        {
+          "date": "2026-09-01",
+          "price": 1065,
+          "rawPrice": 1065
+        },
+        {
+          "date": "2026-09-02",
+          "price": 1065,
+          "rawPrice": 1065
+        },
+        {
+          "date": "2026-09-03",
+          "price": 1065,
+          "rawPrice": 1065
+        },
+        {
+          "date": "2026-09-04",
+          "price": 825,
+          "rawPrice": 825
+        },
+        {
+          "date": "2026-09-05",
+          "price": 820,
+          "rawPrice": 820
+        },
+        {
+          "date": "2026-09-06",
+          "price": 820,
+          "rawPrice": 820
+        },
+        {
+          "date": "2026-09-07",
+          "price": 820,
+          "rawPrice": 820
+        },
+        {
+          "date": "2026-09-08",
+          "price": 732,
+          "rawPrice": 732
+        },
+        {
+          "date": "2026-09-09",
+          "price": 725,
+          "rawPrice": 725
+        },
+        {
+          "date": "2026-09-10",
+          "price": 725,
+          "rawPrice": 725
+        },
+        {
+          "date": "2026-09-11",
+          "price": 688,
+          "rawPrice": 688
+        },
+        {
+          "date": "2026-09-12",
+          "price": 688,
+          "rawPrice": 688
+        },
+        {
+          "date": "2026-09-13",
+          "price": 715,
+          "rawPrice": 715
+        },
+        {
+          "date": "2026-09-14",
+          "price": 715,
+          "rawPrice": 715
+        },
+        {
+          "date": "2026-09-15",
+          "price": 715,
+          "rawPrice": 715
+        },
+        {
+          "date": "2026-09-16",
+          "price": 715,
+          "rawPrice": 715
+        },
+        {
+          "date": "2026-09-17",
+          "price": 715,
+          "rawPrice": 715
+        },
+        {
+          "date": "2026-09-18",
+          "price": 715,
+          "rawPrice": 715
+        },
+        {
+          "date": "2026-09-20",
+          "price": 715,
+          "rawPrice": 715
+        },
+        {
+          "date": "2026-09-21",
+          "price": 715,
+          "rawPrice": 715
+        },
+        {
+          "date": "2026-09-22",
+          "price": 715,
+          "rawPrice": 715
+        },
+        {
+          "date": "2026-09-23",
+          "price": 715,
+          "rawPrice": 715
+        },
+        {
+          "date": "2026-09-24",
+          "price": 715,
+          "rawPrice": 715
+        },
+        {
+          "date": "2026-09-25",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-09-26",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-09-27",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-09-28",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-09-29",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-09-30",
+          "price": 665,
+          "rawPrice": 665
+        },
+        {
+          "date": "2026-10-01",
+          "price": 575,
+          "rawPrice": 575
+        },
+        {
+          "date": "2026-10-02",
+          "price": 575,
+          "rawPrice": 575
+        },
+        {
+          "date": "2026-10-03",
+          "price": 575,
+          "rawPrice": 575
+        },
+        {
+          "date": "2026-10-04",
+          "price": 575,
+          "rawPrice": 575
+        },
+        {
+          "date": "2026-10-05",
+          "price": 575,
+          "rawPrice": 575
+        },
+        {
+          "date": "2026-10-06",
+          "price": 600,
+          "rawPrice": 600
+        },
+        {
+          "date": "2026-10-07",
+          "price": 600,
+          "rawPrice": 600
+        },
+        {
+          "date": "2026-10-08",
+          "price": 600,
+          "rawPrice": 600
+        },
+        {
+          "date": "2026-10-09",
+          "price": 600,
+          "rawPrice": 600
+        },
+        {
+          "date": "2026-10-10",
+          "price": 600,
+          "rawPrice": 600
+        },
+        {
+          "date": "2026-10-11",
+          "price": 625,
+          "rawPrice": 625
+        },
+        {
+          "date": "2026-10-12",
+          "price": 625,
+          "rawPrice": 625
+        },
+        {
+          "date": "2026-10-13",
+          "price": 665,
+          "rawPrice": 665
+        },
+        {
+          "date": "2026-10-14",
+          "price": 665,
+          "rawPrice": 665
+        },
+        {
+          "date": "2026-10-15",
+          "price": 665,
+          "rawPrice": 665
+        },
+        {
+          "date": "2026-10-16",
+          "price": 680,
+          "rawPrice": 680
+        },
+        {
+          "date": "2026-10-17",
+          "price": 675,
+          "rawPrice": 675
+        },
+        {
+          "date": "2026-10-18",
+          "price": 675,
+          "rawPrice": 675
+        },
+        {
+          "date": "2026-10-19",
+          "price": 675,
+          "rawPrice": 675
+        },
+        {
+          "date": "2026-10-20",
+          "price": 680,
+          "rawPrice": 680
+        },
+        {
+          "date": "2026-10-21",
+          "price": 635,
+          "rawPrice": 635
+        },
+        {
+          "date": "2026-10-22",
+          "price": 635,
+          "rawPrice": 635
+        },
+        {
+          "date": "2026-10-23",
+          "price": 635,
+          "rawPrice": 635
+        },
+        {
+          "date": "2026-10-24",
+          "price": 635,
+          "rawPrice": 635
+        },
+        {
+          "date": "2026-10-25",
+          "price": 638,
+          "rawPrice": 638
+        },
+        {
+          "date": "2026-10-26",
+          "price": 638,
+          "rawPrice": 638
+        },
+        {
+          "date": "2026-10-27",
+          "price": 638,
+          "rawPrice": 638
+        },
+        {
+          "date": "2026-10-28",
+          "price": 615,
+          "rawPrice": 615
+        },
+        {
+          "date": "2026-10-29",
+          "price": 685,
+          "rawPrice": 685
+        },
+        {
+          "date": "2026-10-30",
+          "price": 685,
+          "rawPrice": 685
+        },
+        {
+          "date": "2026-10-31",
+          "price": 685,
+          "rawPrice": 685
+        },
+        {
+          "date": "2026-11-01",
+          "price": 685,
+          "rawPrice": 685
+        },
+        {
+          "date": "2026-11-02",
+          "price": 685,
+          "rawPrice": 685
+        },
+        {
+          "date": "2026-11-03",
+          "price": 688,
+          "rawPrice": 688
+        },
+        {
+          "date": "2026-11-04",
+          "price": 688,
+          "rawPrice": 688
+        },
+        {
+          "date": "2026-11-05",
+          "price": 688,
+          "rawPrice": 688
+        },
+        {
+          "date": "2026-11-06",
+          "price": 688,
+          "rawPrice": 688
+        },
+        {
+          "date": "2026-11-07",
+          "price": 688,
+          "rawPrice": 688
+        },
+        {
+          "date": "2026-11-08",
+          "price": 688,
+          "rawPrice": 688
+        },
+        {
+          "date": "2026-11-09",
+          "price": 688,
+          "rawPrice": 688
+        },
+        {
+          "date": "2026-11-10",
+          "price": 688,
+          "rawPrice": 688
+        },
+        {
+          "date": "2026-11-11",
+          "price": 599,
+          "rawPrice": 599
+        },
+        {
+          "date": "2026-11-12",
+          "price": 580,
+          "rawPrice": 580
+        },
+        {
+          "date": "2026-11-13",
+          "price": 580,
+          "rawPrice": 580
+        },
+        {
+          "date": "2026-11-15",
+          "price": 555,
+          "rawPrice": 555
+        },
+        {
+          "date": "2026-11-16",
+          "price": 555,
+          "rawPrice": 555
+        },
+        {
+          "date": "2026-11-17",
+          "price": 560,
+          "rawPrice": 560
+        },
+        {
+          "date": "2026-11-18",
+          "price": 545,
+          "rawPrice": 545
+        }
+      ]
+    },
+    {
+      "id": "df6e219d-2e5b-7e70-a50d-f135303cd1df",
+      "store": "Keells",
+      "name": "Organic Green Chilies",
+      "pack": "1kg",
+      "mult": 1,
+      "points": [
+        {
+          "date": "2026-03-24",
+          "price": 620,
+          "rawPrice": 620
+        },
+        {
+          "date": "2026-03-24",
+          "price": 620,
+          "rawPrice": 620
+        },
+        {
+          "date": "2026-03-25",
+          "price": 620,
+          "rawPrice": 620
+        },
+        {
+          "date": "2026-03-26",
+          "price": 680,
+          "rawPrice": 680
+        },
+        {
+          "date": "2026-03-27",
+          "price": 680,
+          "rawPrice": 680
+        },
+        {
+          "date": "2026-03-28",
+          "price": 680,
+          "rawPrice": 680
+        },
+        {
+          "date": "2026-03-29",
+          "price": 620,
+          "rawPrice": 620
+        },
+        {
+          "date": "2026-03-30",
+          "price": 620,
+          "rawPrice": 620
+        },
+        {
+          "date": "2026-03-31",
+          "price": 650,
+          "rawPrice": 650
+        },
+        {
+          "date": "2026-03-31",
+          "price": 650,
+          "rawPrice": 650
+        },
+        {
+          "date": "2026-03-31",
+          "price": 650,
+          "rawPrice": 650
+        },
+        {
+          "date": "2026-04-01",
+          "price": 650,
+          "rawPrice": 650
+        },
+        {
+          "date": "2026-04-02",
+          "price": 650,
+          "rawPrice": 650
+        },
+        {
+          "date": "2026-04-03",
+          "price": 670,
+          "rawPrice": 670
+        },
+        {
+          "date": "2026-04-04",
+          "price": 730,
+          "rawPrice": 730
+        },
+        {
+          "date": "2026-04-05",
+          "price": 660,
+          "rawPrice": 660
+        },
+        {
+          "date": "2026-04-06",
+          "price": 660,
+          "rawPrice": 660
+        },
+        {
+          "date": "2026-04-07",
+          "price": 730,
+          "rawPrice": 730
+        },
+        {
+          "date": "2026-04-08",
+          "price": 730,
+          "rawPrice": 730
+        },
+        {
+          "date": "2026-04-09",
+          "price": 760,
+          "rawPrice": 760
+        },
+        {
+          "date": "2026-04-10",
+          "price": 760,
+          "rawPrice": 760
+        },
+        {
+          "date": "2026-04-11",
+          "price": 760,
+          "rawPrice": 760
+        },
+        {
+          "date": "2026-04-12",
+          "price": 710,
+          "rawPrice": 710
+        },
+        {
+          "date": "2026-04-13",
+          "price": 710,
+          "rawPrice": 710
+        },
+        {
+          "date": "2026-04-14",
+          "price": 760,
+          "rawPrice": 760
+        },
+        {
+          "date": "2026-04-16",
+          "price": 710,
+          "rawPrice": 710
+        },
+        {
+          "date": "2026-04-17",
+          "price": 660,
+          "rawPrice": 660
+        },
+        {
+          "date": "2026-04-18",
+          "price": 760,
+          "rawPrice": 760
+        },
+        {
+          "date": "2026-04-19",
+          "price": 650,
+          "rawPrice": 650
+        },
+        {
+          "date": "2026-04-20",
+          "price": 650,
+          "rawPrice": 650
+        },
+        {
+          "date": "2026-04-21",
+          "price": 680,
+          "rawPrice": 680
+        },
+        {
+          "date": "2026-04-22",
+          "price": 760,
+          "rawPrice": 760
+        },
+        {
+          "date": "2026-04-23",
+          "price": 660,
+          "rawPrice": 660
+        },
+        {
+          "date": "2026-04-24",
+          "price": 670,
+          "rawPrice": 670
+        },
+        {
+          "date": "2026-04-25",
+          "price": 640,
+          "rawPrice": 640
+        },
+        {
+          "date": "2026-04-26",
+          "price": 640,
+          "rawPrice": 640
+        },
+        {
+          "date": "2026-04-27",
+          "price": 640,
+          "rawPrice": 640
+        },
+        {
+          "date": "2026-04-28",
+          "price": 640,
+          "rawPrice": 640
+        },
+        {
+          "date": "2026-04-29",
+          "price": 520,
+          "rawPrice": 520
+        },
+        {
+          "date": "2026-04-30",
+          "price": 460,
+          "rawPrice": 460
+        },
+        {
+          "date": "2026-05-01",
+          "price": 460,
+          "rawPrice": 460
+        },
+        {
+          "date": "2026-05-02",
+          "price": 410,
+          "rawPrice": 410
+        },
+        {
+          "date": "2026-05-03",
+          "price": 410,
+          "rawPrice": 410
+        },
+        {
+          "date": "2026-05-04",
+          "price": 410,
+          "rawPrice": 410
+        },
+        {
+          "date": "2026-05-05",
+          "price": 420,
+          "rawPrice": 420
+        },
+        {
+          "date": "2026-05-06",
+          "price": 420,
+          "rawPrice": 420
+        },
+        {
+          "date": "2026-05-07",
+          "price": 390,
+          "rawPrice": 390
+        },
+        {
+          "date": "2026-05-08",
+          "price": 380,
+          "rawPrice": 380
+        },
+        {
+          "date": "2026-05-09",
+          "price": 390,
+          "rawPrice": 390
+        },
+        {
+          "date": "2026-05-10",
+          "price": 360,
+          "rawPrice": 360
+        },
+        {
+          "date": "2026-05-11",
+          "price": 360,
+          "rawPrice": 360
+        },
+        {
+          "date": "2026-05-12",
+          "price": 380,
+          "rawPrice": 380
+        },
+        {
+          "date": "2026-05-13",
+          "price": 380,
+          "rawPrice": 380
+        },
+        {
+          "date": "2026-05-14",
+          "price": 440,
+          "rawPrice": 440
+        },
+        {
+          "date": "2026-05-15",
+          "price": 440,
+          "rawPrice": 440
+        },
+        {
+          "date": "2026-05-16",
+          "price": 440,
+          "rawPrice": 440
+        },
+        {
+          "date": "2026-05-17",
+          "price": 980,
+          "rawPrice": 980
+        },
+        {
+          "date": "2026-05-18",
+          "price": 980,
+          "rawPrice": 980
+        },
+        {
+          "date": "2026-05-19",
+          "price": 480,
+          "rawPrice": 480
+        },
+        {
+          "date": "2026-05-20",
+          "price": 480,
+          "rawPrice": 480
+        },
+        {
+          "date": "2026-05-21",
+          "price": 480,
+          "rawPrice": 480
+        },
+        {
+          "date": "2026-05-22",
+          "price": 480,
+          "rawPrice": 480
+        },
+        {
+          "date": "2026-05-23",
+          "price": 460,
+          "rawPrice": 460
+        },
+        {
+          "date": "2026-05-24",
+          "price": 460,
+          "rawPrice": 460
+        },
+        {
+          "date": "2026-05-25",
+          "price": 460,
+          "rawPrice": 460
+        },
+        {
+          "date": "2026-05-27",
+          "price": 460,
+          "rawPrice": 460
+        },
+        {
+          "date": "2026-05-28",
+          "price": 460,
+          "rawPrice": 460
+        },
+        {
+          "date": "2026-05-29",
+          "price": 460,
+          "rawPrice": 460
+        },
+        {
+          "date": "2026-05-30",
+          "price": 460,
+          "rawPrice": 460
+        },
+        {
+          "date": "2026-05-31",
+          "price": 440,
+          "rawPrice": 440
+        },
+        {
+          "date": "2026-06-01",
+          "price": 440,
+          "rawPrice": 440
+        },
+        {
+          "date": "2026-06-02",
+          "price": 570,
+          "rawPrice": 570
+        },
+        {
+          "date": "2026-06-03",
+          "price": 570,
+          "rawPrice": 570
+        },
+        {
+          "date": "2026-06-04",
+          "price": 730,
+          "rawPrice": 730
+        },
+        {
+          "date": "2026-06-18",
+          "price": 900,
+          "rawPrice": 900
+        },
+        {
+          "date": "2026-06-19",
+          "price": 980,
+          "rawPrice": 980
+        },
+        {
+          "date": "2026-06-20",
+          "price": 1140,
+          "rawPrice": 1140
+        },
+        {
+          "date": "2026-06-21",
+          "price": 1140,
+          "rawPrice": 1140
+        },
+        {
+          "date": "2026-06-22",
+          "price": 1140,
+          "rawPrice": 1140
+        },
+        {
+          "date": "2026-06-23",
+          "price": 1160,
+          "rawPrice": 1160
+        },
+        {
+          "date": "2026-06-24",
+          "price": 1260,
+          "rawPrice": 1260
+        },
+        {
+          "date": "2026-06-25",
+          "price": 1260,
+          "rawPrice": 1260
+        },
+        {
+          "date": "2026-06-26",
+          "price": 1530,
+          "rawPrice": 1530
+        },
+        {
+          "date": "2026-06-27",
+          "price": 1550,
+          "rawPrice": 1550
+        },
+        {
+          "date": "2026-06-28",
+          "price": 1470,
+          "rawPrice": 1470
+        },
+        {
+          "date": "2026-06-29",
+          "price": 1470,
+          "rawPrice": 1470
+        },
+        {
+          "date": "2026-06-30",
+          "price": 1550,
+          "rawPrice": 1550
+        },
+        {
+          "date": "2026-07-01",
+          "price": 1660,
+          "rawPrice": 1660
+        },
+        {
+          "date": "2026-07-02",
+          "price": 1890,
+          "rawPrice": 1890
+        },
+        {
+          "date": "2026-07-03",
+          "price": 1890,
+          "rawPrice": 1890
+        },
+        {
+          "date": "2026-07-04",
+          "price": 1560,
+          "rawPrice": 1560
+        },
+        {
+          "date": "2026-07-05",
+          "price": 1560,
+          "rawPrice": 1560
+        },
+        {
+          "date": "2026-07-06",
+          "price": 1560,
+          "rawPrice": 1560
+        },
+        {
+          "date": "2026-07-07",
+          "price": 1560,
+          "rawPrice": 1560
+        },
+        {
+          "date": "2026-07-08",
+          "price": 1730,
+          "rawPrice": 1730
+        },
+        {
+          "date": "2026-07-09",
+          "price": 1720,
+          "rawPrice": 1720
+        },
+        {
+          "date": "2026-07-11",
+          "price": 1950,
+          "rawPrice": 1950
+        },
+        {
+          "date": "2026-07-13",
+          "price": 1770,
+          "rawPrice": 1770
+        },
+        {
+          "date": "2026-07-14",
+          "price": 2150,
+          "rawPrice": 2150
+        },
+        {
+          "date": "2026-07-15",
+          "price": 2250,
+          "rawPrice": 2250
+        },
+        {
+          "date": "2026-07-16",
+          "price": 2330,
+          "rawPrice": 2330
+        },
+        {
+          "date": "2026-07-17",
+          "price": 2410,
+          "rawPrice": 2410
+        },
+        {
+          "date": "2026-07-20",
+          "price": 2460,
+          "rawPrice": 2460
+        },
+        {
+          "date": "2026-07-21",
+          "price": 2590,
+          "rawPrice": 2590
+        },
+        {
+          "date": "2026-07-22",
+          "price": 2590,
+          "rawPrice": 2590
+        },
+        {
+          "date": "2026-07-23",
+          "price": 2730,
+          "rawPrice": 2730
+        },
+        {
+          "date": "2026-07-24",
+          "price": 2550,
+          "rawPrice": 2550
+        },
+        {
+          "date": "2026-07-25",
+          "price": 2570,
+          "rawPrice": 2570
+        },
+        {
+          "date": "2026-07-26",
+          "price": 2590,
+          "rawPrice": 2590
+        },
+        {
+          "date": "2026-07-27",
+          "price": 2590,
+          "rawPrice": 2590
+        },
+        {
+          "date": "2026-07-28",
+          "price": 2570,
+          "rawPrice": 2570
+        },
+        {
+          "date": "2026-07-29",
+          "price": 2570,
+          "rawPrice": 2570
+        },
+        {
+          "date": "2026-07-30",
+          "price": 2570,
+          "rawPrice": 2570
+        },
+        {
+          "date": "2026-07-31",
+          "price": 2570,
+          "rawPrice": 2570
+        },
+        {
+          "date": "2026-08-01",
+          "price": 2570,
+          "rawPrice": 2570
+        },
+        {
+          "date": "2026-08-02",
+          "price": 2570,
+          "rawPrice": 2570
+        },
+        {
+          "date": "2026-08-03",
+          "price": 2570,
+          "rawPrice": 2570
+        },
+        {
+          "date": "2026-08-04",
+          "price": 2570,
+          "rawPrice": 2570
+        },
+        {
+          "date": "2026-08-05",
+          "price": 2560,
+          "rawPrice": 2560
+        },
+        {
+          "date": "2026-08-06",
+          "price": 2370,
+          "rawPrice": 2370
+        },
+        {
+          "date": "2026-08-07",
+          "price": 2170,
+          "rawPrice": 2170
+        },
+        {
+          "date": "2026-08-08",
+          "price": 1890,
+          "rawPrice": 1890
+        },
+        {
+          "date": "2026-08-09",
+          "price": 2560,
+          "rawPrice": 2560
+        },
+        {
+          "date": "2026-08-11",
+          "price": 2010,
+          "rawPrice": 2010
+        },
+        {
+          "date": "2026-08-12",
+          "price": 1980,
+          "rawPrice": 1980
+        },
+        {
+          "date": "2026-08-13",
+          "price": 1960,
+          "rawPrice": 1960
+        },
+        {
+          "date": "2026-08-14",
+          "price": 1960,
+          "rawPrice": 1960
+        },
+        {
+          "date": "2026-08-15",
+          "price": 1960,
+          "rawPrice": 1960
+        },
+        {
+          "date": "2026-08-16",
+          "price": 1960,
+          "rawPrice": 1960
+        },
+        {
+          "date": "2026-08-17",
+          "price": 1960,
+          "rawPrice": 1960
+        },
+        {
+          "date": "2026-08-18",
+          "price": 1820,
+          "rawPrice": 1820
+        },
+        {
+          "date": "2026-08-18",
+          "price": 1820,
+          "rawPrice": 1820
+        },
+        {
+          "date": "2026-08-19",
+          "price": 1810,
+          "rawPrice": 1810
+        },
+        {
+          "date": "2026-08-20",
+          "price": 1780,
+          "rawPrice": 1780
+        },
+        {
+          "date": "2026-08-21",
+          "price": 1780,
+          "rawPrice": 1780
+        },
+        {
+          "date": "2026-08-22",
+          "price": 1270,
+          "rawPrice": 1270
+        },
+        {
+          "date": "2026-08-23",
+          "price": 1270,
+          "rawPrice": 1270
+        },
+        {
+          "date": "2026-08-24",
+          "price": 1270,
+          "rawPrice": 1270
+        },
+        {
+          "date": "2026-08-25",
+          "price": 1270,
+          "rawPrice": 1270
+        },
+        {
+          "date": "2026-08-26",
+          "price": 1270,
+          "rawPrice": 1270
+        },
+        {
+          "date": "2026-08-27",
+          "price": 1270,
+          "rawPrice": 1270
+        },
+        {
+          "date": "2026-08-28",
+          "price": 1380,
+          "rawPrice": 1380
+        },
+        {
+          "date": "2026-08-29",
+          "price": 1390,
+          "rawPrice": 1390
+        },
+        {
+          "date": "2026-08-30",
+          "price": 1390,
+          "rawPrice": 1390
+        },
+        {
+          "date": "2026-08-31",
+          "price": 1390,
+          "rawPrice": 1390
+        },
+        {
+          "date": "2026-09-01",
+          "price": 1250,
+          "rawPrice": 1250
+        },
+        {
+          "date": "2026-09-02",
+          "price": 1250,
+          "rawPrice": 1250
+        },
+        {
+          "date": "2026-09-03",
+          "price": 1190,
+          "rawPrice": 1190
+        },
+        {
+          "date": "2026-09-04",
+          "price": 1190,
+          "rawPrice": 1190
+        },
+        {
+          "date": "2026-09-05",
+          "price": 1190,
+          "rawPrice": 1190
+        },
+        {
+          "date": "2026-09-06",
+          "price": 960,
+          "rawPrice": 960
+        },
+        {
+          "date": "2026-09-07",
+          "price": 960,
+          "rawPrice": 960
+        },
+        {
+          "date": "2026-09-08",
+          "price": 1190,
+          "rawPrice": 1190
+        },
+        {
+          "date": "2026-09-09",
+          "price": 1190,
+          "rawPrice": 1190
+        },
+        {
+          "date": "2026-09-10",
+          "price": 1140,
+          "rawPrice": 1140
+        },
+        {
+          "date": "2026-09-12",
+          "price": 1140,
+          "rawPrice": 1140
+        },
+        {
+          "date": "2026-09-13",
+          "price": 880,
+          "rawPrice": 880
+        },
+        {
+          "date": "2026-09-14",
+          "price": 880,
+          "rawPrice": 880
+        },
+        {
+          "date": "2026-09-15",
+          "price": 1140,
+          "rawPrice": 1140
+        },
+        {
+          "date": "2026-09-16",
+          "price": 1140,
+          "rawPrice": 1140
+        },
+        {
+          "date": "2026-09-17",
+          "price": 1020,
+          "rawPrice": 1020
+        },
+        {
+          "date": "2026-09-18",
+          "price": 1020,
+          "rawPrice": 1020
+        },
+        {
+          "date": "2026-09-20",
+          "price": 830,
+          "rawPrice": 830
+        },
+        {
+          "date": "2026-09-21",
+          "price": 830,
+          "rawPrice": 830
+        },
+        {
+          "date": "2026-09-22",
+          "price": 1020,
+          "rawPrice": 1020
+        },
+        {
+          "date": "2026-09-23",
+          "price": 1020,
+          "rawPrice": 1020
+        },
+        {
+          "date": "2026-09-24",
+          "price": 1020,
+          "rawPrice": 1020
+        },
+        {
+          "date": "2026-09-25",
+          "price": 1020,
+          "rawPrice": 1020
+        },
+        {
+          "date": "2026-09-26",
+          "price": 1020,
+          "rawPrice": 1020
+        },
+        {
+          "date": "2026-09-27",
+          "price": 740,
+          "rawPrice": 740
+        },
+        {
+          "date": "2026-09-28",
+          "price": 740,
+          "rawPrice": 740
+        },
+        {
+          "date": "2026-09-29",
+          "price": 1020,
+          "rawPrice": 1020
+        },
+        {
+          "date": "2026-09-30",
+          "price": 1120,
+          "rawPrice": 1120
+        },
+        {
+          "date": "2026-10-01",
+          "price": 1040,
+          "rawPrice": 1040
+        },
+        {
+          "date": "2026-10-02",
+          "price": 1020,
+          "rawPrice": 1020
+        },
+        {
+          "date": "2026-10-03",
+          "price": 1020,
+          "rawPrice": 1020
+        },
+        {
+          "date": "2026-10-04",
+          "price": 680,
+          "rawPrice": 680
+        },
+        {
+          "date": "2026-10-05",
+          "price": 680,
+          "rawPrice": 680
+        },
+        {
+          "date": "2026-10-06",
+          "price": 1410,
+          "rawPrice": 1410
+        },
+        {
+          "date": "2026-10-07",
+          "price": 1020,
+          "rawPrice": 1020
+        },
+        {
+          "date": "2026-10-08",
+          "price": 960,
+          "rawPrice": 960
+        },
+        {
+          "date": "2026-10-09",
+          "price": 910,
+          "rawPrice": 910
+        },
+        {
+          "date": "2026-10-10",
+          "price": 830,
+          "rawPrice": 830
+        },
+        {
+          "date": "2026-10-11",
+          "price": 900,
+          "rawPrice": 900
+        },
+        {
+          "date": "2026-10-12",
+          "price": 900,
+          "rawPrice": 900
+        },
+        {
+          "date": "2026-10-13",
+          "price": 910,
+          "rawPrice": 910
+        },
+        {
+          "date": "2026-10-14",
+          "price": 910,
+          "rawPrice": 910
+        },
+        {
+          "date": "2026-10-15",
+          "price": 1020,
+          "rawPrice": 1020
+        },
+        {
+          "date": "2026-10-16",
+          "price": 1020,
+          "rawPrice": 1020
+        },
+        {
+          "date": "2026-10-17",
+          "price": 1020,
+          "rawPrice": 1020
+        },
+        {
+          "date": "2026-10-18",
+          "price": 980,
+          "rawPrice": 980
+        },
+        {
+          "date": "2026-10-19",
+          "price": 980,
+          "rawPrice": 980
+        },
+        {
+          "date": "2026-10-20",
+          "price": 1020,
+          "rawPrice": 1020
+        },
+        {
+          "date": "2026-10-21",
+          "price": 1020,
+          "rawPrice": 1020
+        },
+        {
+          "date": "2026-10-22",
+          "price": 1020,
+          "rawPrice": 1020
+        },
+        {
+          "date": "2026-10-23",
+          "price": 1020,
+          "rawPrice": 1020
+        },
+        {
+          "date": "2026-10-24",
+          "price": 1080,
+          "rawPrice": 1080
+        },
+        {
+          "date": "2026-10-25",
+          "price": 990,
+          "rawPrice": 990
+        },
+        {
+          "date": "2026-10-26",
+          "price": 990,
+          "rawPrice": 990
+        },
+        {
+          "date": "2026-10-27",
+          "price": 980,
+          "rawPrice": 980
+        },
+        {
+          "date": "2026-10-28",
+          "price": 1000,
+          "rawPrice": 1000
+        },
+        {
+          "date": "2026-10-29",
+          "price": 1470,
+          "rawPrice": 1470
+        },
+        {
+          "date": "2026-10-31",
+          "price": 1080,
+          "rawPrice": 1080
+        },
+        {
+          "date": "2026-11-01",
+          "price": 1040,
+          "rawPrice": 1040
+        },
+        {
+          "date": "2026-11-02",
+          "price": 1040,
+          "rawPrice": 1040
+        },
+        {
+          "date": "2026-11-03",
+          "price": 950,
+          "rawPrice": 950
+        },
+        {
+          "date": "2026-11-04",
+          "price": 1080,
+          "rawPrice": 1080
+        },
+        {
+          "date": "2026-11-05",
+          "price": 1080,
+          "rawPrice": 1080
+        },
+        {
+          "date": "2026-11-06",
+          "price": 1080,
+          "rawPrice": 1080
+        },
+        {
+          "date": "2026-11-07",
+          "price": 1080,
+          "rawPrice": 1080
+        },
+        {
+          "date": "2026-11-08",
+          "price": 1060,
+          "rawPrice": 1060
+        },
+        {
+          "date": "2026-11-09",
+          "price": 1060,
+          "rawPrice": 1060
+        },
+        {
+          "date": "2026-11-10",
+          "price": 1080,
+          "rawPrice": 1080
+        },
+        {
+          "date": "2026-11-11",
+          "price": 1080,
+          "rawPrice": 1080
+        },
+        {
+          "date": "2026-11-12",
+          "price": 1080,
+          "rawPrice": 1080
+        },
+        {
+          "date": "2026-11-13",
+          "price": 1080,
+          "rawPrice": 1080
+        },
+        {
+          "date": "2026-11-14",
+          "price": 1020,
+          "rawPrice": 1020
+        },
+        {
+          "date": "2026-11-15",
+          "price": 730,
+          "rawPrice": 730
+        },
+        {
+          "date": "2026-11-16",
+          "price": 730,
+          "rawPrice": 730
+        },
+        {
+          "date": "2026-11-17",
+          "price": 1020,
+          "rawPrice": 1020
+        },
+        {
+          "date": "2026-11-18",
+          "price": 1020,
+          "rawPrice": 1020
+        }
+      ]
+    },
+    {
+      "id": "b1f4ccb9-181d-b38e-50b4-84c475162bcb",
+      "store": "Keells",
+      "name": "Green Chilies",
+      "pack": "1kg",
+      "mult": 1,
+      "points": [
+        {
+          "date": "2026-03-24",
+          "price": 480,
+          "rawPrice": 480
+        },
+        {
+          "date": "2026-03-24",
+          "price": 480,
+          "rawPrice": 480
+        },
+        {
+          "date": "2026-03-25",
+          "price": 480,
+          "rawPrice": 480
+        },
+        {
+          "date": "2026-03-26",
+          "price": 490,
+          "rawPrice": 490
+        },
+        {
+          "date": "2026-03-27",
+          "price": 470,
+          "rawPrice": 470
+        },
+        {
+          "date": "2026-03-28",
+          "price": 470,
+          "rawPrice": 470
+        },
+        {
+          "date": "2026-03-29",
+          "price": 480,
+          "rawPrice": 480
+        },
+        {
+          "date": "2026-03-30",
+          "price": 480,
+          "rawPrice": 480
+        },
+        {
+          "date": "2026-03-31",
+          "price": 480,
+          "rawPrice": 480
+        },
+        {
+          "date": "2026-03-31",
+          "price": 480,
+          "rawPrice": 480
+        },
+        {
+          "date": "2026-03-31",
+          "price": 480,
+          "rawPrice": 480
+        },
+        {
+          "date": "2026-04-01",
+          "price": 360,
+          "rawPrice": 360
+        },
+        {
+          "date": "2026-04-02",
+          "price": 360,
+          "rawPrice": 360
+        },
+        {
+          "date": "2026-04-03",
+          "price": 360,
+          "rawPrice": 360
+        },
+        {
+          "date": "2026-04-04",
+          "price": 360,
+          "rawPrice": 360
+        },
+        {
+          "date": "2026-04-05",
+          "price": 360,
+          "rawPrice": 360
+        },
+        {
+          "date": "2026-04-06",
+          "price": 360,
+          "rawPrice": 360
+        },
+        {
+          "date": "2026-04-07",
+          "price": 360,
+          "rawPrice": 360
+        },
+        {
+          "date": "2026-04-08",
+          "price": 360,
+          "rawPrice": 360
+        },
+        {
+          "date": "2026-04-09",
+          "price": 360,
+          "rawPrice": 360
+        },
+        {
+          "date": "2026-04-10",
+          "price": 360,
+          "rawPrice": 360
+        },
+        {
+          "date": "2026-04-11",
+          "price": 310,
+          "rawPrice": 310
+        },
+        {
+          "date": "2026-04-12",
+          "price": 310,
+          "rawPrice": 310
+        },
+        {
+          "date": "2026-04-13",
+          "price": 310,
+          "rawPrice": 310
+        },
+        {
+          "date": "2026-04-14",
+          "price": 360,
+          "rawPrice": 360
+        },
+        {
+          "date": "2026-04-16",
+          "price": 420,
+          "rawPrice": 420
+        },
+        {
+          "date": "2026-04-17",
+          "price": 360,
+          "rawPrice": 360
+        },
+        {
+          "date": "2026-04-18",
+          "price": 310,
+          "rawPrice": 310
+        },
+        {
+          "date": "2026-04-19",
+          "price": 310,
+          "rawPrice": 310
+        },
+        {
+          "date": "2026-04-20",
+          "price": 310,
+          "rawPrice": 310
+        },
+        {
+          "date": "2026-04-21",
+          "price": 310,
+          "rawPrice": 310
+        },
+        {
+          "date": "2026-04-22",
+          "price": 310,
+          "rawPrice": 310
+        },
+        {
+          "date": "2026-04-23",
+          "price": 310,
+          "rawPrice": 310
+        },
+        {
+          "date": "2026-04-24",
+          "price": 310,
+          "rawPrice": 310
+        },
+        {
+          "date": "2026-04-25",
+          "price": 260,
+          "rawPrice": 260
+        },
+        {
+          "date": "2026-04-26",
+          "price": 290,
+          "rawPrice": 290
+        },
+        {
+          "date": "2026-04-27",
+          "price": 290,
+          "rawPrice": 290
+        },
+        {
+          "date": "2026-04-28",
+          "price": 260,
+          "rawPrice": 260
+        },
+        {
+          "date": "2026-04-29",
+          "price": 220,
+          "rawPrice": 220
+        },
+        {
+          "date": "2026-04-30",
+          "price": 220,
+          "rawPrice": 220
+        },
+        {
+          "date": "2026-05-01",
+          "price": 220,
+          "rawPrice": 220
+        },
+        {
+          "date": "2026-05-02",
+          "price": 250,
+          "rawPrice": 250
+        },
+        {
+          "date": "2026-05-03",
+          "price": 250,
+          "rawPrice": 250
+        },
+        {
+          "date": "2026-05-04",
+          "price": 250,
+          "rawPrice": 250
+        },
+        {
+          "date": "2026-05-05",
+          "price": 250,
+          "rawPrice": 250
+        },
+        {
+          "date": "2026-05-06",
+          "price": 250,
+          "rawPrice": 250
+        },
+        {
+          "date": "2026-05-07",
+          "price": 250,
+          "rawPrice": 250
+        },
+        {
+          "date": "2026-05-08",
+          "price": 250,
+          "rawPrice": 250
+        },
+        {
+          "date": "2026-05-09",
+          "price": 240,
+          "rawPrice": 240
+        },
+        {
+          "date": "2026-05-10",
+          "price": 240,
+          "rawPrice": 240
+        },
+        {
+          "date": "2026-05-11",
+          "price": 240,
+          "rawPrice": 240
+        },
+        {
+          "date": "2026-05-12",
+          "price": 260,
+          "rawPrice": 260
+        },
+        {
+          "date": "2026-05-13",
+          "price": 260,
+          "rawPrice": 260
+        },
+        {
+          "date": "2026-05-14",
+          "price": 300,
+          "rawPrice": 300
+        },
+        {
+          "date": "2026-05-15",
+          "price": 300,
+          "rawPrice": 300
+        },
+        {
+          "date": "2026-05-16",
+          "price": 260,
+          "rawPrice": 260
+        },
+        {
+          "date": "2026-05-17",
+          "price": 390,
+          "rawPrice": 390
+        },
+        {
+          "date": "2026-05-18",
+          "price": 390,
+          "rawPrice": 390
+        },
+        {
+          "date": "2026-05-19",
+          "price": 370,
+          "rawPrice": 370
+        },
+        {
+          "date": "2026-05-20",
+          "price": 370,
+          "rawPrice": 370
+        },
+        {
+          "date": "2026-05-21",
+          "price": 370,
+          "rawPrice": 370
+        },
+        {
+          "date": "2026-05-22",
+          "price": 370,
+          "rawPrice": 370
+        },
+        {
+          "date": "2026-05-23",
+          "price": 350,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-05-24",
+          "price": 350,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-05-25",
+          "price": 350,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-05-27",
+          "price": 350,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-05-28",
+          "price": 350,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-05-29",
+          "price": 350,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-05-30",
+          "price": 340,
+          "rawPrice": 340
+        },
+        {
+          "date": "2026-05-31",
+          "price": 340,
+          "rawPrice": 340
+        },
+        {
+          "date": "2026-06-01",
+          "price": 340,
+          "rawPrice": 340
+        },
+        {
+          "date": "2026-06-02",
+          "price": 440,
+          "rawPrice": 440
+        },
+        {
+          "date": "2026-06-03",
+          "price": 440,
+          "rawPrice": 440
+        },
+        {
+          "date": "2026-06-04",
+          "price": 440,
+          "rawPrice": 440
+        },
+        {
+          "date": "2026-06-18",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-06-19",
+          "price": 750,
+          "rawPrice": 750
+        },
+        {
+          "date": "2026-06-20",
+          "price": 880,
+          "rawPrice": 880
+        },
+        {
+          "date": "2026-06-21",
+          "price": 880,
+          "rawPrice": 880
+        },
+        {
+          "date": "2026-06-22",
+          "price": 880,
+          "rawPrice": 880
+        },
+        {
+          "date": "2026-06-23",
+          "price": 890,
+          "rawPrice": 890
+        },
+        {
+          "date": "2026-06-24",
+          "price": 970,
+          "rawPrice": 970
+        },
+        {
+          "date": "2026-06-25",
+          "price": 970,
+          "rawPrice": 970
+        },
+        {
+          "date": "2026-06-26",
+          "price": 1190,
+          "rawPrice": 1190
+        },
+        {
+          "date": "2026-06-27",
+          "price": 1190,
+          "rawPrice": 1190
+        },
+        {
+          "date": "2026-06-28",
+          "price": 1190,
+          "rawPrice": 1190
+        },
+        {
+          "date": "2026-06-29",
+          "price": 1190,
+          "rawPrice": 1190
+        },
+        {
+          "date": "2026-06-30",
+          "price": 1190,
+          "rawPrice": 1190
+        },
+        {
+          "date": "2026-07-01",
+          "price": 1280,
+          "rawPrice": 1280
+        },
+        {
+          "date": "2026-07-02",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-07-03",
+          "price": 1450,
+          "rawPrice": 1450
+        },
+        {
+          "date": "2026-07-04",
+          "price": 1200,
+          "rawPrice": 1200
+        },
+        {
+          "date": "2026-07-05",
+          "price": 1200,
+          "rawPrice": 1200
+        },
+        {
+          "date": "2026-07-06",
+          "price": 1200,
+          "rawPrice": 1200
+        },
+        {
+          "date": "2026-07-07",
+          "price": 1200,
+          "rawPrice": 1200
+        },
+        {
+          "date": "2026-07-08",
+          "price": 1200,
+          "rawPrice": 1200
+        },
+        {
+          "date": "2026-07-09",
+          "price": 1200,
+          "rawPrice": 1200
+        },
+        {
+          "date": "2026-07-11",
+          "price": 1540,
+          "rawPrice": 1540
+        },
+        {
+          "date": "2026-07-13",
+          "price": 1650,
+          "rawPrice": 1650
+        },
+        {
+          "date": "2026-07-14",
+          "price": 1650,
+          "rawPrice": 1650
+        },
+        {
+          "date": "2026-07-15",
+          "price": 1790,
+          "rawPrice": 1790
+        },
+        {
+          "date": "2026-07-16",
+          "price": 1790,
+          "rawPrice": 1790
+        },
+        {
+          "date": "2026-07-17",
+          "price": 1850,
+          "rawPrice": 1850
+        },
+        {
+          "date": "2026-07-18",
+          "price": 1850,
+          "rawPrice": 1850
+        },
+        {
+          "date": "2026-07-20",
+          "price": 1890,
+          "rawPrice": 1890
+        },
+        {
+          "date": "2026-07-21",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-07-22",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-07-23",
+          "price": 2100,
+          "rawPrice": 2100
+        },
+        {
+          "date": "2026-07-24",
+          "price": 2100,
+          "rawPrice": 2100
+        },
+        {
+          "date": "2026-07-25",
+          "price": 1980,
+          "rawPrice": 1980
+        },
+        {
+          "date": "2026-07-26",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-07-27",
+          "price": 1990,
+          "rawPrice": 1990
+        },
+        {
+          "date": "2026-07-28",
+          "price": 1980,
+          "rawPrice": 1980
+        },
+        {
+          "date": "2026-07-29",
+          "price": 1980,
+          "rawPrice": 1980
+        },
+        {
+          "date": "2026-07-30",
+          "price": 1980,
+          "rawPrice": 1980
+        },
+        {
+          "date": "2026-07-31",
+          "price": 1980,
+          "rawPrice": 1980
+        },
+        {
+          "date": "2026-08-01",
+          "price": 1980,
+          "rawPrice": 1980
+        },
+        {
+          "date": "2026-08-02",
+          "price": 1980,
+          "rawPrice": 1980
+        },
+        {
+          "date": "2026-08-03",
+          "price": 1980,
+          "rawPrice": 1980
+        },
+        {
+          "date": "2026-08-04",
+          "price": 1970,
+          "rawPrice": 1970
+        },
+        {
+          "date": "2026-08-05",
+          "price": 1970,
+          "rawPrice": 1970
+        },
+        {
+          "date": "2026-08-06",
+          "price": 1970,
+          "rawPrice": 1970
+        },
+        {
+          "date": "2026-08-07",
+          "price": 1670,
+          "rawPrice": 1670
+        },
+        {
+          "date": "2026-08-08",
+          "price": 1450,
+          "rawPrice": 1450
+        },
+        {
+          "date": "2026-08-09",
+          "price": 1670,
+          "rawPrice": 1670
+        },
+        {
+          "date": "2026-08-11",
+          "price": 1390,
+          "rawPrice": 1390
+        },
+        {
+          "date": "2026-08-12",
+          "price": 1390,
+          "rawPrice": 1390
+        },
+        {
+          "date": "2026-08-13",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-08-14",
+          "price": 1490,
+          "rawPrice": 1490
+        },
+        {
+          "date": "2026-08-15",
+          "price": 1450,
+          "rawPrice": 1450
+        },
+        {
+          "date": "2026-08-16",
+          "price": 1440,
+          "rawPrice": 1440
+        },
+        {
+          "date": "2026-08-17",
+          "price": 1440,
+          "rawPrice": 1440
+        },
+        {
+          "date": "2026-08-18",
+          "price": 1400,
+          "rawPrice": 1400
+        },
+        {
+          "date": "2026-08-18",
+          "price": 1400,
+          "rawPrice": 1400
+        },
+        {
+          "date": "2026-08-19",
+          "price": 1390,
+          "rawPrice": 1390
+        },
+        {
+          "date": "2026-08-20",
+          "price": 1370,
+          "rawPrice": 1370
+        },
+        {
+          "date": "2026-08-21",
+          "price": 1370,
+          "rawPrice": 1370
+        },
+        {
+          "date": "2026-08-22",
+          "price": 980,
+          "rawPrice": 980
+        },
+        {
+          "date": "2026-08-23",
+          "price": 980,
+          "rawPrice": 980
+        },
+        {
+          "date": "2026-08-24",
+          "price": 980,
+          "rawPrice": 980
+        },
+        {
+          "date": "2026-08-25",
+          "price": 980,
+          "rawPrice": 980
+        },
+        {
+          "date": "2026-08-26",
+          "price": 980,
+          "rawPrice": 980
+        },
+        {
+          "date": "2026-08-27",
+          "price": 980,
+          "rawPrice": 980
+        },
+        {
+          "date": "2026-08-28",
+          "price": 880,
+          "rawPrice": 880
+        },
+        {
+          "date": "2026-08-29",
+          "price": 880,
+          "rawPrice": 880
+        },
+        {
+          "date": "2026-08-30",
+          "price": 880,
+          "rawPrice": 880
+        },
+        {
+          "date": "2026-08-31",
+          "price": 880,
+          "rawPrice": 880
+        },
+        {
+          "date": "2026-09-01",
+          "price": 880,
+          "rawPrice": 880
+        },
+        {
+          "date": "2026-09-02",
+          "price": 860,
+          "rawPrice": 860
+        },
+        {
+          "date": "2026-09-03",
+          "price": 860,
+          "rawPrice": 860
+        },
+        {
+          "date": "2026-09-04",
+          "price": 860,
+          "rawPrice": 860
+        },
+        {
+          "date": "2026-09-05",
+          "price": 740,
+          "rawPrice": 740
+        },
+        {
+          "date": "2026-09-06",
+          "price": 740,
+          "rawPrice": 740
+        },
+        {
+          "date": "2026-09-07",
+          "price": 740,
+          "rawPrice": 740
+        },
+        {
+          "date": "2026-09-08",
+          "price": 740,
+          "rawPrice": 740
+        },
+        {
+          "date": "2026-09-09",
+          "price": 740,
+          "rawPrice": 740
+        },
+        {
+          "date": "2026-09-10",
+          "price": 740,
+          "rawPrice": 740
+        },
+        {
+          "date": "2026-09-12",
+          "price": 680,
+          "rawPrice": 680
+        },
+        {
+          "date": "2026-09-13",
+          "price": 680,
+          "rawPrice": 680
+        },
+        {
+          "date": "2026-09-14",
+          "price": 680,
+          "rawPrice": 680
+        },
+        {
+          "date": "2026-09-15",
+          "price": 680,
+          "rawPrice": 680
+        },
+        {
+          "date": "2026-09-16",
+          "price": 650,
+          "rawPrice": 650
+        },
+        {
+          "date": "2026-09-17",
+          "price": 650,
+          "rawPrice": 650
+        },
+        {
+          "date": "2026-09-18",
+          "price": 640,
+          "rawPrice": 640
+        },
+        {
+          "date": "2026-09-20",
+          "price": 640,
+          "rawPrice": 640
+        },
+        {
+          "date": "2026-09-21",
+          "price": 640,
+          "rawPrice": 640
+        },
+        {
+          "date": "2026-09-22",
+          "price": 640,
+          "rawPrice": 640
+        },
+        {
+          "date": "2026-09-23",
+          "price": 580,
+          "rawPrice": 580
+        },
+        {
+          "date": "2026-09-24",
+          "price": 580,
+          "rawPrice": 580
+        },
+        {
+          "date": "2026-09-25",
+          "price": 580,
+          "rawPrice": 580
+        },
+        {
+          "date": "2026-09-26",
+          "price": 570,
+          "rawPrice": 570
+        },
+        {
+          "date": "2026-09-27",
+          "price": 570,
+          "rawPrice": 570
+        },
+        {
+          "date": "2026-09-28",
+          "price": 570,
+          "rawPrice": 570
+        },
+        {
+          "date": "2026-09-29",
+          "price": 570,
+          "rawPrice": 570
+        },
+        {
+          "date": "2026-09-30",
+          "price": 560,
+          "rawPrice": 560
+        },
+        {
+          "date": "2026-10-01",
+          "price": 560,
+          "rawPrice": 560
+        },
+        {
+          "date": "2026-10-02",
+          "price": 550,
+          "rawPrice": 550
+        },
+        {
+          "date": "2026-10-03",
+          "price": 520,
+          "rawPrice": 520
+        },
+        {
+          "date": "2026-10-04",
+          "price": 520,
+          "rawPrice": 520
+        },
+        {
+          "date": "2026-10-05",
+          "price": 520,
+          "rawPrice": 520
+        },
+        {
+          "date": "2026-10-06",
+          "price": 520,
+          "rawPrice": 520
+        },
+        {
+          "date": "2026-10-07",
+          "price": 510,
+          "rawPrice": 510
+        },
+        {
+          "date": "2026-10-08",
+          "price": 510,
+          "rawPrice": 510
+        },
+        {
+          "date": "2026-10-09",
+          "price": 510,
+          "rawPrice": 510
+        },
+        {
+          "date": "2026-10-10",
+          "price": 510,
+          "rawPrice": 510
+        },
+        {
+          "date": "2026-10-11",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-10-12",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-10-13",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-10-14",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-10-15",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-10-16",
+          "price": 680,
+          "rawPrice": 680
+        },
+        {
+          "date": "2026-10-17",
+          "price": 680,
+          "rawPrice": 680
+        },
+        {
+          "date": "2026-10-18",
+          "price": 680,
+          "rawPrice": 680
+        },
+        {
+          "date": "2026-10-19",
+          "price": 680,
+          "rawPrice": 680
+        },
+        {
+          "date": "2026-10-20",
+          "price": 680,
+          "rawPrice": 680
+        },
+        {
+          "date": "2026-10-21",
+          "price": 640,
+          "rawPrice": 640
+        },
+        {
+          "date": "2026-10-22",
+          "price": 640,
+          "rawPrice": 640
+        },
+        {
+          "date": "2026-10-23",
+          "price": 640,
+          "rawPrice": 640
+        },
+        {
+          "date": "2026-10-24",
+          "price": 640,
+          "rawPrice": 640
+        },
+        {
+          "date": "2026-10-25",
+          "price": 640,
+          "rawPrice": 640
+        },
+        {
+          "date": "2026-10-26",
+          "price": 640,
+          "rawPrice": 640
+        },
+        {
+          "date": "2026-10-27",
+          "price": 580,
+          "rawPrice": 580
+        },
+        {
+          "date": "2026-10-28",
+          "price": 620,
+          "rawPrice": 620
+        },
+        {
+          "date": "2026-10-29",
+          "price": 790,
+          "rawPrice": 790
+        },
+        {
+          "date": "2026-10-31",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-11-01",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-11-02",
+          "price": 690,
+          "rawPrice": 690
+        },
+        {
+          "date": "2026-11-03",
+          "price": 730,
+          "rawPrice": 730
+        },
+        {
+          "date": "2026-11-04",
+          "price": 650,
+          "rawPrice": 650
+        },
+        {
+          "date": "2026-11-05",
+          "price": 650,
+          "rawPrice": 650
+        },
+        {
+          "date": "2026-11-06",
+          "price": 640,
+          "rawPrice": 640
+        },
+        {
+          "date": "2026-11-07",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-11-08",
+          "price": 640,
+          "rawPrice": 640
+        },
+        {
+          "date": "2026-11-09",
+          "price": 640,
+          "rawPrice": 640
+        },
+        {
+          "date": "2026-11-10",
+          "price": 640,
+          "rawPrice": 640
+        },
+        {
+          "date": "2026-11-11",
+          "price": 610,
+          "rawPrice": 610
+        },
+        {
+          "date": "2026-11-12",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-11-13",
+          "price": 590,
+          "rawPrice": 590
+        },
+        {
+          "date": "2026-11-14",
+          "price": 560,
+          "rawPrice": 560
+        },
+        {
+          "date": "2026-11-15",
+          "price": 560,
+          "rawPrice": 560
+        },
+        {
+          "date": "2026-11-16",
+          "price": 560,
+          "rawPrice": 560
+        },
+        {
+          "date": "2026-11-17",
+          "price": 560,
+          "rawPrice": 560
+        },
+        {
+          "date": "2026-11-18",
+          "price": 550,
+          "rawPrice": 550
+        }
+      ]
+    },
+    {
+      "id": "c7d39b18-bf9d-46ff-80c6-7755ed986734",
+      "store": "Cargills",
+      "name": "Green Chillies",
+      "pack": "100g",
+      "mult": 10,
+      "points": [
+        {
+          "date": "2026-09-16",
+          "price": 650,
+          "rawPrice": 65
+        },
+        {
+          "date": "2026-09-17",
+          "price": 650,
+          "rawPrice": 65
+        },
+        {
+          "date": "2026-09-18",
+          "price": 650,
+          "rawPrice": 65
+        },
+        {
+          "date": "2026-09-20",
+          "price": 620,
+          "rawPrice": 62
+        },
+        {
+          "date": "2026-09-21",
+          "price": 620,
+          "rawPrice": 62
+        },
+        {
+          "date": "2026-09-22",
+          "price": 580,
+          "rawPrice": 58
+        },
+        {
+          "date": "2026-09-23",
+          "price": 580,
+          "rawPrice": 58
+        },
+        {
+          "date": "2026-09-24",
+          "price": 580,
+          "rawPrice": 58
+        },
+        {
+          "date": "2026-09-25",
+          "price": 570,
+          "rawPrice": 57
+        },
+        {
+          "date": "2026-09-26",
+          "price": 560,
+          "rawPrice": 56
+        },
+        {
+          "date": "2026-09-27",
+          "price": 560,
+          "rawPrice": 56
+        },
+        {
+          "date": "2026-09-28",
+          "price": 560,
+          "rawPrice": 56
+        },
+        {
+          "date": "2026-09-29",
+          "price": 560,
+          "rawPrice": 56
+        },
+        {
+          "date": "2026-09-30",
+          "price": 560,
+          "rawPrice": 56
+        },
+        {
+          "date": "2026-10-01",
+          "price": 550,
+          "rawPrice": 55
+        },
+        {
+          "date": "2026-10-02",
+          "price": 520,
+          "rawPrice": 52
+        },
+        {
+          "date": "2026-10-03",
+          "price": 520,
+          "rawPrice": 52
+        },
+        {
+          "date": "2026-10-04",
+          "price": 520,
+          "rawPrice": 52
+        },
+        {
+          "date": "2026-10-05",
+          "price": 520,
+          "rawPrice": 52
+        },
+        {
+          "date": "2026-10-06",
+          "price": 510,
+          "rawPrice": 51
+        },
+        {
+          "date": "2026-10-07",
+          "price": 510,
+          "rawPrice": 51
+        },
+        {
+          "date": "2026-10-08",
+          "price": 510,
+          "rawPrice": 51
+        },
+        {
+          "date": "2026-10-09",
+          "price": 510,
+          "rawPrice": 51
+        },
+        {
+          "date": "2026-10-10",
+          "price": 510,
+          "rawPrice": 51
+        },
+        {
+          "date": "2026-10-11",
+          "price": 530,
+          "rawPrice": 53
+        },
+        {
+          "date": "2026-10-12",
+          "price": 530,
+          "rawPrice": 53
+        },
+        {
+          "date": "2026-10-13",
+          "price": 620,
+          "rawPrice": 62
+        },
+        {
+          "date": "2026-10-14",
+          "price": 660,
+          "rawPrice": 66
+        },
+        {
+          "date": "2026-10-15",
+          "price": 680,
+          "rawPrice": 68
+        },
+        {
+          "date": "2026-10-16",
+          "price": 660,
+          "rawPrice": 66
+        },
+        {
+          "date": "2026-10-17",
+          "price": 640,
+          "rawPrice": 64
+        },
+        {
+          "date": "2026-10-18",
+          "price": 640,
+          "rawPrice": 64
+        },
+        {
+          "date": "2026-10-19",
+          "price": 640,
+          "rawPrice": 64
+        },
+        {
+          "date": "2026-10-20",
+          "price": 640,
+          "rawPrice": 64
+        },
+        {
+          "date": "2026-10-21",
+          "price": 640,
+          "rawPrice": 64
+        },
+        {
+          "date": "2026-10-22",
+          "price": 610,
+          "rawPrice": 61
+        },
+        {
+          "date": "2026-10-23",
+          "price": 610,
+          "rawPrice": 61
+        },
+        {
+          "date": "2026-10-24",
+          "price": 580,
+          "rawPrice": 58
+        },
+        {
+          "date": "2026-10-25",
+          "price": 580,
+          "rawPrice": 58
+        },
+        {
+          "date": "2026-10-26",
+          "price": 580,
+          "rawPrice": 58
+        },
+        {
+          "date": "2026-10-27",
+          "price": 580,
+          "rawPrice": 58
+        },
+        {
+          "date": "2026-10-28",
+          "price": 560,
+          "rawPrice": 56
+        },
+        {
+          "date": "2026-10-29",
+          "price": 710,
+          "rawPrice": 71
+        },
+        {
+          "date": "2026-10-30",
+          "price": 730,
+          "rawPrice": 73
+        },
+        {
+          "date": "2026-10-31",
+          "price": 720,
+          "rawPrice": 72
+        },
+        {
+          "date": "2026-11-01",
+          "price": 720,
+          "rawPrice": 72
+        },
+        {
+          "date": "2026-11-02",
+          "price": 690,
+          "rawPrice": 69
+        },
+        {
+          "date": "2026-11-03",
+          "price": 650,
+          "rawPrice": 65
+        },
+        {
+          "date": "2026-11-04",
+          "price": 670,
+          "rawPrice": 67
+        },
+        {
+          "date": "2026-11-05",
+          "price": 640,
+          "rawPrice": 64
+        },
+        {
+          "date": "2026-11-06",
+          "price": 640,
+          "rawPrice": 64
+        },
+        {
+          "date": "2026-11-07",
+          "price": 590,
+          "rawPrice": 59
+        },
+        {
+          "date": "2026-11-08",
+          "price": 560,
+          "rawPrice": 56
+        },
+        {
+          "date": "2026-11-09",
+          "price": 560,
+          "rawPrice": 56
+        },
+        {
+          "date": "2026-11-10",
+          "price": 610,
+          "rawPrice": 61
+        },
+        {
+          "date": "2026-11-11",
+          "price": 590,
+          "rawPrice": 59
+        },
+        {
+          "date": "2026-11-12",
+          "price": 590,
+          "rawPrice": 59
+        },
+        {
+          "date": "2026-11-13",
+          "price": 560,
+          "rawPrice": 56
+        },
+        {
+          "date": "2026-11-14",
+          "price": 560,
+          "rawPrice": 56
+        },
+        {
+          "date": "2026-11-15",
+          "price": 475,
+          "rawPrice": 47.5
+        },
+        {
+          "date": "2026-11-16",
+          "price": 450,
+          "rawPrice": 45
+        },
+        {
+          "date": "2026-11-17",
+          "price": 550,
+          "rawPrice": 55
+        },
+        {
+          "date": "2026-11-18",
+          "price": 490,
+          "rawPrice": 49
+        }
+      ]
+    },
+    {
+      "id": "95a09917-cd82-bea0-d480-a4aa208b2a7c",
+      "store": "SPAR",
+      "name": "GREEN Chilies",
+      "pack": "1kg",
+      "mult": 1,
+      "points": [
+        {
+          "date": "2026-06-18",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-06-19",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-06-20",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-06-21",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-06-22",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-06-23",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-06-24",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-06-25",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-06-26",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-06-27",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-06-28",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-06-29",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-06-30",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-07-01",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-07-02",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-07-03",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-07-04",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-07-05",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-07-06",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-07-07",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-07-08",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-07-09",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-07-11",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-07-12",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-07-13",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-07-14",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-07-15",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-07-16",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-07-17",
+          "price": 445,
+          "rawPrice": 445
+        },
+        {
+          "date": "2026-07-21",
+          "price": 1050,
+          "rawPrice": 1050
+        },
+        {
+          "date": "2026-07-22",
+          "price": 1050,
+          "rawPrice": 1050
+        },
+        {
+          "date": "2026-07-23",
+          "price": 1095,
+          "rawPrice": 1095
+        },
+        {
+          "date": "2026-07-24",
+          "price": 1095,
+          "rawPrice": 1095
+        },
+        {
+          "date": "2026-07-25",
+          "price": 1045,
+          "rawPrice": 1045
+        },
+        {
+          "date": "2026-07-26",
+          "price": 1045,
+          "rawPrice": 1045
+        },
+        {
+          "date": "2026-07-27",
+          "price": 1045,
+          "rawPrice": 1045
+        },
+        {
+          "date": "2026-07-29",
+          "price": 995,
+          "rawPrice": 995
+        },
+        {
+          "date": "2026-07-30",
+          "price": 995,
+          "rawPrice": 995
+        },
+        {
+          "date": "2026-07-31",
+          "price": 995,
+          "rawPrice": 995
+        },
+        {
+          "date": "2026-08-01",
+          "price": 1045,
+          "rawPrice": 1045
+        },
+        {
+          "date": "2026-08-02",
+          "price": 1045,
+          "rawPrice": 1045
+        },
+        {
+          "date": "2026-08-03",
+          "price": 1045,
+          "rawPrice": 1045
+        },
+        {
+          "date": "2026-08-04",
+          "price": 995,
+          "rawPrice": 995
+        },
+        {
+          "date": "2026-08-05",
+          "price": 995,
+          "rawPrice": 995
+        },
+        {
+          "date": "2026-08-06",
+          "price": 845,
+          "rawPrice": 845
+        },
+        {
+          "date": "2026-08-07",
+          "price": 845,
+          "rawPrice": 845
+        },
+        {
+          "date": "2026-08-08",
+          "price": 745,
+          "rawPrice": 745
+        },
+        {
+          "date": "2026-08-09",
+          "price": 745,
+          "rawPrice": 745
+        },
+        {
+          "date": "2026-08-11",
+          "price": 745,
+          "rawPrice": 745
+        },
+        {
+          "date": "2026-08-12",
+          "price": 745,
+          "rawPrice": 745
+        },
+        {
+          "date": "2026-08-13",
+          "price": 425,
+          "rawPrice": 425
+        },
+        {
+          "date": "2026-08-15",
+          "price": 695,
+          "rawPrice": 695
+        },
+        {
+          "date": "2026-08-16",
+          "price": 695,
+          "rawPrice": 695
+        },
+        {
+          "date": "2026-08-17",
+          "price": 695,
+          "rawPrice": 695
+        },
+        {
+          "date": "2026-08-18",
+          "price": 695,
+          "rawPrice": 695
+        },
+        {
+          "date": "2026-08-18",
+          "price": 695,
+          "rawPrice": 695
+        },
+        {
+          "date": "2026-08-18",
+          "price": 695,
+          "rawPrice": 695
+        },
+        {
+          "date": "2026-08-18",
+          "price": 695,
+          "rawPrice": 695
+        },
+        {
+          "date": "2026-08-18",
+          "price": 695,
+          "rawPrice": 695
+        },
+        {
+          "date": "2026-08-18",
+          "price": 695,
+          "rawPrice": 695
+        },
+        {
+          "date": "2026-08-19",
+          "price": 695,
+          "rawPrice": 695
+        },
+        {
+          "date": "2026-08-20",
+          "price": 645,
+          "rawPrice": 645
+        },
+        {
+          "date": "2026-08-21",
+          "price": 645,
+          "rawPrice": 645
+        },
+        {
+          "date": "2026-08-22",
+          "price": 645,
+          "rawPrice": 645
+        },
+        {
+          "date": "2026-08-23",
+          "price": 645,
+          "rawPrice": 645
+        },
+        {
+          "date": "2026-08-24",
+          "price": 645,
+          "rawPrice": 645
+        },
+        {
+          "date": "2026-08-25",
+          "price": 645,
+          "rawPrice": 645
+        },
+        {
+          "date": "2026-08-26",
+          "price": 645,
+          "rawPrice": 645
+        },
+        {
+          "date": "2026-08-27",
+          "price": 495,
+          "rawPrice": 495
+        },
+        {
+          "date": "2026-08-28",
+          "price": 495,
+          "rawPrice": 495
+        },
+        {
+          "date": "2026-08-29",
+          "price": 495,
+          "rawPrice": 495
+        },
+        {
+          "date": "2026-08-30",
+          "price": 495,
+          "rawPrice": 495
+        },
+        {
+          "date": "2026-08-31",
+          "price": 495,
+          "rawPrice": 495
+        },
+        {
+          "date": "2026-09-01",
+          "price": 495,
+          "rawPrice": 495
+        },
+        {
+          "date": "2026-09-02",
+          "price": 495,
+          "rawPrice": 495
+        },
+        {
+          "date": "2026-09-03",
+          "price": 495,
+          "rawPrice": 495
+        },
+        {
+          "date": "2026-09-04",
+          "price": 495,
+          "rawPrice": 495
+        },
+        {
+          "date": "2026-09-05",
+          "price": 400,
+          "rawPrice": 400
+        },
+        {
+          "date": "2026-09-06",
+          "price": 400,
+          "rawPrice": 400
+        },
+        {
+          "date": "2026-09-07",
+          "price": 400,
+          "rawPrice": 400
+        },
+        {
+          "date": "2026-09-08",
+          "price": 350,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-09-09",
+          "price": 350,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-09-10",
+          "price": 360,
+          "rawPrice": 360
+        },
+        {
+          "date": "2026-09-11",
+          "price": 360,
+          "rawPrice": 360
+        },
+        {
+          "date": "2026-09-12",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-09-13",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-09-14",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-09-15",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-09-16",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-09-17",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-09-18",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-09-20",
+          "price": 325,
+          "rawPrice": 325
+        },
+        {
+          "date": "2026-09-21",
+          "price": 325,
+          "rawPrice": 325
+        },
+        {
+          "date": "2026-09-22",
+          "price": 325,
+          "rawPrice": 325
+        },
+        {
+          "date": "2026-09-23",
+          "price": 325,
+          "rawPrice": 325
+        },
+        {
+          "date": "2026-09-24",
+          "price": 295,
+          "rawPrice": 295
+        },
+        {
+          "date": "2026-09-25",
+          "price": 295,
+          "rawPrice": 295
+        },
+        {
+          "date": "2026-09-26",
+          "price": 295,
+          "rawPrice": 295
+        },
+        {
+          "date": "2026-09-27",
+          "price": 295,
+          "rawPrice": 295
+        },
+        {
+          "date": "2026-09-28",
+          "price": 295,
+          "rawPrice": 295
+        },
+        {
+          "date": "2026-09-29",
+          "price": 295,
+          "rawPrice": 295
+        },
+        {
+          "date": "2026-09-30",
+          "price": 295,
+          "rawPrice": 295
+        },
+        {
+          "date": "2026-10-01",
+          "price": 295,
+          "rawPrice": 295
+        },
+        {
+          "date": "2026-10-02",
+          "price": 295,
+          "rawPrice": 295
+        },
+        {
+          "date": "2026-10-03",
+          "price": 245,
+          "rawPrice": 245
+        },
+        {
+          "date": "2026-10-04",
+          "price": 245,
+          "rawPrice": 245
+        },
+        {
+          "date": "2026-10-05",
+          "price": 245,
+          "rawPrice": 245
+        },
+        {
+          "date": "2026-10-06",
+          "price": 245,
+          "rawPrice": 245
+        },
+        {
+          "date": "2026-10-07",
+          "price": 245,
+          "rawPrice": 245
+        },
+        {
+          "date": "2026-10-08",
+          "price": 260,
+          "rawPrice": 260
+        },
+        {
+          "date": "2026-10-09",
+          "price": 260,
+          "rawPrice": 260
+        },
+        {
+          "date": "2026-10-10",
+          "price": 260,
+          "rawPrice": 260
+        },
+        {
+          "date": "2026-10-11",
+          "price": 260,
+          "rawPrice": 260
+        },
+        {
+          "date": "2026-10-12",
+          "price": 260,
+          "rawPrice": 260
+        },
+        {
+          "date": "2026-10-13",
+          "price": 350,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-10-14",
+          "price": 350,
+          "rawPrice": 350
+        },
+        {
+          "date": "2026-10-15",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-10-16",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-10-17",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-10-18",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-10-19",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-10-20",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-10-21",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-10-22",
+          "price": 325,
+          "rawPrice": 325
+        },
+        {
+          "date": "2026-10-23",
+          "price": 325,
+          "rawPrice": 325
+        },
+        {
+          "date": "2026-10-24",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-10-25",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-10-26",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-10-27",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-10-28",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-10-29",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-10-30",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-10-31",
+          "price": 385,
+          "rawPrice": 385
+        },
+        {
+          "date": "2026-11-01",
+          "price": 385,
+          "rawPrice": 385
+        },
+        {
+          "date": "2026-11-02",
+          "price": 385,
+          "rawPrice": 385
+        },
+        {
+          "date": "2026-11-03",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-11-04",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-11-05",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-11-06",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-11-07",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-11-08",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-11-09",
+          "price": 345,
+          "rawPrice": 345
+        },
+        {
+          "date": "2026-11-10",
+          "price": 320,
+          "rawPrice": 320
+        },
+        {
+          "date": "2026-11-11",
+          "price": 320,
+          "rawPrice": 320
+        },
+        {
+          "date": "2026-11-12",
+          "price": 325,
+          "rawPrice": 325
+        },
+        {
+          "date": "2026-11-13",
+          "price": 325,
+          "rawPrice": 325
+        },
+        {
+          "date": "2026-11-15",
+          "price": 300,
+          "rawPrice": 300
+        },
+        {
+          "date": "2026-11-16",
+          "price": 300,
+          "rawPrice": 300
+        },
+        {
+          "date": "2026-11-17",
+          "price": 295,
+          "rawPrice": 295
+        },
+        {
+          "date": "2026-11-18",
+          "price": 295,
+          "rawPrice": 295
+        }
+      ]
+    }
+  ]
+}
