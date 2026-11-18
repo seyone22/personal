@@ -1,0 +1,63 @@
+import { GroceryInflationChart } from "@/components/blog/grocery/GroceryInflationChart";
+
+> **Pilot study (Data collected: November 18, 2026).** Daily supermarket prices were pulled from `food.seyone.dev` (`foodrepo`) across Cargills, Keells, Arpico, and SPAR, and benchmarked against Central Bank of Sri Lanka (CBSL) CCPI inflation releases up to October 2026.
+
+In October 2026, the Central Bank of Sri Lanka (CBSL) reported **8.3% year-on-year headline inflation** (CCPI, 2021=100) and **8.8% food inflation**, up from 2.2% headline inflation in March.
+
+An aggregate number like **+8.8% food inflation** hides how uneven price changes feel on a weekly grocery run. To test whether automated retail tracking can serve as a real-time proxy for the official index, I ran a **pilot** comparing `food.seyone.dev` price histories against the Department of Census and Statistics (DCS) CCPI basket.
+
+With **42 matched SKUs** covering **54.2% of the official CCPI food basket**, our pilot index lands at **`+8.99%`** from June to October 2026, right next to CBSL's **`+8.8%`**.
+
+---
+
+## Five Kitchen Essentials vs. CBSL Food Inflation
+
+Before weighting the full basket, looking at five everyday Sri Lankan staples (**lime**, **green chili**, **coconut**, **masoor dhal**, and **rice**) shows why headline averages feel disconnected from fresh produce prices.
+
+<GroceryInflationChart />
+
+- **Lime (Cargills `250g`, normalized to `/kg`):** Over 63 days (Sep 16 to Nov 18), limes jumped **+54.5%** from **Rs. 1,152 / kg** (`Rs. 288` per 250g) to **Rs. 1,780 / kg** (`Rs. 445`), spiking to **Rs. 2,294 / kg** (`Rs. 573.50`) on Nov 16.
+- **Green Chili (`1 kg`):** Across 222 valid daily observations since March 24, standard green chili swung up to **Rs. 2,100 / kg** before settling at **Rs. 550 / kg** today. On SPAR (150 days, Jun 18 to Nov 18), it ranged from **Rs. 245 / kg** to **Rs. 1,095 / kg** (**4.5x**), sitting at **Rs. 295 / kg** today.
+- **Coconut (`1 unit`):** Up **+21.0%** on SPAR over 152 days (Jun 18 to Nov 18), climbing from **Rs. 157** (low of **Rs. 138**) to **Rs. 190**.
+- **Masoor Dhal (`1 kg`):** Mostly flat or slightly down. SPAR Bulk moved from **Rs. 250** to **Rs. 239 / kg** (`-4.4%`), and Keells Red Dhal 1 kg dropped `-12.0%` (`Rs. 324` to `Rs. 285`) from March to November.
+- **Rice (`Imported Keeri Ponni, 1 kg`):** Flat at **Rs. 255 / kg** (`0.0%` variance) across 77 tracked days (Aug 19 to Nov 4).
+
+---
+
+## Weighting by the Official CCPI (2021=100) Basket
+
+To compare apples to apples, each SKU has to be weighted using the DCS CCPI (2021=100) expenditure shares from the 2019 Household Income and Expenditure Survey:
+
+- **Food &amp; Non-Alcoholic Beverages:** `26.23%` of the total CPI basket (`Non-Food` is `73.77%`).
+- **Rice (Samba, White/Red Kekulu, Nadu):** `2.72%` of total CPI (~**10.4%** of the food basket).
+- **Milk Powder:** `1.71%` of total CPI (~**6.5%** of the food basket).
+- **Coconut (nuts):** `1.38%` of total CPI (~**5.3%** of the food basket).
+- **Sugar &amp; Dhal:** Sugar (`0.45%`) and Mysore Dhal (`0.50%`).
+- **Individual fresh vegetables &amp; spices:** Typically `0.03%` to `0.35%` each (Big Onions `0.35%`, Beans `0.25%`, Chilli Powder `0.25%`, Lime `0.08%`).
+
+Across **42 cleanly matched SKUs** (`14.21%` of total CPI, or **54.2%** of the `26.23%` food basket) with daily data from March 24 to November 18:
+
+- **Jun 01 to Oct 31, 2026:** **`+8.99%`** (compared to CBSL's **`+8.8%`** October YoY food inflation).
+- **Mar 24 to Oct 31, 2026:** **`+15.31%`**.
+- **Mar 24 to Nov 18, 2026:** **`+18.60%`**, driven by an early-November jump in fresh vegetables and Big Onions (`+104.5%`).
+
+---
+
+## Item-for-Item Comparison Against CBSL Releases
+
+Comparing our 42-item slice directly against the specific food drivers CBSL and DCS cited in September and October 2026 shows where they line up and where they diverge:
+
+- **Matching upward drivers:** DCS flagged **limes**, **coconuts**, **big onions**, **milk powder**, **chilli powder**, and **normal bread** as primary September–October upward drivers. In `food.seyone.dev` through Oct 31, Cargills Lime was **+71.9%**, SPAR Coconut **+21.0%**, Big Onions **+95.5%** (`Mar→Oct`) / **+43.3%** (`Jun→Oct`), Anchor Milk Powder **+13.0%** (`Mar→Oct`) / **+8.7%** (`Jun→Oct`), Chilli Powder **+19.0%**, and Finagle Bread **+8.1%**.
+- **Offsetting drops:** Keells Red Dhal (`-12.0%`), Red Kekulu Rice (`-8.3%`), Baby Carrots (`-34.1%`), and Baby Potatoes (`-9.1%`) declined in supermarket pricing, balancing out the sharper produce spikes.
+- **Early-November lead:** Fresh vegetables like Beetroot (`+500.0%`), Cabbage (`+347.4%`), Bitter Gourd (`+281.8%`), and Cucumber (`+250.0%`) spiked in early November, showing up in daily supermarket data weeks before CBSL's November CPI release.
+
+---
+
+## Current Coverage Gaps (The Remaining 45.8%)
+
+Because this is a pilot built strictly on online supermarket listings, **45.8%** of the CCPI food basket is still unmapped or excluded:
+
+- **Fresh fish (`~2.8%+`):** Keells and the tracked online supermarkets do not list fresh `Thalapath` (`0.84%`) or `Kelawalla` (`0.74%`) consistently online, only dry and canned fish (`0.0%` change).
+- **Fresh chicken (`1.25%`), red onions (`0.20%`), and fresh fruits:** Online product search either returned processed items (sausages, snacks, dehydrated fruit) or lacked clean 200-day series.
+
+Closing those fresh-market gaps (especially fresh fish and red onions) is the next step for `food.seyone.dev`, alongside automating unit normalization (`250g` packs vs. `1kg` bulk) across chains.

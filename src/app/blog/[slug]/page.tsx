@@ -7,9 +7,11 @@ import { Footer } from "@/components/sections/Footer";
 import { Badge } from "@/components/ui/badge";
 import IkmanDarazMcpGateway from "@/content/blog/ikman-daraz-mcp-gateway.mdx";
 import SlMobileTariffs2026 from "@/content/blog/sl-mobile-tariffs-2026.mdx";
+import SlSupermarketInflation2026 from "@/content/blog/sl-supermarket-inflation-2026.mdx";
 import { BLOG_POSTS, getPostBySlug } from "@/data/posts";
 
 const POST_COMPONENTS: Record<string, ComponentType> = {
+  "sl-supermarket-inflation-2026": SlSupermarketInflation2026,
   "ikman-daraz-mcp-gateway": IkmanDarazMcpGateway,
   "sl-mobile-tariffs-2026": SlMobileTariffs2026,
 };
