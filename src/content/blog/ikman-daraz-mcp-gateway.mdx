@@ -1,0 +1,40 @@
+import { TabletMarketplaceExplorer } from "@/components/blog/marketplace/TabletMarketplaceExplorer";
+
+> **Data collected: November 18, 2026.** All listings and prices below were pulled live through the `ikman-gateway` and `daraz-gateway` MCP servers.
+
+This started because I just wanted to buy a **Samsung Galaxy Tab S11**.
+
+If you've ever tried shopping for electronics on `ikman.lk`, you know how painful the search experience is. The web dropdown only gives you "Date: Newest on top" or unreliable sorting, cheapest-first searches get flooded with `Rs. 0` and `Rs. 1` placeholder ads, and searching for a "tablet" without strict category filters mixes in dining tables, pool tables, and restaurant POS software.
+
+So I built [ikman-gateway](https://github.com/seyone22/ikman-gateway) (and later added `daraz-gateway` to see if the same pattern worked on Daraz): a NestJS REST API and headless MCP server deployed on Railway that normalizes upstream marketplace payloads and lets me query them cleanly.
+
+---
+
+## How the Gateways Clean Up the Feed
+
+Both gateways sit in front of the public marketplace endpoints and do the boring cleanup work that the websites skip:
+
+- **Unlocking true low-to-high sorting:** `IkmanNormalizerService` passes the hidden `sort=price&order=asc` parameters to the search backend and parses raw price strings (`"Rs 40,990"`, `"Negotiable"`, `"Rs 1"`) into typed LKR numbers.
+- **Placeholder spam filtering:** Sellers regularly post `Rs. 0`, `Rs. 1`, or `Rs. 10` ads to game cheapest-first sorting. Any listing at `Rs. 50` or below is flagged as `isSpamOrDummy` and stripped when `cleanSpam` is enabled.
+- **Accessory and ad stripping on Daraz:** Searching `"Galaxy Tab S11"` on Daraz returns **1,656** results across 42 pages, almost all of them S-Pen nibs, cases, and screen protectors. `daraz-gateway` stripped **157 accessories** across the first four pages alone when `excludeAccessories` was enabled, alongside sponsored placements.
+
+---
+
+## What Happened When I Searched for a Galaxy Tab S11
+
+Running live queries for `"Galaxy Tab S11"` and `"tablet"` across both MCPs surfaced three patterns that explain why shopping on local marketplaces feels so broken:
+
+1. **Keyword pollution on Ikman:** A site-wide search for `"tablet"` sorted cheapest-first returns **Modern Smart Structure Tables** (`Rs. 14,900`), **Solid Teak Dining Tables** (`Rs. 50,000`), and a **9 Ft Brand New Pool Table** (`Rs. 350,000`). Even inside `category: "electronics"`, the cheapest page is dominated by **Restaurant POS systems ("KOT Tables")** at `Rs. 20,000`.
+2. **One shop flooding the results (and clustered shop pricing):** Out of **241** listings for `"Galaxy Tab S11"` on Ikman, **25 out of 25** results on page 1 (and **22 out of 25** on page 2) were posted by a single Colombo 3 shop (`X Mobile - Liberty`), often listing the exact same SKU multiple times at slightly different prices:
+   - `Tab S11 12GB / 128GB`: listed at `Rs. 233,990`, `Rs. 234,990`, and `Rs. 239,990` by X Mobile (while `Nexel` appeared on newest sort at `Rs. 229,999`).
+   - `Tab S11 12GB / 256GB`: listed at `Rs. 274,990`, `Rs. 278,990`, `Rs. 279,990`, and `Rs. 289,990` (with `Greenware Premium` at `Rs. 297,000`).
+   - `Tab S11 Ultra 12GB / 256GB`: X Mobile spread it from `Rs. 359,900` to `Rs. 458,990`, while `Nexel` clustered right on the exact same `Rs. 359,880` / `Rs. 359,990` mark, and `emobile.lk` showed up on page 2 at `Rs. 391,490` / `Rs. 392,490` for the 5G Ultra.
+3. **Listed price vs. "call for today's price":** Pulling the full ad details via `ikman_get_ad_details` shows why those prices drift. Every one of those ads carries a Sinhala disclaimer inside the description body telling buyers that prices change daily and to call for today's actual price. The number on the search card is often just a bait anchor.
+
+---
+
+## Live Galaxy Tab S11 &amp; Tablet Comparison
+
+You can filter by platform or variant below, or switch to **Search Noise** to see the dining tables, POS software, and stylus nibs that had to be filtered out.
+
+<TabletMarketplaceExplorer />

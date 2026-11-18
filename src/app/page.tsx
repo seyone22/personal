@@ -6,6 +6,7 @@ import { Footer } from "@/components/sections/Footer";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { ProjectArchive } from "@/components/sections/ProjectArchive";
 import { TechArsenal } from "@/components/sections/TechArsenal";
+import { WritingSection } from "@/components/sections/WritingSection";
 
 export default function Home() {
   return (
@@ -16,13 +17,16 @@ export default function Home() {
       {/* 02. PROJECTS GRID */}
       <section
         id="projects"
-        className="min-h-screen bg-zinc-950/50 px-6 py-24 sm:px-12 lg:px-24"
+        className="min-h-screen bg-zinc-100/90 px-6 py-24 sm:px-12 lg:px-24 dark:bg-zinc-950/50"
       >
         <FeaturedWork />
         <ProjectArchive />
       </section>
 
-      {/* 03. TECH STACK & TOOLKIT */}
+      {/* 03. WRITING & RESEARCH */}
+      <WritingSection />
+
+      {/* 04. TECH STACK & TOOLKIT */}
       <TechArsenal />
 
       {/* 04. WORK EXPERIENCE & CONTRACTS */}

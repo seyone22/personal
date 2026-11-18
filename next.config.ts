@@ -1,9 +1,15 @@
+import createMDX from "@next/mdx";
 import { initOpenNextCloudflareForDev } from "@opennextjs/cloudflare";
 import type { NextConfig } from "next";
 
 initOpenNextCloudflareForDev();
 
+const withMDX = createMDX({
+  extension: /\.(md|mdx)$/,
+});
+
 const nextConfig: NextConfig = {
+  pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
   // Add this block to disable the specific feature causing the manifest error
   experimental: {
     viewTransition: false,
@@ -12,4 +18,4 @@ const nextConfig: NextConfig = {
   output: "standalone",
 };
 
-export default nextConfig;
+export default withMDX(nextConfig);

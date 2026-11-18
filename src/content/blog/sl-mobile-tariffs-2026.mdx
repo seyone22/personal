@@ -1,0 +1,95 @@
+import { TelcoTariffTable } from "@/components/blog/telco/TelcoTariffTable";
+import { TelcoTopPlansChart } from "@/components/blog/telco/TelcoTopPlansChart";
+import { TelcoValueScatterChart } from "@/components/blog/telco/TelcoValueScatterChart";
+
+> **Data collected: November 18, 2026.** All 64 plans below were pulled from public operator pages and endpoints (`apphub.mobitel.lk`, `dialog.lk`, `hutch.lk`, `airtel.lk`) and cross-checked against **268 TRCSL tariff PDFs** (`trc.gov.lk`).
+
+Comparing Sri Lankan mobile data plans is annoying because prices aren't quoted on the same basis. Prepaid plans include tax, postpaid plans don't, a few "monthly" packs are actually **28 days**, and operators often list older or worse-value plans right next to better ones.
+
+I wrote a small Node.js script (`sync_tariffs.js`) to pull the active plan lists, match them against TRCSL tariff filings, and normalize everything to **30-day tax-inclusive Rs. per Anytime GB** so they can be compared side by side.
+
+---
+
+## Normalizing Taxes &amp; Billing Cycles
+
+Prepaid plans quote the final price you pay at the register (tax included), while postpaid plans quote the base price (`+ tax`). Because Sri Lanka taxes pure data and voice+data combos at slightly different effective rates, I didn't want to guess a flat percentage.
+
+Instead, I found identical plans sold on **both** prepaid and postpaid and divided the tax-inclusive price by the pre-tax price:
+
+- **Data-only plans (`+23.5%` / `× 1.2350`):** Mobitel's `Rs. 970.85 + tax` postpaid data plan is the exact same package as its `Rs. 1,199` tax-inclusive prepaid plan (`1,199 ÷ 970.85 = 1.2350`).
+- **Voice + Data combos (`+24.9%` / `× 1.2493`):** In TRCSL's filing `TRC/M/ST/26/03`, a `Rs. 1,500 + tax` combo is explicitly listed as `Rs. 1,874` tax-inclusive (`1,874 ÷ 1,500 = 1.2493`).
+
+For plans with 15-day, 28-day, or 360-day validity, I also scaled the cost to a standard **30-day** equivalent (`price ÷ days × 30`) so shorter cycles don't look artificially cheaper. Across all 64 plans, the effective rate ranges from **Rs. 18.32 / GB** up to **Rs. 247.00 / GB**.
+
+<TelcoValueScatterChart />
+
+---
+
+## Best Value vs. Worst Value
+
+Depending on whether you need **Unlimited Any-net Calls** or just **Anytime GB** within a monthly budget, the top picks change quite a bit. You can filter by budget and voice below.
+
+<TelcoTopPlansChart />
+
+---
+
+## Tier Breakdown (Nov 2026)
+
+### Tier 1: Best Value (Rs. 18–34 / Anytime GB)
+
+- **Hutch One Load Plan 3 (1-Year, `TRC/H/ST/26/03`):** `Rs. 10,999 / 360d` (~`Rs. 916.58 / 30d`) for `50 GB/mo` (`600 GB/yr`, **Rs. 18.33/GB**) with up to 100 GB rollover.
+- **Dialog Anytime Ultra (`5495` / `3795` / `2795`, `TRC/D/ST/26/02`):** `300 / 200 / 100 GB` unthrottled Anytime data at **Rs. 18.32 – 27.95/GB** on both Prepaid &amp; Postpaid.
+- **Hutch Ultimate Non-Stop `1999` (`TRC/H/PRO/25/03`):** `100 GB FUP` (**Rs. 19.99/GB**) + Unlimited Calls + 500 SMS + Rs. 100 Freeload, throttling to **1 Mbps** after 100 GB with no overage fee (video capped at 360p).
+- **Hutch 2X Plan 2 / 3 / 4 (`TRC/H/PRO/26/01`):** `Rs. 1,099 / 1,589 / 2,099` for `50 / 75 / 100 GB` pure Anytime data (**Rs. 20.99 – 21.98/GB**).
+- **Mobitel One Shot ULTRA (`TRC/M/PRO/23/08`):** `Rs. 1,989` incl. tax (`Rs. 1,578.30 + tax` postpaid) for `80 GB FUP` (**Rs. 24.86/GB**) + Unlimited Calls + 1,000 SMS, then 1 Mbps unlimited (video capped at 360p).
+- **Mobitel Upahara `727` (`TRC/M/PER/26/01`, Restricted):** `~Rs. 908` incl. tax for `30 GB` (**Rs. 30.27/GB**), restricted to Gov/Pensioners/Clergy/Media.
+
+### Tier 2: Fair Mid-Tier (Rs. 29–47 / GB)
+
+If you prefer Dialog or Mobitel coverage without spending Rs. 2,800+ on data-only packs:
+
+- **Mobitel `1598` Super Combo (`TRC/M/PER/25/10`):** `40 GB` Anytime (**Rs. 39.95/GB**) + Unlimited Calls + 1,000 SMS + `50 GB` across 9 streaming/social apps (YouTube, FB, TikTok, IG, Netflix, Spotify, WhatsApp). Probably the most balanced mid-tier plan on Mobitel.
+- **Mobitel `NXT 2988` / `NXT 2588` (`TRC/M/ST/26/07`):** `100 GB / 75 GB` Anytime (**Rs. 29.88 / 34.51/GB**) + Unlimited Calls + `20 / 15 GB` AI app bundle.
+- **Dialog Prepaid Data-led Bundles (`TRC/D/PRO/25/07`):** `Rs. 1,895 / 2,595 / 2,995 / 3,999` for `40 / 75 / 100 / 200 GB` + Unlimited Calls + 1,000 SMS (**Rs. 47.38 → 20.00/GB**), Prepaid only.
+- **Mobitel `MO Pro / Hub / Ultra` (`TRC/M/ST/26/05`) &amp; Dialog `Power Plan 2100 / 3500 / 6000` (`TRC/D/ST/26/01`):** Higher-tier postpaid combos with 1-month data rollover and Unlimited Calls (`Rs. 18.51 – 40.36/GB`).
+
+---
+
+## Speeds, Video Caps &amp; Throttling
+
+Price per GB only tells half the story. Two plans with the same quota can feel completely different depending on whether they cap video resolution or throttle you instead of charging overage.
+
+- **Soft Throttle (Zero Overage Trap):**
+  - **Hutch 2X Plan 6 (`Rs. 4,999`, `250 GB`):** Drops to **5 Mbps** unlimited after `250 GB`.
+  - **Hutch Ultimate Non-Stop `1999` (`100 GB`):** Drops to **1 Mbps** unlimited after `100 GB` with no overage fee.
+  - **Mobitel One Shot ULTRA (`Rs. 1,989`, `80 GB`):** Drops to **1 Mbps** unlimited after `80 GB` with no overage fee.
+- **360p Video Caps on "Non-Stop" &amp; App Bundles:**
+  - **All-data FUP plans** (`Hutch Ultimate Non-Stop 1999` and `Mobitel One Shot ULTRA`) cap video streaming at **360p**.
+  - **App-specific bundles** also cap video at **360p**, then throttle hard once the app FUP runs out:
+    - **Hutch `15` (`75 GB` across 15 apps)** &amp; **One Load Plan 4**: **360p** on the 15-app pool.
+    - **Hutch `Combo 11-App 998` (`20 GB`):** **360p**, then **240p / 0.9 Mbps**.
+    - **Mobitel `1598 Super Combo` (`50 GB` across 9 apps):** **360p**, then **512 Kbps**.
+    - **Mobitel `1278 Combo` (`15 GB` across 4 apps):** **360p**, then **256 Kbps**.
+    - **Dialog / Airtel `New Youth 988` &amp; `1188`:** Social apps run at **1 Mbps / 360p**.
+- **Unthrottled Anytime Plans:** Pure-quota plans like **Dialog `Anytime Ultra`**, **Hutch `2X`**, **Mobitel `NXT`**, and **`MO Pro / Hub / Ultra`** do not apply a 360p video cap to your Anytime data. You get full network speed until the quota hits zero.
+
+---
+
+## Pricing Quirks &amp; Weird Overlaps
+
+Looking through the full list turned up a few plans that don't make much sense next to the operator's own newer options:
+
+1. **Mobitel Postpaid Data-Only 2026 Plan 03 (`TRC/M/ST/26/06`, `id=964`):** Costs `Rs. 1,200 + tax` (**Rs. 1,482.00**) for `25 GB` Anytime, with no calls, no SMS, and no rollover. Meanwhile, Mobitel's own **`MO Plus` (`id=958`)** is `Rs. 1,111 + tax` (**~Rs. 1,387.97**, **Rs. 94 cheaper**) and includes the same `25 GB` Anytime **plus** Unlimited Calls, 1,000 SMS, `10 GB` AI/Edu, and 1-month rollover.
+2. **Mobitel `1278` (`id=919`, `10 GB`, Rs. 127.80/GB):** Mobitel's `888 Gen Z Pack` gives `15 GB` + Unlimited Calls for Rs. 390 less, and `1598` gives 4× the Anytime data (`40 GB`) for Rs. 320 more.
+3. **Old 2021 Mobitel Postpaid Data Plans (`TRC/M/PER/21/5`, `id=923–933`):** Still active in the package list (`is_active=1`). `id=930` bills `Rs. 4,668 + tax` (**Rs. 5,764.98**) for `100 GB` data-only, while `NXT 2988` gives `100 GB` + `20 GB` AI + Unlimited Calls for **Rs. 2,988**.
+4. **Dialog / Airtel Bundled `988` (`TRC/D/PER/25/04`, 28 days):** `Rs. 988` (`Rs. 1,059 / 30d`) for `4 GB` Anytime (**Rs. 247.00/GB**) + 3 social apps at 360p. Hutch `Combo 11-App 998` gives `30 GB` Anytime + 11 Social Apps + Unlimited Calls for Rs. 10 more.
+5. **Hutch Standard Anytime `1228` (21 GB, Rs. 58.48/GB):** Listed on `/any-time-plans/` for Rs. 129 *more* than Hutch's own `Hutch 2X Plan 2` (`50 GB` for `Rs. 1,099`), so you get 29 GB less if you pick the wrong tab.
+6. **Out-of-bundle Overage (`Rs. 0.30 + tax / MB`):** Across Dialog, Mobitel, Hutch, and Airtel, going past your quota costs `~Rs. 379.39 / GB`, around **17× to 20×** normal plan rates.
+
+---
+
+## Full 64-Plan Table
+
+Search, filter, sort, and expand any row below to see the tax multiplier, TRCSL filing link, and operator source URL.
+
+<TelcoTariffTable />
