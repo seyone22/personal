@@ -8,6 +8,13 @@ Comparing Sri Lankan mobile data plans is annoying because prices aren't quoted 
 
 I wrote a small Node.js script (`sync_tariffs.js`) to pull the active plan lists, match them against TRCSL tariff filings, and normalize everything to **30-day tax-inclusive Rs. per Anytime GB** so they can be compared side by side.
 
+### TL;DR: Best Pick by Budget &amp; Biggest Trap
+
+- **Best under Rs. 1,000/mo:** **Hutch `Combo 11-App 998`** (`TRC/H/PER/25/04`) — `Rs. 998 / 30d` for `30 GB` Anytime (**Rs. 33.27/GB**) + Unlimited Any-net Calls + `20 GB` across 11 social apps (360p). If you don't mind paying yearly upfront for data-only, **Hutch `One Load Plan 3`** (`TRC/H/ST/26/03`) drops to `~Rs. 916.58 / 30d` (`Rs. 10,999 / 360d`) for `50 GB/mo` (**Rs. 18.33/GB**).
+- **Best Rs. 1,500–2,000 with Unlimited Calls:** **Hutch `Ultimate Non-Stop 1999`** (`TRC/H/PRO/25/03`) gives `100 GB FUP` (**Rs. 19.99/GB**) + Unlimited Calls + 1 Mbps after FUP. On Mobitel, **One Shot ULTRA** (`TRC/M/PRO/23/08`, `Rs. 1,989` incl. tax) gives `80 GB FUP` (**Rs. 24.86/GB**) + Unlimited Calls + 1 Mbps after FUP. Both cap video streaming at **360p**.
+- **Best 100 GB+ Unthrottled (No 360p Cap):** **Hutch `2X Plan 4`** (`TRC/H/PRO/26/01`) at `Rs. 2,099` for `100 GB` (**Rs. 20.99/GB**, data-only), or **Dialog `Anytime Ultra 2795 / 3795 / 5495`** (`TRC/D/ST/26/02`) for `100 / 200 / 300 GB` (**Rs. 27.95 → 18.32/GB**). With Unlimited Calls, **Mobitel `NXT 2988`** (`100 GB` + `20 GB` AI, **Rs. 29.88/GB**) and **Dialog `Prepaid Bundle 2995`** (`100 GB`, **Rs. 29.95/GB**) lead.
+- **Worst Active Trap to Avoid:** **Dialog / Airtel `New Youth / Bundled Pack 988`** (`TRC/D/PER/25/04`) charges `Rs. 988` for **28 days** (`Rs. 1,058.57 / 30d`) with only `4 GB` Anytime (**Rs. 247.00/GB**) — the worst rate across all 64 plans.
+
 ---
 
 ## Normalizing Taxes &amp; Billing Cycles
@@ -73,6 +80,8 @@ Price per GB only tells half the story. Two plans with the same quota can feel c
     - **Dialog / Airtel `New Youth 988` &amp; `1188`:** Social apps run at **1 Mbps / 360p**.
 - **Unthrottled Anytime Plans:** Pure-quota plans like **Dialog `Anytime Ultra`**, **Hutch `2X`**, **Mobitel `NXT`**, and **`MO Pro / Hub / Ultra`** do not apply a 360p video cap to your Anytime data. You get full network speed until the quota hits zero.
 
+> **What tariff sheets don't measure:** Rs./GB tells you what you pay on paper, not how fast a tower actually moves at 8:00 PM in your area. Peak-hour congestion, indoor 4G/5G signal penetration, and tower backhaul vary sharply by neighborhood and carrier. Before porting or committing to the cheapest Rs./GB Hutch pack (especially a 1-year `One Load` upfront plan), test a prepaid SIM on that network where you actually live and work during evening peak hours.
+
 ---
 
 ## Pricing Quirks &amp; Weird Overlaps
@@ -85,6 +94,17 @@ Looking through the full list turned up a few plans that don't make much sense n
 4. **Dialog / Airtel Bundled `988` (`TRC/D/PER/25/04`, 28 days):** `Rs. 988` (`Rs. 1,059 / 30d`) for `4 GB` Anytime (**Rs. 247.00/GB**) + 3 social apps at 360p. Hutch `Combo 11-App 998` gives `30 GB` Anytime + 11 Social Apps + Unlimited Calls for Rs. 10 more.
 5. **Hutch Standard Anytime `1228` (21 GB, Rs. 58.48/GB):** Listed on `/any-time-plans/` for Rs. 129 *more* than Hutch's own `Hutch 2X Plan 2` (`50 GB` for `Rs. 1,099`), so you get 29 GB less if you pick the wrong tab.
 6. **Out-of-bundle Overage (`Rs. 0.30 + tax / MB`):** Across Dialog, Mobitel, Hutch, and Airtel, going past your quota costs `~Rs. 379.39 / GB`, around **17× to 20×** normal plan rates.
+
+---
+
+## Methodology &amp; Source Data
+
+All 64 rows in the dataset (`sl-tariffs-2026-11-18.json`, schema `v2.0.0`, generated `2026-11-18T13:02:46Z`) were collected via a pure server-side Node.js HTTP/HTTPS pipeline (`sync_tariffs.js`, zero browser automation):
+
+- **Operator sources (64 active plans):** **Dialog** (`24` plans from `dialog.lk`), **Mobitel** (`23` plans queried across all `337` mobile records in `apphub.mobitel.lk` and `sltmobitel.lk`), **Hutch** (`15` plans from `hutch.lk`), and **Airtel (Dialog)** (`2` active plans from `airtel.lk/new-youth-packs/`; 2021-era homepage cards whose `/postpaid-plans/` and `/freedom-packs/` links return HTTP 404 after the Aug 2024 Dialog–Airtel merger were excluded).
+- **TRCSL PDF cross-check:** Every plan was matched against **268 TRCSL tariff PDFs** indexed on `trc.gov.lk` (`pages_e.php?id=76`, `77`, `78`). Across the 64 plans, `21` are dual-verified via live HTML + TRCSL PDF, `17` via live API + TRCSL PDF, `18` via TRCSL PDF, `5` via live `apphub.mobitel.lk` API + TRCSL index (recovering `TRC/M/ST/26/07`, whose TRCSL PDF link returns HTTP 404), and `3` via live HTML.
+- **Catching `is_active=1` legacy plans &amp; scope limits:** Querying the full `apphub.mobitel.lk` catalog separates still-live legacy tariffs (`is_active=1`, such as 2021 postpaid data plans `id=923–933`) from deactivated/grandfathered entries (`is_active=0`, like `id=762` and `id=711`). Authenticated, SIM-targeted app promos (Hutch cliQ, MyDialog, Mobitel Self-Care) require an active MSISDN + OTP session and are intentionally out of scope.
+- **Normalization formula:** Pre-tax quotes are multiplied by `1.2350` (pure data) or `1.2493` (voice + data combos) to get `effective_price_incl_tax`, scaled to a 30-day cycle via `effective_price_incl_tax ÷ validity_days × 30`, and ranked by `cost_per_anytime_gb = effective_price_incl_tax ÷ anytime_gb`.
 
 ---
 

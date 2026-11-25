@@ -12,10 +12,10 @@ export function HeroSection() {
           <span className="text-primary">I build scalable platforms.</span>
         </h1>
         <p className="text-xl text-muted-foreground leading-relaxed">
-          Architecting highly reliable web platforms and robust data pipelines
-          with a focus on Node.js, TypeScript, and React. Currently engineering
-          serverless cloud infrastructure for Axallant and complex data
-          solutions at Uprise Digital.
+          Architecting reliable web platforms and data pipelines with
+          TypeScript, Next.js, Python, and PostgreSQL. Currently engineering
+          full-stack data solutions at Uprise Digital, previously building
+          serverless AWS cloud infrastructure at Axallant.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 items-center">
           <div className="flex gap-4 w-full sm:w-auto">

@@ -1,0 +1,72 @@
+import { LimeChiliChart } from "@/components/blog/grocery/LimeChiliChart";
+
+> **Data collected: November 18, 2026.** All prices below are daily retail observations from `food.seyone.dev` (`foodrepo`) across Keells, Cargills, Arpico, and SPAR from March 24 to November 18, 2026, normalized to **Rs. per kg**.
+
+If you want to understand why Sri Lankan grocery prices feel chaotic even when headline inflation sits around 8%, look at **lime (`dehi`)** and **green chili (`amu miris`)**.
+
+Over the 222 days tracked in `food.seyone.dev` from March 24 to November 18, 2026, both items swung by **5x to 13x**, and they did so in **opposite halves of the year**. Green chili spiked in late July and collapsed by October. Lime sat cheap through the mid-year harvest and exploded in October and November.
+
+<LimeChiliChart />
+
+---
+
+## Green Chili: The April Flush and the July 23 Spike
+
+Across every supermarket chain that was live in July, green chili prices hit their exact peak on the **same day: July 23, 2026**:
+
+- **Keells (`Green Chilies 1kg`):** Bottomed at **Rs. 220 / kg** on **April 29** during the early-year harvest flush, then surged **9.5x** to **Rs. 2,100 / kg** on **July 23**. By October and November, prices cooled to **Rs. 550 / kg** (`-74%` off the peak).
+- **Keells (`Organic Green Chilies 1kg`):** Bottomed at **Rs. 360 / kg** on **May 10**, spiked **7.6x** to **Rs. 2,730 / kg** on **July 23**, and sits at **Rs. 1,020 / kg** today.
+- **SPAR (`GREEN Chilies 1kg`):** Peaked at **Rs. 1,095 / kg** on **July 23**, then dropped **-78%** to **Rs. 245 / kg** on **October 3**, sitting at **Rs. 295 / kg** today.
+- **Arpico &amp; Cargills:** Arpico opened tracking near the tail of the spike at **Rs. 1,395 / kg** (Aug 19) before sliding steadily to **Rs. 545 / kg** today. Cargills (quoted in `100g` packs) ranged between **Rs. 450 / kg** and **Rs. 730 / kg**, sitting at **Rs. 490 / kg** today.
+
+### Who Raised First and Who Cut Slowest Around July 23
+
+Synchronised peaks hid huge differences in how fast chains repriced before and after July 23:
+
+| Chain &amp; SKU | First ≥ Rs. 1,000/kg | Peak (Rs./kg) | First &lt; Rs. 1,000/kg | First &lt; Rs. 600/kg | Days ≥ Rs. 1,000 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Keells (`Green Chilies 1kg`)** | Jun 26 (`Rs. 1,190`) | Jul 23 (`Rs. 2,100`) | Aug 22 (`+30d`) | Sep 23 (`+62d`) | 54 |
+| **Keells (`Organic 1kg`)** | Jun 20 (`Rs. 1,140`) | Jul 23 (`Rs. 2,730`) | Sep 6 (`+45d`) | Never | 120 |
+| **SPAR (`GREEN Chilies 1kg`)** | Jul 21 (`Rs. 1,050`) | Jul 23 (`Rs. 1,095`) | Jul 29 (`+6d`) | Aug 13 (`+21d`) | 10 |
+| **Arpico (`Green Chillies 1Kg`)**\* | Aug 19 (`Rs. 1,395`) | Aug 19 (`Rs. 1,395`) | Sep 4 | Oct 1 (`+70d` from Jul 23) | 16\* |
+
+<sub>*Arpico entered tracking on Aug 19 already above Rs. 1,000/kg; Cargills entered on Sep 16 after the spike (never crossed Rs. 1,000/kg, peaking at Rs. 730 on Oct 30).</sub>
+
+Keells standard crossed **Rs. 1,000/kg** **25 days before** SPAR and stayed above **Rs. 600/kg** for **41 days longer** on the way down (62 days post-peak vs SPAR's 21 days). Arpico was the slowest to break below Rs. 600/kg (**Oct 1**).
+
+### Why Green Chili Moved That Way
+
+Green chili supply from key dry-zone belts (Jaffna, Puttalam, Anuradhapura) swings directly with weather and harvest timing: April–May arrivals push prices toward Rs. 220/kg, while mid-year heat or rain cuts picking within days. Because fresh chili has no cold-storage or bulk-import buffer, wholesale tightening passes straight onto supermarket shelves until the October harvest returns.
+
+---
+
+## Lime: From Rs. 150/kg in March to Rs. 2,294/kg in November
+
+Lime followed the **inverse** seasonal curve:
+
+- **Keells (`Lime 1kg`):** Opened at **Rs. 150 / kg** on **March 24**, stayed low through the mid-year harvest, and then surged **13.3x** to **Rs. 1,990 / kg** on **October 15**, holding at **Rs. 1,810 / kg** today.
+- **Keells (`Perfectly Imperfect Lime 1kg`):** Opened at **Rs. 110 / kg** on **March 24**, peaked at **Rs. 1,490 / kg** on **October 31** (**13.5x**), and sits at **Rs. 1,360 / kg** today. Across 159 overlapping days, Keells priced this grade an average of **26.9% below** standard limes (**Rs. 275 / kg** cheaper on average; range `24.4%–30.3%`) and it never crossed Rs. 1,500/kg.
+- **SPAR (`LIMES 1kg`):** Bottomed at **Rs. 350 / kg** on **August 13**, then jumped **5.9x** in just over two months to **Rs. 2,050 / kg** on **October 22** (`Rs. 1,890 / kg` today).
+- **Arpico &amp; Cargills:** Arpico climbed **2.9x** from **Rs. 688 / kg** (Aug 19) to **Rs. 1,988 / kg** (Oct 28), now **Rs. 1,875 / kg**. Cargills (sold in `250g` packs) climbed from **Rs. 1,152 / kg** (Sep 16) to a **Rs. 2,294 / kg** spike (`Rs. 573.50` per 250g) on **November 16**, settling at **Rs. 1,780 / kg** today.
+
+### Why Lime Moved That Way — and How Supermarket Shelves Lagged Dambulla
+
+Once Sri Lanka's main dry-zone lime harvest (mid-April to mid-July) ends, trees enter the off-season from August onward. Comparing **Central Bank of Sri Lanka (CBSL) Daily Price Report** rates for the Dambulla market against same-day supermarket shelf prices in October shows how sharply retail margins widened and stayed sticky during short-term Dambulla dips:
+
+- **October 1:** Dambulla lime rose from Rs. 880 to **Rs. 980 / kg**; same-day shelves were already **Rs. 1,400** (Cargills), **Rs. 1,490** (SPAR), and **Rs. 1,500** (Keells &amp; Arpico), while Keells `Perfectly Imperfect` sat at **Rs. 1,100**.
+- **October 22:** Dambulla lime fell from Rs. 1,280 to **Rs. 1,005 / kg** on fresh Elahera/Anuradhapura arrivals—yet **that exact day** SPAR hit its annual peak of **Rs. 2,050 / kg** (`+104%` over Dambulla), while Keells sat at **Rs. 1,980** and Arpico at **Rs. 1,975**.
+- **October 27:** Dambulla rebounded to **Rs. 1,480 / kg**, narrowing the gap as supermarket shelves held steady at **Rs. 1,780–1,990 / kg**.
+
+Across chains, **Arpico** crossed **Rs. 1,500 / kg** first (**Sep 18**), followed by **SPAR** (**Sep 22**), **Keells standard** (**Oct 1**), and **Cargills** (**Oct 8**).
+
+---
+
+## Structural Takeaways Across Both Crops
+
+1. **Zero buffer, instant pass-through:** Unlike imported Keeri Ponni rice (`0.0%` change) or Masoor dhal, neither lime nor green chili has a multi-month warehouse buffer. Weather and harvest transitions show up on the supermarket shelf within the same week.
+2. **Same-day retail spreads of 2x to 3.5x:** On November 18, `1 kg` of Green Chili costs **Rs. 295** at SPAR, **Rs. 490–550** at Cargills/Arpico/Keells, and **Rs. 1,020** for Keells Organic. On the same day, `1 kg` of Lime ranges from **Rs. 1,360** (`Perfectly Imperfect` at Keells) to **Rs. 1,890** (SPAR).
+3. **What chain choice actually costs in rupees:** Over the **10 weekly Wednesday shops** where all four chains overlapped (**Sep 16 – Nov 18, 2026**):
+   - **Lime (`500g / week`, 5 kg total):** **Rs. 8,852.50** at Arpico (SPAR `Rs. 8,830`; Keells standard `Rs. 8,645`) vs **Rs. 8,262** at Cargills (saving **Rs. 590.50** across standard grades)—or **Rs. 6,375** buying Keells `Perfectly Imperfect`, saving **Rs. 2,477.50** vs Arpico (**Rs. 2,270** vs Keells standard).
+   - **Green Chili (`250g / week`, 2.5 kg total):** **Rs. 1,610.50** at Arpico (Keells standard `Rs. 1,515`; Cargills `Rs. 1,477.50`) vs **Rs. 802.50** at SPAR—saving **Rs. 808** (`50%`) over just 10 weeks, or **Rs. 1,800** vs Keells Organic (`Rs. 2,602.50`).
+   - Across the longer **22-week Thursday overlap** (**Jun 18 – Nov 12**) that includes the July spike, buying `250g / week` of standard green chili cost **Rs. 5,822.50** at Keells vs **Rs. 2,615** at SPAR—a **Rs. 3,207.50** (`55%`) saving on one item alone.
+4. **Why CPI smooths it out:** In the official CCPI (2021=100) basket, Lime (`0.08%`) and Green Chili (`~0.10%`) carry tiny weights compared to Rice (`2.72%`) and Milk Powder (`1.71%`). Even a **10x** swing in either crop barely nudges headline inflation, even though it dominates what households notice at the checkout counter.

@@ -1,0 +1,149 @@
+import { CarMarketBreakdownTable } from "@/components/blog/cars/CarMarketBreakdownTable";
+import { CarPriceScatterChart } from "@/components/blog/cars/CarPriceScatterChart";
+
+> **Data collected: November 23, 2026.** All figures below come from **1,853 live vehicle listings** collected across `ikman.lk` (via `ikman-gateway`, including `181` detail-enriched ads with verified odometer specs), `carmarket.lk`, and `hitad.lk` (plus a full-site inventory sweep of `hitad.lk` and `autolanka.com`).
+
+Everyone in Sri Lanka has a theory about the used car market: that Ikman is inflated by a dealer "price mafia", that HitAd is still the real place for car classifieds, and that older hybrids like the Toyota Aqua and Prius dominate local listings.
+
+To test those assumptions against actual supply, I first measured live listing volume across **15 popular Sri Lankan models** on `ikman.lk` and `carmarket.lk`, then pulled **1,853 listings** across the empirically top four models (**Toyota Raize**, **Honda Vezel**, **Suzuki Wagon R**, and **Suzuki Alto**) alongside full-site sweeps of `hitad.lk` and `autolanka.com`.
+
+### TL;DR: What the 1,853-Listing Sweep Actually Shows
+
+- **Toyota Raize is now Sri Lanka's #1 most-listed car:** With **774** active ads on Ikman and **329** on CarMarket, the post-import-reopening Raize wave now outnumbers **Honda Vezel** (`612`), **Suzuki Wagon R** (`585`), and **Suzuki Alto** (`319`), while older staples like **Toyota Aqua** (`108`) and **Prius** (`78`) sit far behind.
+- **Ikman is cheaper than CarMarket on 21 of 25 identical model-year pairs:** Controlling for exact model and year (`n >= 5` on both sites), Ikman's median asking price undercuts CarMarket by **Rs. 3 to 14 lakhs** on almost every cohort (e.g., `2025 Wagon R`: Rs. 7.65M on Ikman vs. Rs. 8.79M on CarMarket; `2025 Raize`: Rs. 12.39M vs. Rs. 13.65M).
+- **HitAd and AutoLanka have largely emptied out online:** Across all 26 pages of HitAd's `cars` category, there are only **598 unique cars** across every brand in Sri Lanka (fewer than Toyota Raize alone on Ikman), and **74.9%** (`448 / 598`) hide their price behind `"Negotiable"`. AutoLanka has just **40 total cars** left site-wide.
+- **The 2019–2022 import ban left a literal four-year void:** Across all clean priced listings for Vezel, Wagon R, and Alto combined (`n = 1,056`), only **4 cars** are from model years `2019–2022`. That gap compresses used depreciation so tightly that a **2018 Wagon R** (`Rs. 7.09M`) asks just **Rs. 6.6 lakhs** less than a **2024 Wagon R** (`Rs. 7.75M`).
+- **Stale 2026 price guides understate live Raize pricing by Rs. 1.3M+:** Local car-price guides ranking on Google still quote `Rs. 10.5M–12.5M` for `2025/2026` Toyota Raize units. In our `n = 313` live sweep, **2025 Raize** sits at a **Rs. 13.18M** median (`n = 85`; only `36.5%` at or below `12.5M`) and **2026 Raize** sits at **Rs. 13.85M** (`n = 228`; **97.8% list above Rs. 12.5M**, with only `5` units at or below it).
+
+<CarPriceScatterChart />
+
+---
+
+## Empirical Model Selection: The Post-Ban Supply Shift
+
+Instead of picking headline models by habit, I queried live `cars` category counts on `ikman.lk` across 15 of Sri Lanka's best-known models on November 23, 2026:
+
+| Rank | Model | Active Ikman Ads | CarMarket Pages | Market Era |
+| :---: | :--- | :---: | :---: | :--- |
+| **1** | **Toyota Raize** | **774** | **11** (`329` matched) | Post-ban import boom (`2023–2026`) |
+| **2** | **Honda Vezel** | **612** | **11** (`319` matched) | Split pre-ban (`2014–18`) + post-ban (`2023–26`) |
+| **3** | **Suzuki Wagon R** | **585** | **7** (`184` matched) | Split pre-ban (`2014–18`) + post-ban (`2023–26`) |
+| **4** | **Suzuki Alto** | **319** | **7** (`205` matched) | Pre-ban Indian (`2014–16`) + post-ban Japanese (`2023–25`) |
+| 5 | Toyota Corolla | 246 | 4 | Legacy registered stock |
+| 6 | Toyota Vitz | 199 | 6 | Pre-ban hatchback stock |
+| 7 | Toyota Axio | 142 | 4 | Pre-ban hybrid sedan stock |
+| 8 | Toyota Aqua | 108 | 4 | Pre-ban hybrid hatchback stock |
+| 9 | Honda Fit | 107 | 4 | Pre-ban hybrid hatchback stock |
+| 10 | Toyota Premio | 90 | 2 | Pre-ban sedan stock |
+| 11 | Toyota Prius | 78 | 3 | Pre-ban hybrid stock |
+| 12 | Suzuki Swift | 74 | 3 | Mixed stock |
+| 13 | Nissan X-Trail | 57 | 2 | Pre-ban SUV stock |
+| 14 | Toyota Allion | 40 | 2 | Pre-ban sedan stock |
+| 15 | Perodua Axia | 21 | 1 | Budget hatchback stock |
+
+The top four models on Ikman are the exact same top four by page volume on CarMarket. Together they capture the entire modern Sri Lankan passenger car ladder: budget entry (`Alto`), mass kei hybrid (`Wagon R`), compact crossover (`Raize`), and mid-size hybrid SUV (`Vezel`).
+
+---
+
+## Platform Reality Check: Ikman vs. CarMarket vs. HitAd vs. AutoLanka
+
+Comparing every cleanly accessible Sri Lankan vehicle classifieds portal on the same day shows a stark split between inventory depth and price transparency:
+
+| Platform | Accessible Inventory | Hidden / `"Negotiable"` Rate | Price Quality Findings |
+| :--- | :--- | :---: | :--- |
+| **Ikman.lk** | `791` sampled across top 4 (`2,290` live) | **`0.0%`** (`0 / 791`) | Every car ad quotes LKR; `0` dummy `Rs. 1` spam prices in top-4 car sweeps, but `79.3%` are Member Dealers and `11.8%` are paid `bump_up` ads. |
+| **CarMarket.lk** | `1,037` matched across top 4 (`6,494` Cars + SUVs site-wide) | **`37.2%`** (`386 / 1,037`) | Strong volume, but no price-floor validation: `8` impossible-price typos/outliers slipped through (e.g., `Rs. 105` for a 2016 Vezel, `Rs. 1.47M` for a 2026 Raize). |
+| **HitAd.lk** | `598` unique cars across all `26` pages (`25` matched top 4) | **`74.9%`** (`448 / 598`) | Legacy print brand has minimal online volume left; three out of four car ads hide the price behind `"Negotiable"`. |
+| **AutoLanka.com** | `40` total cars site-wide (`12` Toyota, `12` Suzuki, `5` Honda) | N/A | Still active as an enthusiast forum, but its classifieds section is effectively dormant. |
+
+### Why Ikman Undercuts CarMarket on Identical Model Years
+
+Against the common assumption that Ikman prices are inflated, comparing all **25 model-year cohorts** that had at least 5 clean priced listings on both platforms shows **Ikman is cheaper on 21 out of 25 pairs**:
+
+- **Toyota Raize 2024:** Ikman `Rs. 11.75M` (`n=12`) vs. CarMarket `Rs. 13.15M` (`n=14`) — **Rs. 14.0 lakhs cheaper on Ikman**.
+- **Toyota Raize 2025:** Ikman `Rs. 12.39M` (`n=38`) vs. CarMarket `Rs. 13.65M` (`n=47`) — **Rs. 12.6 lakhs cheaper**.
+- **Suzuki Wagon R 2025:** Ikman `Rs. 7.65M` (`n=51`) vs. CarMarket `Rs. 8.79M` (`n=17`) — **Rs. 11.4 lakhs cheaper**.
+- **Honda Vezel 2026:** Ikman `Rs. 18.75M` (`n=116`) vs. CarMarket `Rs. 19.30M` (`n=71`) — **Rs. 5.5 lakhs cheaper**.
+- **Suzuki Alto 2024:** Ikman `Rs. 6.65M` (`n=53`) vs. CarMarket `Rs. 7.15M` (`n=7`) — **Rs. 5.0 lakhs cheaper**.
+
+The most likely driver is listing freshness and competitive density: high-volume importers on Ikman compete side by side with mandatory LKR prices, whereas CarMarket holds a larger share of older or slower-repriced dealer listings (plus `37.2%` `"Negotiable"` ads).
+
+---
+
+## Dealers, Simpson's Paradox, and "Stealth Dealers"
+
+At first glance, Ikman's aggregate medians make Member Dealers look dramatically more expensive than Private Sellers:
+
+- **Honda Vezel:** Member median `Rs. 18.65M` vs. Private median `Rs. 9.85M`
+- **Suzuki Alto:** Member median `Rs. 6.58M` vs. Private median `Rs. 3.89M`
+- **Suzuki Wagon R:** Member median `Rs. 7.69M` vs. Private median `Rs. 6.80M`
+
+**That aggregate gap is Simpson's Paradox.** Across our `791` Ikman listings, **79.3%** (`627`) are paid Member Dealers (led by `VRR Enterprises Pvt Ltd` with `29` ads, `R.A Lanka Motors` with `28`, and `Punchi Car Niwasa` with `22`), and those dealers overwhelmingly list **2023–2026 reconditioned/unregistered imports**, while private owners overwhelmingly sell **2014–2018 locally registered cars**.
+
+Once you hold the **exact model year constant** (across all 14 Ikman cohorts with at least 3 Member and 3 Private listings), the dealer premium largely disappears:
+
+- **Toyota Raize 2026:** Member `Rs. 13.69M` (`n=126`) vs. Private `Rs. 13.63M` (`n=6`) (`+0.5%`)
+- **Suzuki Alto 2015:** Member `Rs. 3.98M` (`n=5`) vs. Private `Rs. 4.01M` (`n=26`) (`-0.9%`)
+- **Suzuki Alto 2024:** Member `Rs. 6.65M` (`n=50`) vs. Private `Rs. 6.60M` (`n=3`) (`+0.8%`)
+- **Suzuki Wagon R 2017:** Member `Rs. 6.79M` (`n=9`) vs. Private `Rs. 6.89M` (`n=12`) (`-1.5%`)
+- **Suzuki Wagon R 2018:** Member `Rs. 7.09M` (`n=9`) vs. Private `Rs. 6.79M` (`n=8`) (`+4.4%`)
+
+Enriching `93` non-member (`isMember: false`) Ikman listings via `ikman_get_ad_details` also turned up a real edge case worth watching for: **stealth dealers** operating on free accounts (e.g., a 2017 Wagon R FZ listed with `isMember: false` and blank `shopName` whose full detail record reveals `seller.name: "Genuine Cars - Vehicle Direct Importer"`). Even though only `1` of the `93` free-account ads matched our strict commercial-name regex, buyers cannot assume an unbadged Ikman account is an individual owner without checking the ad details.
+
+---
+
+## The 2019–2022 Import Ban Cliff and Compressed Depreciation
+
+Plotting clean priced listings by model year reveals Sri Lanka's 2020–2024 vehicle import restrictions directly in the supply distribution:
+
+| Model | Pre-Ban (`<= 2018`) | Ban Gap (`2019–2022`) | Post-Ban (`>= 2023`) | Key Median Price Jump |
+| :--- | :---: | :---: | :---: | :--- |
+| **Toyota Raize** | `0` | `16` | `360` | `2020`: Rs. 10.58M → `2024`: Rs. 12.54M → `2026`: Rs. 13.85M |
+| **Honda Vezel** | `90` | **`1`** | `292` | `2014`: Rs. 9.20M → `2018`: Rs. 12.48M → `2023`: Rs. 17.09M → `2026`: Rs. 18.95M |
+| **Suzuki Wagon R** | `127` | **`2`** | `187` | `2014`: Rs. 6.03M → `2018`: Rs. 7.09M → `2024`: Rs. 7.75M → `2026`: Rs. 8.95M |
+| **Suzuki Alto** | `237` | **`1`** | `119` | `2015`: Rs. 4.03M → `2017`: Rs. 5.56M → `2024`: Rs. 6.69M |
+
+Two pricing anomalies stand out immediately:
+
+1. **Wagon R's flattened depreciation:** A **2018 Suzuki Wagon R** asks **Rs. 7.09M** median (`n=34`), only **Rs. 6.6 lakhs** below a **2024 Wagon R** (`Rs. 7.75M`, `n=36`) that is six model years newer. Even a **12-year-old 2014 Wagon R** (`n=18`) still asks **Rs. 6.03M**.
+2. **Alto's two-tier market:** A decade-old **2015 Indian Suzuki Alto** (`n=92`, the single largest pre-ban cohort in our dataset) holds a rock-solid **Rs. 4.03M** median, while post-ban **2023–2025 Japanese Altos** trade at **Rs. 6.50M–6.88M**. That split also drives the apparent district gap on Alto (Colombo median `Rs. 6.49M` vs. Gampaha `Rs. 4.00M` and Kurunegala `Rs. 3.40M`): Colombo dealers concentrate the new Japanese imports, while outstation listings are overwhelmingly older registered stock.
+
+### Mileage Bands &amp; Ad Views (181 Enriched Ikman Ads)
+
+Across the `181` Ikman listings enriched with verified odometer specs (`specs.Mileage`), the mileage profile mirrors the import-ban divide:
+
+| Model | Enriched `n` | Median Mileage | `0–5k km` Median | `5k–50k km` Median | `50k+ km` Median | Median Views (`<=` vs. `>` Model Median Price) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Toyota Raize** | 39 | **`0 km`** | Rs. 13.65M (`28`) | Rs. 11.75M (`7`) | Rs. 10.78M (`4`) | `304` vs. `263` (`n=31`) |
+| **Honda Vezel** | 41 | **`19,000 km`** | Rs. 18.85M (`13`) | Rs. 17.90M (`10`) | Rs. 9.78M (`18`) | `377` vs. `339` (`n=28`) |
+| **Suzuki Wagon R** | 50 | **`44,909 km`** | Rs. 8.39M (`15`) | Rs. 7.42M (`10`) | Rs. 5.95M (`25`) | `325` vs. `520` (`n=38`) |
+| **Suzuki Alto** | 51 | **`66,400 km`** | Rs. 7.14M (`10`) | Rs. 6.60M (`13`) | Rs. 3.69M (`28`) | **`457` vs. `112`** (`n=41`) |
+
+- **Near-new vs. high-mileage cliffs:** On **Honda Vezel**, stepping from `0–5,000 km` unregistered imports (**Rs. 18.85M**) to `50,000+ km` registered units (**Rs. 9.78M**) is a **Rs. 9.08M** drop. On **Suzuki Wagon R**, `0–5k km` units ask **Rs. 8.39M** vs. **Rs. 5.95M** for `50k+ km` cars.
+- **Buyer attention follows price:** Controlling for the exact same model year across all four models, ads priced *below* their year median draw **`329` median views** (`n = 76`), compared with **`297` median views** (`n = 49`) for ads priced *above* their year median. The sharpest gap is on **Suzuki Alto**, where lower-priced listings pull **4× more views** (`457` vs. `112`).
+
+### Trim &amp; Grade Premiums (Same-Era Title Breakdown)
+
+Model-year medians still hide steep grade gaps. Parsing explicit trim labels from clean priced titles shows how much Sri Lankan buyers are actually paying for top specs within the same era:
+
+- **Toyota Raize (`2025–2026`, `n = 313`):** `X Grade` (`n = 10`) sits at **Rs. 11.39M** (`p25–p75: 11.20M–11.55M`), `G Grade` (`n = 12`) at **Rs. 12.49M** (`+Rs. 11.0L`), and `Z Grade / Z Hybrid` (`n = 220`) at **Rs. 13.85M** (`+Rs. 24.6L` over X). Explicit `Hybrid` ads (`n = 133`, **Rs. 13.85M**) carry a **+Rs. 11.5L** premium over explicit `Turbo / Petrol` ads (`n = 21`, **Rs. 12.70M**).
+- **Honda Vezel (`2025–2026`, `n = 241`):** `X / G` (`n = 6`) sits at **Rs. 17.24M** and standard `Z Grade` (`n = 136`) at **Rs. 18.65M**, while `Z Play` (`n = 71`, **Rs. 20.19M**) adds **+Rs. 15.4L** and `RS` (`n = 20`, **Rs. 20.35M**) adds **+Rs. 17.0L** over standard Z. In pre-ban `2014–2018` stock, `Z / Orange Pack` (`n = 29`) sits at **Rs. 9.22M** vs. `RS Sensing` (`n = 24`) at **Rs. 11.80M**.
+- **Suzuki Wagon R:** In `2024–2026` stock (`n = 169`), `FX / FX-S` (`n = 50`, **Rs. 7.57M**) jumps **+Rs. 14.3L** to `Custom Z / Custom ZX` (`n = 67`, **Rs. 9.00M**) and **Rs. 9.50M** for `Stingray` (`n = 5`). In `2017–2018` stock (`n = 75`), `FX` (`n = 7`, **Rs. 6.20M**) steps up to `FZ` (`n = 18`, **Rs. 6.90M**) and `Stingray` (`n = 14`, **Rs. 7.33M**, `+Rs. 11.3L` over FX).
+- **Suzuki Alto (`2023–2026`, `n = 119`):** Non-hybrid `L / A` imports (`n = 20`, **Rs. 6.77M**) trail `Hybrid (X/S)` units (`n = 14`, **Rs. 7.20M**) by **+Rs. 4.3L**.
+
+---
+
+## Methodology, Scope Limits & Excluded Platforms
+
+- **Collection pipeline (`2026-11-23`):** Pure Node.js HTTP collector querying `ikman-gateway` (`/api/v1/ads` and `/api/v1/ads/{slug}`, enriching `181` ads for verified `specs.Mileage`, `specs.Year`, `specs.Fuel`, and `seller.name`), `carmarket.lk/ads-search`, `hitad.lk/search-sl` (all 26 `cars` pages), and `autolanka.com/cars.html`. All seller phone numbers were stripped prior to storage.
+- **Download raw snapshot:** You can inspect or audit every cohort median directly in the sanitized static JSON snapshot: [sl-used-cars-2026-11-23.json](/data/sl-used-cars-2026-11-23.json) (`1.2 MB`, `1,853` listings, zero phone numbers).
+- **Excluded platforms:** `riyasewana.com`, `patpat.lk`, and `autome.lk` all returned `HTTP 403 Forbidden` behind Cloudflare WAF on standard HTTP requests and were excluded rather than bypassed. `Facebook Marketplace` and model-specific owner groups are login-walled and out of scope (and anecdotal community feedback suggests private owner groups often transact slightly below classifieds asking prices).
+- **Asking price vs. closing price:** Every figure here is a **listed asking price**, not a verified final transaction price.
+
+---
+
+## Full Multi-Platform Explorer
+
+Filter clean listings across Ikman, CarMarket, and HitAd, inspect all 25 same-year Ikman vs. CarMarket spreads, or view the 8 impossible-price typos caught on CarMarket.
+
+<CarMarketBreakdownTable />

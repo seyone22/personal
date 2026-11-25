@@ -18,16 +18,37 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://seyone.dev"),
-  title: "Seyone Gunasingham | Android & AI Developer",
+  title: "Seyone Gunasingham | Software & Data Engineer",
   description:
-    "Portfolio of Seyone Gunasingham, specializing in Android ecosystems, enterprise logistics, and AI-driven solutions.",
+    "Software and data engineer building web platforms, data pipelines, and cloud infrastructure with TypeScript, Next.js, Python, PostgreSQL, and AWS.",
   keywords: [
-    "Android Developer",
-    "Kotlin",
+    "Software Engineer",
+    "Data Engineer",
+    "TypeScript",
     "Next.js",
-    "AI Engineering",
+    "Python",
+    "FastAPI",
+    "PostgreSQL",
+    "AWS",
     "Sri Lanka",
   ],
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Seyone Gunasingham | Software & Data Engineer",
+    description:
+      "Software and data engineer building web platforms, data pipelines, and cloud infrastructure with TypeScript, Next.js, Python, PostgreSQL, and AWS.",
+    url: "/",
+    siteName: "Seyone Gunasingham",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Seyone Gunasingham | Software & Data Engineer",
+    description:
+      "Software and data engineer building web platforms, data pipelines, and cloud infrastructure with TypeScript, Next.js, Python, PostgreSQL, and AWS.",
+  },
 };
 
 export default function RootLayout({

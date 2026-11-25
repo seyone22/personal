@@ -6,7 +6,7 @@ This started because I just wanted to buy a **Samsung Galaxy Tab S11**.
 
 If you've ever tried shopping for electronics on `ikman.lk`, you know how painful the search experience is. The web dropdown only gives you "Date: Newest on top" or unreliable sorting, cheapest-first searches get flooded with `Rs. 0` and `Rs. 1` placeholder ads, and searching for a "tablet" without strict category filters mixes in dining tables, pool tables, and restaurant POS software.
 
-So I built [ikman-gateway](https://github.com/seyone22/ikman-gateway) (and later added `daraz-gateway` to see if the same pattern worked on Daraz): a NestJS REST API and headless MCP server deployed on Railway that normalizes upstream marketplace payloads and lets me query them cleanly.
+So I built [ikman-gateway](https://github.com/seyone22/ikman-gateway) (and later added `daraz-gateway` to see if the same pattern worked on Daraz): a NestJS REST API ([live API docs](https://ikman-gateway-production.up.railway.app/api/docs)) and headless MCP server deployed on Railway that normalizes upstream marketplace payloads and lets me query them cleanly.
 
 ---
 
@@ -16,7 +16,60 @@ Both gateways sit in front of the public marketplace endpoints and do the boring
 
 - **Unlocking true low-to-high sorting:** `IkmanNormalizerService` passes the hidden `sort=price&order=asc` parameters to the search backend and parses raw price strings (`"Rs 40,990"`, `"Negotiable"`, `"Rs 1"`) into typed LKR numbers.
 - **Placeholder spam filtering:** Sellers regularly post `Rs. 0`, `Rs. 1`, or `Rs. 10` ads to game cheapest-first sorting. Any listing at `Rs. 50` or below is flagged as `isSpamOrDummy` and stripped when `cleanSpam` is enabled.
-- **Accessory and ad stripping on Daraz:** Searching `"Galaxy Tab S11"` on Daraz returns **1,656** results across 42 pages, almost all of them S-Pen nibs, cases, and screen protectors. `daraz-gateway` stripped **157 accessories** across the first four pages alone when `excludeAccessories` was enabled, alongside sponsored placements.
+- **Accessory and ad stripping on Daraz:** Searching `"Galaxy Tab S11"` on Daraz returns **1,656** results across 42 pages, almost all of them S-Pen nibs, cases, and screen protectors. `daraz-gateway` stripped **157 accessories** across the first four pages alone when `excludeAccessories` was enabled, alongside sponsored placements (`excludeSponsored`).
+  - **Verified survival vs. noise breakdown (from the Nov 18 snapshot):** Once those 157 accessories and sponsored slots were stripped, only **3** actual Samsung tablet listings made it into the Daraz comparison table — just **1** real Galaxy Tab S11 (`Tab S11 Ultra 5G` at `Rs. 459,890`) alongside **2** lower-tier Tab A11 models (`Rs. 68,969` and `Rs. 144,890`), while non-accessory misclassifications like a `Rs. 20,000` framed iPad mini 3 teardown art print still appeared under the `tablets` category. On Ikman, the same sweep produced **18** verified Tab S11 listings across 4 sellers (with **13** of those 18 coming from a single shop, `X Mobile - Liberty`), alongside **4** documented keyword/category collisions in the noise tab below.
+
+In practice, querying both marketplaces over MCP comes down to two clean tool calls (followed by `ikman_get_ad_details` with a listing's `slug` whenever you need the full description body or seller phone number):
+
+```jsonc
+// 1. Ikman MCP — cheapest-first electronics search with Rs. 0/1 spam stripped
+// Tool: ikman_search_ads
+{
+  "query": "Galaxy Tab S11",
+  "category": "electronics",
+  "location": "colombo",
+  "sortBy": "cheapest",
+  "cleanSpam": true,
+  "page": 1
+}
+
+// 2. Daraz MCP — local sellers only, stripping cases/nibs and paid placements
+// Tool: daraz_search_products
+{
+  "query": "Galaxy Tab S11",
+  "category": "tablets",
+  "location": "Local",
+  "sortBy": "cheapest",
+  "excludeAccessories": true,
+  "excludeSponsored": true,
+  "page": 1
+}
+```
+
+Both feeds normalize down to the same flat listing shape used to power the comparison table below — typed `priceLkr`, seller, location, and canonical URL:
+
+```json
+[
+  {
+    "platform": "Ikman",
+    "title": "Samsung Galaxy Tab S11 12GB 128GB",
+    "variant": "Tab S11 128GB",
+    "priceLkr": 229999,
+    "seller": "Nexel",
+    "location": "Colombo",
+    "url": "https://ikman.lk/en/ad/samsung-galaxy-tab-s11-12gb-128gb-for-sale-colombo-52"
+  },
+  {
+    "platform": "Daraz",
+    "title": "Samsung Galaxy Tab S11 Ultra 5G 12GB RAM 256GB",
+    "variant": "Tab S11 Ultra",
+    "priceLkr": 459890,
+    "seller": "Epic Mobiles Private Limited",
+    "location": "Western",
+    "url": "https://www.daraz.lk/products/samsung-galaxy-tab-ultra-5g-12gb-ram-256gb-1-year-software-warranty-6-month-hardware-warranty-i1761610741.html"
+  }
+]
+```
 
 ---
 

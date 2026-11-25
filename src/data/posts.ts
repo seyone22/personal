@@ -12,8 +12,23 @@ export interface BlogPostMeta {
 
 export const BLOG_POSTS: BlogPostMeta[] = [
   {
-    slug: "sl-lime-chili-2026",
-    title: "Why Limes Hit Rs. 2,294/kg While Green Chilies Crashed",
+    slug: "sri-lanka-used-car-prices-2026",
+    title:
+      "Sri Lanka Used Car Prices (2026): 1,853 Listings Across Ikman, CarMarket & HitAd",
+    subtitle:
+      "Empirically tracking Toyota Raize, Honda Vezel, Suzuki Wagon R, and Suzuki Alto across Sri Lanka's accessible car classifieds — import-ban cliffs, dealer spreads, and hidden prices.",
+    date: "2026-11-23",
+    verifiedDate: "2026-11-23",
+    readTime: "7 min read",
+    tags: ["Data", "Sri Lanka", "Vehicles", "Interactive"],
+    summary:
+      "Analyzed 1,853 live listings across Ikman.lk, CarMarket.lk, and HitAd.lk: why Toyota Raize is now #1 by volume, why Ikman undercuts CarMarket on 21 of 25 model-year pairs, and how the 2019–2022 import ban flattened depreciation.",
+    featured: true,
+  },
+  {
+    slug: "sri-lanka-lime-chili-prices-2026",
+    title:
+      "Why Limes Hit Rs. 2,294/kg in Sri Lanka While Green Chilies Crashed",
     subtitle:
       "A 222-day breakdown of 10 supermarket SKUs across Keells, Cargills, Arpico, and SPAR, and the harvest and weather cycles behind their opposite curves.",
     date: "2026-11-18",
@@ -25,8 +40,9 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     featured: true,
   },
   {
-    slug: "sl-supermarket-inflation-2026",
-    title: "Pilot: Replicating Sri Lanka's Food CPI Using Supermarket Data",
+    slug: "sri-lanka-food-inflation-cpi-2026",
+    title:
+      "Sri Lanka Food Inflation (2026): Replicating CPI with Supermarket Data",
     subtitle:
       "Benchmarking 43 CCPI-matched items (54.9% of the food basket) from food.seyone.dev against the Central Bank's October 2026 inflation figures.",
     date: "2026-11-18",
@@ -51,8 +67,9 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     featured: true,
   },
   {
-    slug: "sl-mobile-tariffs-2026",
-    title: "Comparing Sri Lanka's Mobile Data Tariffs",
+    slug: "sri-lanka-mobile-data-plans-2026",
+    title:
+      "Sri Lanka Mobile Data Plans (2026): Dialog, Mobitel, Hutch & Airtel Compared",
     subtitle:
       "A look at 64 active plans across Dialog, Mobitel, Hutch, and Airtel, normalizing taxes, 28-day billing cycles, and weird pricing overlaps.",
     date: "2026-11-18",
